@@ -1,7 +1,7 @@
 import sys
 import os
 from datetime import datetime
-from database import mostrar_ciudadanos, mostrar_historial
+from database import mostrar_ciudadanos, mostrar_historial_acciones
 
 def main():
     print("\n=== VISUALIZADOR DE DATOS DE SOLUVILLE ===")
@@ -29,16 +29,16 @@ def main():
             filtro = input("\nElige un filtro (1-3): ")
             
             if filtro == "1":
-                mostrar_historial()
+                mostrar_historial_acciones()
             elif filtro == "2":
                 fecha_inicio = input("Fecha inicio (YYYY-MM-DD HH:MM:SS): ")
                 fecha_fin = input("Fecha fin (YYYY-MM-DD HH:MM:SS): ")
-                mostrar_historial(fecha_inicio, fecha_fin)
+                mostrar_historial_acciones(fecha_inicio, fecha_fin)
             elif filtro == "3":
                 ciudadano_id = input("ID del ciudadano: ")
                 try:
                     ciudadano_id = int(ciudadano_id)
-                    mostrar_historial(ciudadano_id=ciudadano_id)
+                    mostrar_historial_acciones(ciudadano_id=ciudadano_id)
                 except ValueError:
                     print("Error: El ID debe ser un número")
             else:

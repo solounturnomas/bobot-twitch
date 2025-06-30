@@ -44,6 +44,7 @@ def init_db():
                 CREATE TABLE IF NOT EXISTS ciudadanos (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     nombre TEXT UNIQUE NOT NULL,
+                    -- Recursos
                     cantidad_madera INTEGER DEFAULT 1,
                     cantidad_ramas INTEGER DEFAULT 1,
                     cantidad_piedra INTEGER DEFAULT 1,
@@ -54,6 +55,7 @@ def init_db():
                     cantidad_carne INTEGER DEFAULT 1,
                     cantidad_piel INTEGER DEFAULT 1,
                     hierbas INTEGER DEFAULT 1,
+                    --Niveles
                     nivel_leñador INTEGER DEFAULT 1,
                     nivel_recolector INTEGER DEFAULT 1,
                     nivel_pescador INTEGER DEFAULT 1,
@@ -62,6 +64,16 @@ def init_db():
                     nivel_guardia INTEGER DEFAULT 1,
                     nivel_minero INTEGER DEFAULT 1,
                     rango TEXT DEFAULT 'Ciudadano',
+                    -- Campos de herramientas (booleanos)
+                    tiene_hacha BOOLEAN DEFAULT FALSE,
+                    tiene_pico BOOLEAN DEFAULT FALSE,
+                    tiene_espada BOOLEAN DEFAULT FALSE,
+                    tiene_hazada BOOLEAN DEFAULT FALSE,
+                    tiene_arco BOOLEAN DEFAULT FALSE,
+                    tiene_caña_pescar BOOLEAN DEFAULT FALSE,
+                    -- Campo de fecha/hora para el pozo
+                    fecha_pozo TIMESTAMP DEFAULT '2025-01-01 00:00:00',
+                    -- auditoria
                     fecha_crea TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                     fecha_modificar TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                     usuario_crear TEXT,
@@ -171,6 +183,12 @@ def actualizar_ciudadano(nombre: str, datos: Dict[str, Any], usuario_modificar: 
         datos['usuario_modificar'] = usuario_modificar
         datos['version'] = datos.get('version', 1) + 1
         
+        # Asegurarse de que los valores booleanos estén en el formato correcto
+        for campo in ['tiene_hacha', 'tiene_pico', 'tiene_espada', 'tiene_hazada',
+                     'tiene_arco', 'tiene_caña_pescar']:
+            if campo in datos:
+                datos[campo] = bool(datos[campo])
+        
         set_clause = ', '.join(f'{campo} = ?' for campo in datos.keys())
         valores = list(datos.values()) + [nombre]
         
@@ -234,9 +252,9 @@ def listar_ciudadanos() -> list:
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            cursor.execute('SELECT * FROM ciudadanos WHERE borrado_logico = 0 ORDER BY fecha_crea DESC')
+            cursor.execute('SELECT * FROM ciudadanos WHERE borrado_logico = 0')
             ciudadanos = [dict(row) for row in cursor.fetchall()]
-            logger_db.info(f"Listado {len(ciudadanos)} ciudadanos activos")
+            logger_db.info(f"Encontrados {len(ciudadanos)} ciudadanos")
             return ciudadanos
     except sqlite3.Error as e:
         logger_db.error(f"Error al listar ciudadanos: {e}")
@@ -278,32 +296,28 @@ def mostrar_ciudadanos():
         print(f"  Guardia: {ciudadano['nivel_guardia']}")
         print(f"  Minero: {ciudadano['nivel_minero']}")
         
+        # Mostrar solo las herramientas que tiene
+        print("\nHerramientas que posee:")
+        herramientas = {
+            'hacha': ciudadano['tiene_hacha'],
+            'pico': ciudadano['tiene_pico'],
+            'espada': ciudadano['tiene_espada'],
+            'hazada': ciudadano['tiene_hazada'],
+            'arco': ciudadano['tiene_arco'],
+            'caña de pescar': ciudadano['tiene_caña_pescar']
+        }
+        
+        herramientas_tiene = [herramienta for herramienta, tiene in herramientas.items() if tiene]
+        if herramientas_tiene:
+            print("- " + "\n- ".join(herramientas_tiene))
+        else:
+            print("- No tiene ninguna herramienta")
+        
         print("\nAuditoría:")
         print(f"  Fecha creación: {ciudadano['fecha_crea']}")
         print(f"  Fecha última modificación: {ciudadano['fecha_modificar']}")
         print(f"  Creado por: {ciudadano['usuario_crear']}")
         print(f"  Modificado por: {ciudadano['usuario_modificar']}")
-        print("-" * 50)
-
-def mostrar_historial(fecha_inicio: str = None, fecha_fin: str = None, 
-                     codigo_accion: str = None, ciudadano_id: int = None):
-    """
-    Muestra el historial de acciones de manera amigable.
-    """
-    historial = listar_historial_acciones(fecha_inicio, fecha_fin, codigo_accion, ciudadano_id)
-    if not historial:
-        print("No hay acciones registradas en el historial")
-        return
-    
-    print("\n=== HISTORIAL DE ACCIONES ===")
-    print("-" * 50)
-    for accion in historial:
-        print(f"\nID: {accion['id']}")
-        print(f"Fecha y hora: {accion['fecha_hora']}")
-        print(f"Código de acción: {accion['codigo_accion']}")
-        print(f"Mensaje: {accion['mensaje_final']}")
-        if accion['ciudadano_id']:
-            print(f"Ciudadano ID: {accion['ciudadano_id']}")
         print("-" * 50)
 
 def registrar_accion(codigo_accion: str, mensaje_final: str, ciudadano_id: int = None) -> bool:
@@ -334,8 +348,28 @@ def registrar_accion(codigo_accion: str, mensaje_final: str, ciudadano_id: int =
         logger_db.error(f"Error al registrar acción: {e}")
         return False
 
+def mostrar_historial_acciones(fecha_inicio: str = None, fecha_fin: str = None, 
+                             codigo_accion: str = None, ciudadano_id: int = None):
+    """
+    Muestra en formato amigable el historial de acciones.
+    """
+    acciones = listar_historial_acciones(fecha_inicio, fecha_fin, codigo_accion, ciudadano_id)
+    if not acciones:
+        print("No hay acciones registradas")
+        return
+    
+    print("\n=== HISTORIAL DE ACCIONES ===")
+    print("-" * 50)
+    for accion in acciones:
+        print(f"\nID: {accion['id']}")
+        print(f"Código acción: {accion['codigo_accion']}")
+        print(f"Mensaje final: {accion['mensaje_final']}")
+        print(f"Fecha y hora: {accion['fecha_hora']}")
+        print(f"Ciudadano ID: {accion['ciudadano_id']}")
+        print("-" * 50)
+
 def listar_historial_acciones(fecha_inicio: str = None, fecha_fin: str = None, 
-                            codigo_accion: str = None, ciudadano_id: int = None) -> list:
+                             codigo_accion: str = None, ciudadano_id: int = None) -> list:
     """
     Lista las acciones del historial según los filtros proporcionados.
     

@@ -48,3 +48,70 @@
 2025-06-30 15:56:44 - twitch_bot.database - INFO - Listado 1 ciudadanos activos
 2025-06-30 15:57:38 - twitch_bot.database - INFO - Listando historial de acciones
 2025-06-30 15:57:38 - twitch_bot.database - INFO - Encontradas 1 acciones en el historial
+2025-06-30 16:27:32 - twitch_bot.modificar_tabla - INFO - Iniciando modificación de la tabla ciudadanos
+2025-06-30 16:27:32 - twitch_bot.modificar_tabla - INFO - Campo añadido: tiene_hacha
+2025-06-30 16:27:33 - twitch_bot.modificar_tabla - INFO - Campo añadido: tiene_pico
+2025-06-30 16:27:33 - twitch_bot.modificar_tabla - INFO - Campo añadido: tiene_espada
+2025-06-30 16:27:33 - twitch_bot.modificar_tabla - INFO - Campo añadido: tiene_hazada
+2025-06-30 16:27:33 - twitch_bot.modificar_tabla - INFO - Campo añadido: tiene_arco
+2025-06-30 16:27:33 - twitch_bot.modificar_tabla - INFO - Campo añadido: tiene_caña_pescar
+2025-06-30 16:27:33 - twitch_bot.modificar_tabla - INFO - Campo añadido: fecha_pozo
+2025-06-30 16:27:33 - twitch_bot.modificar_tabla - INFO - Modificación de tabla completada exitosamente
+2025-06-30 16:27:52 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 16:27:52 - twitch_bot.database - ERROR - Error al crear las tablas: unrecognized token: "',
+                    -- auditoria
+                    fecha_crea TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    fecha_modificar TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    usuario_crear TEXT,
+                    usuario_modificar TEXT,
+                    fecha_borrar TIMESTAMP,
+                    usuario_borrar TEXT,
+                    borrado_logico BOOLEAN DEFAULT FALSE,
+                    version INTEGER DEFAULT 1,
+                )
+            "
+2025-06-30 16:28:15 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 16:28:15 - twitch_bot.database - ERROR - Error al crear las tablas: unrecognized token: "',
+                    -- auditoria
+                    fecha_crea TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    fecha_modificar TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    usuario_crear TEXT,
+                    usuario_modificar TEXT,
+                    fecha_borrar TIMESTAMP,
+                    usuario_borrar TEXT,
+                    borrado_logico BOOLEAN DEFAULT FALSE,
+                    version INTEGER DEFAULT 1,
+                )
+            "
+2025-06-30 16:28:58 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 16:28:58 - twitch_bot.database - ERROR - Error al crear las tablas: near ")": syntax error
+2025-06-30 16:29:56 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 16:29:56 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 16:29:56 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 16:29:56 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 16:29:59 - twitch_bot.database - INFO - Listado 1 ciudadanos activos
+2025-06-30 16:33:33 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 16:33:33 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 16:33:33 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 16:33:33 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 16:35:06 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 16:35:06 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 16:35:06 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 16:35:06 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 16:35:13 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 16:35:13 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 16:35:13 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 16:35:13 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 16:38:49 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 16:38:49 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 16:38:49 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 16:38:49 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 16:39:18 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 16:39:18 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 16:39:18 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 16:39:18 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 16:39:46 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 16:39:46 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 16:39:46 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 16:39:46 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 16:39:50 - twitch_bot.database - INFO - Encontrados 1 ciudadanos

@@ -94,7 +94,7 @@ class Bot(commands.Bot):
             else:
                 logger.info(f"[Mensaje] {message.author.name}: {message.content}")
 
-            # Lógica de respuesta básica
+            # Lógica de respuesta al jefe
             if 'hola' in message.content.lower() and message.author.name.lower() == 'solounturnomas':
                 await message.channel.send('¡Hola, jefe!')
 
@@ -116,7 +116,7 @@ class Bot(commands.Bot):
             # Mostrar información del mensaje
             logger.info(f"[Mensaje] {message.author.name}: {message.content}")
 
-            # Lógica de respuesta básica
+            # Lógica de respuesta al jefe
             if 'hola' in message.content.lower() and message.author.name.lower() == 'solounturnomas':
                 await message.channel.send('¡Hola, jefe!')
 
