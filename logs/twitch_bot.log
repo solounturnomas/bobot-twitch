@@ -35,3 +35,16 @@
 2025-06-30 14:25:45 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia!
 2025-06-30 14:25:53 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: f7b19ecc-5085-43b2-a07e-dee6f8c064dd) - Acción: talar
 2025-06-30 14:25:53 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha usado la acción Talar!
+2025-06-30 15:45:40 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 15:45:42 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 15:45:42 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 15:45
+2025-06-30 15:45:42 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 15:45
+2025-06-30 15:46:22 - twitch_bot - INFO - [Recompensa] solounturnomas: h (ID: f7b19ecc-5085-43b2-a07e-dee6f8c064dd) - Acción: talar
+2025-06-30 15:46:23 - twitch_bot - INFO - [Sistema] ¡solounturnomas se ha ido a talar al bosque!
+2025-06-30 15:56:40 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 15:56:40 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 15:56:40 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 15:56:40 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 15:56:44 - twitch_bot.database - INFO - Listado 1 ciudadanos activos
+2025-06-30 15:57:38 - twitch_bot.database - INFO - Listando historial de acciones
+2025-06-30 15:57:38 - twitch_bot.database - INFO - Encontradas 1 acciones en el historial

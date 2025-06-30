@@ -22,7 +22,7 @@ import logging
 import configuracion_logging
 from dotenv import load_dotenv
 import os
-from funciones.escribir_mensaje_funcion import escribir_mensaje_funcion
+from funciones.realiza_accion import realiza_accion
 
 # Cargar variables de entorno
 load_dotenv()
@@ -87,9 +87,8 @@ class Bot(commands.Bot):
                 accion = RECOMPENSAS.get(reward_id)
                 if accion:
                     logger.info(f"[Recompensa] {message.author.name}: {message.content} (ID: {reward_id}) - Acción: {accion}")
-                    # Obtener y enviar el mensaje específico para la acción
-                    mensaje = escribir_mensaje_funcion(accion, message.author.name)
-                    await message.channel.send(mensaje)
+                    # Realizar acción y escribir mensaje en el chat
+                    await message.channel.send(realiza_accion(accion, message.author.name, reward_id))
                 else:
                     logger.info(f"[Recompensa] {message.author.name}: {message.content} (ID: {reward_id}) - Acción no encontrada")
             else:
