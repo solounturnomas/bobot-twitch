@@ -1,0 +1,93 @@
+# Plan de Desarrollo - Twitch Bot
+
+## 1. Configuración Básica
+- [ ] Crear estructura de directorios básica
+- [ ] Configurar entorno virtual de Python
+- [ ] Instalar dependencias básicas (twitchio, sqlite3)
+- [ ] Configurar logging
+
+## 2. Base de Datos
+- [ ] Crear archivo `database.py`
+- [ ] Definir estructura básica de la tabla ciudadanos
+- [ ] Implementar funciones básicas:
+  - [ ] Crear/obtener ciudadano
+  - [ ] Actualizar recursos
+  - [ ] Obtener inventario
+
+## 3. Bot Básico
+- [ ] Crear archivo `bot.py`
+- [ ] Configurar conexión básica con Twitch
+- [ ] Implementar eventos básicos:
+  - [ ] event_ready
+  - [ ] event_message
+- [ ] Implementar comando básico de inventario
+
+## 4. Sistema de Recursos
+- [ ] Definir recursos básicos:
+  - [ ] dinero
+  - [ ] madera
+  - [ ] piedra
+  - [ ] comida
+  - [ ] carne
+  - [ ] pieles
+  - [ ] pescado
+  - [ ] trigo
+
+## 5. Sistema de Acciones
+- [ ] Implementar acciones básicas:
+  - [ ] trabajar_campo
+  - [ ] trabajar_guardia
+  - [ ] talar_madera
+  - [ ] picar_piedra
+  - [ ] cultivar_campo
+  - [ ] construir
+  - [ ] cazar
+  - [ ] pescar
+
+## 6. Sistema de Habilidades
+- [ ] Implementar habilidades por acción:
+  - [ ] habilidad_talar
+  - [ ] habilidad_picar
+  - [ ] habilidad_cultivar
+  - [ ] habilidad_cazar
+  - [ ] habilidad_luchar
+  - [ ] habilidad_pescar
+
+## 7. Sistema de Rendimiento
+- [ ] Implementar sistema de rendimiento variable:
+  - [ ] Éxito (x1.3)
+  - [ ] Normal (x1)
+  - [ ] Poco exitoso (x0.7)
+- [ ] Multiplicador basado en nivel de habilidad
+
+## 8. Sistema de Mensajes
+- [ ] Implementar mensajes automáticos:
+  - [ ] Mensaje de bienvenida al iniciar
+  - [ ] Mensaje "¡Hola jefe!" para el usuario solounturnomas
+  - [ ] Mensajes de recompensa por acción
+
+## 9. Sistema de Comercio
+- [ ] Crear sistema de herramientas:
+  - [ ] espada
+  - [ ] arco
+  - [ ] hoz
+  - [ ] caña de pescar
+  - [ ] pico
+  - [ ] hacha
+- [ ] Implementar sistema de compra/venta
+
+## 10. Sistema de Productos Manufacturados
+- [ ] Implementar productos manufacturados
+- [ ] Sistema de recetas
+- [ ] Sistema de fabricación
+
+## 11. Sistema de Historial
+- [ ] Registrar acciones realizadas
+- [ ] Mostrar historial en el comando inventario
+- [ ] Sistema de logs
+
+## 12. Pruebas y Optimización
+- [ ] Probar cada funcionalidad
+- [ ] Optimizar mensajes
+- [ ] Ajustar rendimientos
+- [ ] Mejorar manejo de errores
