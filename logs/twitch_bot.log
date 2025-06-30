@@ -115,3 +115,709 @@
 2025-06-30 16:39:46 - twitch_bot.database - INFO - Tabla historial_acciones creada
 2025-06-30 16:39:46 - twitch_bot.database - INFO - Tablas creadas exitosamente
 2025-06-30 16:39:50 - twitch_bot.database - INFO - Encontrados 1 ciudadanos
+2025-06-30 16:58:34 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 16:58:34 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 16:58:34 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 16:58:34 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 16:58:34 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 16:58:35 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 16:58:35 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 16:58
+2025-06-30 16:58:35 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 16:58
+2025-06-30 16:59:14 - twitch_bot - INFO - [Recompensa] solounturnomas: as (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 16:59:14 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 16:59:14 - twitch_bot - ERROR - Error al procesar mensaje: name 'logging' is not defined
+2025-06-30 17:03:20 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:03:20 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:03:20 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:03:20 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:03:20 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 17:03:22 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 17:03:22 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:03
+2025-06-30 17:03:22 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:03
+2025-06-30 17:03:35 - twitch_bot - INFO - [Recompensa] solounturnomas: h (ID: 065567f5-e68f-43cd-816f-f4ef0e64572d) - Acción: pescar
+2025-06-30 17:03:35 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:03:35 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 17:03:36 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
+2025-06-30 17:03:36 - twitch_bot.database - INFO - Registrando acción: pescar
+2025-06-30 17:03:36 - twitch_bot.database - INFO - Acción registrada exitosamente: pescar
+2025-06-30 17:03:36 - twitch_bot - INFO - [Sistema] @solounturnomas ha realizado la acción pescar y obtiene:
+2025-06-30 17:05:07 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:05:07 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:05:07 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:05:07 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:05:10 - twitch_bot.database - INFO - Encontrados 1 ciudadanos
+2025-06-30 17:06:46 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:06:46 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:06:46 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:06:46 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:06:46 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 17:06:48 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 17:06:48 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:06
+2025-06-30 17:06:48 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:06
+2025-06-30 17:06:54 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: 065567f5-e68f-43cd-816f-f4ef0e64572d) - Acción: pescar
+2025-06-30 17:06:54 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:06:54 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 17:06:54 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
+2025-06-30 17:06:54 - twitch_bot.database - INFO - Registrando acción: pescar
+2025-06-30 17:06:54 - twitch_bot.database - INFO - Acción registrada exitosamente: pescar
+2025-06-30 17:06:54 - twitch_bot - INFO - [Sistema] @solounturnomas ha realizado la acción pescar y obtiene:
+2025-06-30 17:10:17 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:10:17 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:10:17 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:10:17 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:10:17 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 17:10:19 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 17:10:19 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:10
+2025-06-30 17:10:19 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:10
+2025-06-30 17:10:26 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: 065567f5-e68f-43cd-816f-f4ef0e64572d) - Acción: pescar
+2025-06-30 17:10:26 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:10:26 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 17:10:26 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
+2025-06-30 17:10:26 - twitch_bot.database - INFO - Registrando acción: pescar
+2025-06-30 17:10:26 - twitch_bot.database - INFO - Acción registrada exitosamente: pescar
+2025-06-30 17:10:26 - twitch_bot - INFO - [Sistema] @solounturnomas ha realizado la acción pescar y obtiene: 5 pescado
+2025-06-30 17:15:16 - twitch_bot - INFO - [Mensaje] nightbot: Participa en el sorteo de un juego con !sorteo.
+2025-06-30 17:17:59 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:17:59 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:17:59 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:17:59 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:18:01 - twitch_bot.database - INFO - Encontrados 1 ciudadanos
+2025-06-30 17:18:49 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:18:49 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:18:49 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:18:49 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:18:49 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 17:18:50 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 17:18:50 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:18
+2025-06-30 17:18:50 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:18
+2025-06-30 17:18:59 - twitch_bot - INFO - [Recompensa] solounturnomas: z (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
+2025-06-30 17:18:59 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:18:59 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 17:19:00 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
+2025-06-30 17:19:00 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
+2025-06-30 17:19:00 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
+2025-06-30 17:19:00 - twitch_bot - INFO - [Sistema] @solounturnomas ha realizado la acción trabajar en el campo y obtiene: 5 trigo
+2025-06-30 17:25:56 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:25:56 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:25:56 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:25:56 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:25:56 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 17:25:58 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 17:25:58 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:25
+2025-06-30 17:25:58 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:25
+2025-06-30 17:26:23 - twitch_bot - INFO - [Recompensa] solounturnomas: Quiero ramas y piedras (ID: f7b19ecc-5085-43b2-a07e-dee6f8c064dd) - Acción: talar
+2025-06-30 17:26:23 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:26:23 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 17:27:45 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:27:45 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:27:45 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:27:45 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:27:45 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 17:27:46 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 17:27:47 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:27
+2025-06-30 17:27:47 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:27
+2025-06-30 17:28:11 - twitch_bot - INFO - [Recompensa] solounturnomas: Quiero hierbas y piedra. (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
+2025-06-30 17:28:11 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:28:11 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 17:30:50 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:30:50 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:30:50 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:30:50 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:30:50 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 17:30:52 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 17:30:52 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:30
+2025-06-30 17:30:52 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:30
+2025-06-30 17:31:04 - twitch_bot - INFO - [Recompensa] solounturnomas: Quiero piedra y hierbas (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
+2025-06-30 17:31:04 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:31:04 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 17:33:13 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:33:13 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:33:13 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:33:13 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:33:13 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 17:33:14 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 17:33:14 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:33
+2025-06-30 17:33:14 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:33
+2025-06-30 17:33:36 - twitch_bot - INFO - [Recompensa] solounturnomas: Quiero piedras y hierbas (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
+2025-06-30 17:33:36 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:33:36 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 17:33:36 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_hierbas
+2025-06-30 17:33:36 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
+2025-06-30 17:33:36 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
+2025-06-30 17:33:36 - twitch_bot - INFO - [Sistema] ¡{autor} ha comenzado a trabajar en el campo! 5 trigo, 1 hierbas
+2025-06-30 17:35:32 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:35:32 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:35:32 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:35:32 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:35:32 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 17:35:34 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 17:35:34 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:35
+2025-06-30 17:35:34 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:35
+2025-06-30 17:35:40 - twitch_bot - INFO - [Recompensa] solounturnomas: hierba (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
+2025-06-30 17:35:40 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:35:40 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 17:38:00 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:38:00 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:38:00 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:38:00 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:38:00 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 17:38:01 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 17:38:01 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:38
+2025-06-30 17:38:01 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:38
+2025-06-30 17:38:10 - twitch_bot - INFO - [Recompensa] solounturnomas: hierba (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
+2025-06-30 17:38:10 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:38:10 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 17:38:10 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_hierbas
+2025-06-30 17:38:10 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
+2025-06-30 17:38:10 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
+2025-06-30 17:38:10 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo! 5 trigo, 1 hierbas
+2025-06-30 17:38:23 - twitch_bot - INFO - [Recompensa] solounturnomas: hierba (ID: 065567f5-e68f-43cd-816f-f4ef0e64572d) - Acción: pescar
+2025-06-30 17:38:23 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:38:23 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 17:38:23 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_hierbas
+2025-06-30 17:38:23 - twitch_bot.database - INFO - Registrando acción: pescar
+2025-06-30 17:38:24 - twitch_bot.database - INFO - Acción registrada exitosamente: pescar
+2025-06-30 17:38:24 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a pescar! 5 pescado, 1 hierbas
+2025-06-30 17:38:31 - twitch_bot - INFO - [Recompensa] solounturnomas: hierba (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
+2025-06-30 17:38:31 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:38:31 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 17:40:02 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:40:02 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:40:02 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:40:02 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:40:02 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 17:40:04 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 17:40:04 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:40
+2025-06-30 17:40:04 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:40
+2025-06-30 17:40:17 - twitch_bot - INFO - [Recompensa] solounturnomas: hierba y piedra y hierro (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
+2025-06-30 17:40:17 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:40:17 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 17:41:08 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:41:08 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:41:08 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:41:08 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:41:08 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 17:41:10 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 17:41:10 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:41
+2025-06-30 17:41:10 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:41
+2025-06-30 17:41:16 - twitch_bot - INFO - [Recompensa] solounturnomas: hierba (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
+2025-06-30 17:41:16 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:41:16 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 17:43:04 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:43:04 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:43:04 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:43:04 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:43:04 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 17:43:06 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 17:43:06 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:43
+2025-06-30 17:43:06 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:43
+2025-06-30 17:44:01 - twitch_bot - INFO - [Recompensa] solounturnomas: hierba (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
+2025-06-30 17:44:01 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:44:01 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 17:45:25 - twitch_bot - INFO - [Mensaje] nightbot: Participa en el sorteo de un juego con !sorteo.
+2025-06-30 17:48:37 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:48:37 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:48:37 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:48:37 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:48:37 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 17:48:38 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 17:48:38 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:48
+2025-06-30 17:48:38 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:48
+2025-06-30 17:48:45 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
+2025-06-30 17:48:45 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:48:45 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 17:50:47 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:50:47 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:50:47 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:50:47 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:50:47 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 17:50:48 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 17:50:48 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:50
+2025-06-30 17:50:48 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:50
+2025-06-30 17:50:52 - twitch_bot - INFO - [Recompensa] solounturnomas: as (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
+2025-06-30 17:50:52 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:50:52 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 17:54:02 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:54:02 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:54:02 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:54:02 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:54:02 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 17:54:04 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 17:54:04 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:54
+2025-06-30 17:54:04 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:54
+2025-06-30 17:54:12 - twitch_bot - INFO - [Recompensa] solounturnomas: piedra roca rocas (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
+2025-06-30 17:54:12 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:54:12 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 17:54:12 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
+2025-06-30 17:54:12 - twitch_bot.database - INFO - Registrando acción: picar piedra
+2025-06-30 17:54:12 - twitch_bot.database - INFO - Acción registrada exitosamente: picar piedra
+2025-06-30 17:54:12 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a picar piedra! 7 piedra
+2025-06-30 17:56:44 - twitch_bot - INFO - [Recompensa] solounturnomas: piedra roca, rocas piedras (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
+2025-06-30 17:56:44 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 17:56:44 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 17:56:45 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
+2025-06-30 17:56:45 - twitch_bot.database - INFO - Registrando acción: picar piedra
+2025-06-30 17:56:45 - twitch_bot.database - INFO - Acción registrada exitosamente: picar piedra
+2025-06-30 17:56:45 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a picar piedra! 14 piedra
+2025-06-30 17:59:21 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 17:59:21 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 17:59:21 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 17:59:21 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 17:59:23 - twitch_bot.database - INFO - Encontrados 1 ciudadanos
+2025-06-30 18:00:50 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 18:00:50 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 18:00:50 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 18:00:50 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 18:00:50 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 18:00:51 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 18:00:51 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 18:00
+2025-06-30 18:00:51 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 18:00
+2025-06-30 18:00:56 - twitch_bot - INFO - [Recompensa] solounturnomas: piedra (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
+2025-06-30 18:00:56 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:00:56 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:00:56 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
+2025-06-30 18:00:56 - twitch_bot.database - INFO - Registrando acción: picar piedra
+2025-06-30 18:00:56 - twitch_bot.database - INFO - Acción registrada exitosamente: picar piedra
+2025-06-30 18:00:56 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a picar piedra! 28 piedra
+2025-06-30 18:02:54 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 18:02:54 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 18:02:54 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 18:02:54 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 18:02:54 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 18:02:56 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 18:02:56 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 18:02
+2025-06-30 18:02:56 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 18:02
+2025-06-30 18:03:02 - twitch_bot - INFO - [Recompensa] solounturnomas: Roca (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
+2025-06-30 18:03:02 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:03:02 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:03:02 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
+2025-06-30 18:03:02 - twitch_bot.database - INFO - Registrando acción: picar piedra
+2025-06-30 18:03:02 - twitch_bot.database - INFO - Acción registrada exitosamente: picar piedra
+2025-06-30 18:03:02 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a picar piedra! 6 piedra
+2025-06-30 18:03:18 - twitch_bot - INFO - [Recompensa] solounturnomas: Roca piedra rocas piedras (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
+2025-06-30 18:03:18 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:03:18 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:03:19 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
+2025-06-30 18:03:19 - twitch_bot.database - INFO - Registrando acción: picar piedra
+2025-06-30 18:03:19 - twitch_bot.database - INFO - Acción registrada exitosamente: picar piedra
+2025-06-30 18:03:19 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a picar piedra! 6 piedra
+2025-06-30 18:03:45 - twitch_bot - INFO - [Recompensa] solounturnomas: carne piel hierba piedra (ID: 720eab8f-404a-4166-a035-b2db303cc4d5) - Acción: cazar en el bosque
+2025-06-30 18:03:45 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:03:45 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:03:45 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_hierbas
+2025-06-30 18:03:45 - twitch_bot.database - INFO - Registrando acción: cazar en el bosque
+2025-06-30 18:03:45 - twitch_bot.database - INFO - Acción registrada exitosamente: cazar en el bosque
+2025-06-30 18:03:45 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha entrado al bosque para cazar! 2 carne, 4 piel, 1 hierbas
+2025-06-30 18:04:40 - twitch_bot - INFO - [Recompensa] solounturnomas: dinero moneda (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 18:04:40 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:04:40 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:04:40 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
+2025-06-30 18:04:40 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 18:04:40 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 18:04:40 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 11 monedas
+2025-06-30 18:09:55 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 18:09:55 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 18:09:55 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 18:09:55 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 18:09:55 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 18:09:57 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 18:09:57 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 18:09
+2025-06-30 18:09:57 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 18:09
+2025-06-30 18:10:07 - twitch_bot - INFO - [Recompensa] solounturnomas: Moneda (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 18:10:07 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:10:07 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:10:07 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
+2025-06-30 18:10:07 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 18:10:07 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 18:10:07 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 12 monedas
+2025-06-30 18:11:20 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 18:11:20 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 18:11:20 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 18:11:20 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 18:11:20 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 18:11:22 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 18:11:22 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 18:11
+2025-06-30 18:11:22 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 18:11
+2025-06-30 18:11:33 - twitch_bot - INFO - [Recompensa] solounturnomas: moneda (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 18:11:33 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:11:33 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:11:33 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
+2025-06-30 18:11:33 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 18:11:34 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 18:11:34 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 12.5 monedas
+2025-06-30 18:12:32 - twitch_bot - INFO - [Recompensa] solounturnomas: carne (ID: 720eab8f-404a-4166-a035-b2db303cc4d5) - Acción: cazar en el bosque
+2025-06-30 18:12:32 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:12:32 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:12:32 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
+2025-06-30 18:12:32 - twitch_bot.database - INFO - Registrando acción: cazar en el bosque
+2025-06-30 18:12:33 - twitch_bot.database - INFO - Acción registrada exitosamente: cazar en el bosque
+2025-06-30 18:12:33 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha entrado al bosque para cazar! 1.25 carne, 3 piel
+2025-06-30 18:12:45 - twitch_bot - INFO - [Recompensa] solounturnomas: carne y piel (ID: 720eab8f-404a-4166-a035-b2db303cc4d5) - Acción: cazar en el bosque
+2025-06-30 18:12:45 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:12:45 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:12:46 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
+2025-06-30 18:12:46 - twitch_bot.database - INFO - Registrando acción: cazar en el bosque
+2025-06-30 18:12:46 - twitch_bot.database - INFO - Acción registrada exitosamente: cazar en el bosque
+2025-06-30 18:12:46 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha entrado al bosque para cazar! 1.25 carne, 3.75 piel
+2025-06-30 18:15:18 - twitch_bot - INFO - [Mensaje] nightbot: Participa en el sorteo de un juego con !sorteo.
+2025-06-30 18:17:36 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 18:17:36 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 18:17:36 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 18:17:36 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 18:17:36 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 18:17:38 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 18:17:38 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 18:17
+2025-06-30 18:17:38 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 18:17
+2025-06-30 18:17:50 - twitch_bot - INFO - [Recompensa] solounturnomas: Monedas (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 18:17:50 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:17:50 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:17:50 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
+2025-06-30 18:17:50 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 18:17:51 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 18:17:51 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 16.25 monedas ¡Qué bien!
+2025-06-30 18:18:04 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 18:18:04 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:18:04 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:18:04 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
+2025-06-30 18:18:04 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 18:18:04 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 18:18:04 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 10 monedas No está mal!
+2025-06-30 18:18:15 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 18:18:15 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:18:15 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:18:15 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
+2025-06-30 18:18:15 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 18:18:15 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 18:18:15 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 13.0 monedas ¡Qué bien!
+2025-06-30 18:18:24 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 18:18:24 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:18:24 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:18:24 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
+2025-06-30 18:18:24 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 18:18:24 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 18:18:24 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 10 monedas No está mal!
+2025-06-30 18:18:49 - twitch_bot - INFO - [Recompensa] solounturnomas: ghkj (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 18:18:49 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:18:49 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:18:49 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
+2025-06-30 18:18:49 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 18:18:49 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 18:18:49 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 13.0 monedas ¡Qué bien!
+2025-06-30 18:18:59 - twitch_bot - INFO - [Recompensa] solounturnomas: jhkhgjk (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 18:18:59 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:18:59 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:18:59 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
+2025-06-30 18:18:59 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 18:18:59 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 18:18:59 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 10 monedas No está mal!
+2025-06-30 18:19:07 - twitch_bot - INFO - [Recompensa] solounturnomas: fghfgh (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 18:19:07 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:19:07 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:19:07 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
+2025-06-30 18:19:07 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 18:19:08 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 18:19:08 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 10 monedas No está mal!
+2025-06-30 18:19:15 - twitch_bot - INFO - [Recompensa] solounturnomas: yfklfhjk (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 18:19:15 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:19:15 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:19:15 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
+2025-06-30 18:19:15 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 18:19:15 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 18:19:15 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 10 monedas No está mal!
+2025-06-30 18:19:23 - twitch_bot - INFO - [Recompensa] solounturnomas: gfhxfgh (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 18:19:23 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:19:23 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:19:23 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
+2025-06-30 18:19:23 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 18:19:24 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 18:19:24 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 10 monedas No está mal!
+2025-06-30 18:20:47 - twitch_bot - INFO - [Recompensa] solounturnomas: yjtryj (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 18:20:47 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:20:47 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
+2025-06-30 18:20:47 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
+2025-06-30 18:20:47 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 18:20:47 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 18:20:47 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 7.0 monedas Podría ser mejor
+2025-06-30 18:25:46 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 18:25:46 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 18:25:46 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 18:25:46 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 18:25:46 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 18:25:48 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 18:25:48 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 18:25
+2025-06-30 18:25:48 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 18:25
+2025-06-30 18:26:13 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 18:26:13 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 18:26:13 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 18:30:33 - twitch_bot - INFO - [Mensaje] nightbot: Participa en el sorteo de un juego con !sorteo.
+2025-06-30 18:46:42 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 18:46:42 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 18:46:42 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 18:46:42 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 18:46:47 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
+2025-06-30 19:09:39 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:09:39 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:09:39 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:09:39 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:09:45 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
+2025-06-30 19:11:01 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:11:01 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:11:01 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:11:01 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:11:04 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
+2025-06-30 19:11:53 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:11:53 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:11:53 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:11:53 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:11:53 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 19:11:55 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 19:11:55 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:11
+2025-06-30 19:11:55 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:11
+2025-06-30 19:12:01 - twitch_bot - INFO - [Recompensa] solounturnomas: monedas (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 19:12:01 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:12:01 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 19:15:06 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:15:06 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:15:06 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:15:06 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:15:06 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 19:15:07 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 19:15:07 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:15
+2025-06-30 19:15:07 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:15
+2025-06-30 19:15:17 - twitch_bot - INFO - [Mensaje] nightbot: Participa en el sorteo de un juego con !sorteo.
+2025-06-30 19:15:24 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 19:15:24 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:15:24 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 19:17:40 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:17:40 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:17:40 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:17:40 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:17:40 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 19:17:41 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 19:17:41 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:17
+2025-06-30 19:17:41 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:17
+2025-06-30 19:17:46 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 19:17:46 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:17:46 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 19:20:12 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:20:12 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:20:12 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:20:12 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:20:12 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 19:20:14 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 19:20:14 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:20
+2025-06-30 19:20:14 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:20
+2025-06-30 19:20:19 - twitch_bot - INFO - [Recompensa] solounturnomas: ss (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 19:20:19 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:20:19 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 19:21:16 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:21:16 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:21:16 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:21:16 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:21:16 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 19:21:17 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 19:21:17 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:21
+2025-06-30 19:21:17 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:21
+2025-06-30 19:21:21 - twitch_bot - INFO - [Recompensa] solounturnomas: sss (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 19:21:21 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:21:21 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 19:22:42 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:22:42 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:22:42 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:22:42 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:22:42 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 19:22:44 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 19:22:44 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:22
+2025-06-30 19:22:44 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:22
+2025-06-30 19:22:47 - twitch_bot - INFO - [Recompensa] solounturnomas: sss (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 19:22:47 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:22:47 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
+2025-06-30 19:24:52 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:24:52 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:24:52 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:24:52 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:24:52 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 19:24:53 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 19:24:53 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:24
+2025-06-30 19:24:53 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:24
+2025-06-30 19:24:57 - twitch_bot - INFO - [Recompensa] solounturnomas: ssds (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 19:24:57 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:24:57 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: fecha_modificar
+2025-06-30 19:24:57 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 19:24:57 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 19:24:57 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 10 moneda No está mal!
+2025-06-30 19:25:18 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:25:18 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:25:18 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:25:18 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:25:20 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
+2025-06-30 19:25:25 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
+2025-06-30 19:26:27 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
+2025-06-30 19:46:18 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:46:18 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:46:18 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:46:18 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:46:18 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 19:46:20 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 19:46:20 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:46
+2025-06-30 19:46:20 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:46
+2025-06-30 19:46:34 - twitch_bot - INFO - [Recompensa] solounturnomas: ddd (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 19:46:34 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:46:34 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: fecha_modificar
+2025-06-30 19:46:34 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 19:46:34 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 19:46:34 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 7.0 moneda Podría ser mejor
+2025-06-30 19:48:27 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:48:27 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:48:27 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:48:27 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:48:27 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 19:48:28 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 19:48:28 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:48
+2025-06-30 19:48:28 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:48
+2025-06-30 19:48:35 - twitch_bot - INFO - [Recompensa] solounturnomas: sws (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 19:48:35 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:48:35 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: fecha_modificar
+2025-06-30 19:48:35 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 19:48:36 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 19:48:36 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 13.0 moneda ¡Qué bien!
+2025-06-30 19:51:34 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:51:34 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:51:34 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:51:34 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:51:53 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:51:53 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:51:53 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:51:53 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:51:53 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 19:51:55 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 19:51:55 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:51
+2025-06-30 19:51:55 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:51
+2025-06-30 19:52:01 - twitch_bot - INFO - [Recompensa] solounturnomas: dsss (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
+2025-06-30 19:52:01 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:52:01 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-06-30 19:52:01 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-06-30 19:52:02 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-06-30 19:52:02 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 7.0 moneda Podría ser mejor
+2025-06-30 19:53:25 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:53:25 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:53:25 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:53:25 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:53:28 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
+2025-06-30 19:53:34 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
+2025-06-30 19:53:58 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:53:58 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:53:58 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:53:58 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:54:00 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
+2025-06-30 19:54:29 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:54:29 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:54:29 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:54:29 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:54:29 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 19:54:31 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 19:54:31 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:54
+2025-06-30 19:54:31 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:54
+2025-06-30 19:54:38 - twitch_bot - INFO - [Recompensa] solounturnomas: aaa (ID: f7b19ecc-5085-43b2-a07e-dee6f8c064dd) - Acción: talar
+2025-06-30 19:54:38 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:54:38 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-06-30 19:54:38 - twitch_bot.database - INFO - Registrando acción: talar
+2025-06-30 19:54:39 - twitch_bot.database - INFO - Acción registrada exitosamente: talar
+2025-06-30 19:54:39 - twitch_bot - INFO - [Sistema] ¡solounturnomas se ha ido a talar al bosque! 1 madera, 5 rama No está mal!
+2025-06-30 19:55:08 - twitch_bot - INFO - [Recompensa] solounturnomas: hierro (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
+2025-06-30 19:55:08 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:55:08 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-06-30 19:55:08 - twitch_bot.database - INFO - Registrando acción: picar piedra
+2025-06-30 19:55:08 - twitch_bot.database - INFO - Acción registrada exitosamente: picar piedra
+2025-06-30 19:55:08 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a picar piedra! 1.25 hierro, 5 piedra No está mal!
+2025-06-30 19:55:38 - twitch_bot - INFO - [Recompensa] solounturnomas: verduras (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
+2025-06-30 19:55:38 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:55:38 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-06-30 19:55:38 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
+2025-06-30 19:55:38 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
+2025-06-30 19:55:38 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo! 5 trigo No está mal!
+2025-06-30 19:56:21 - twitch_bot - INFO - [Recompensa] solounturnomas: verdura (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
+2025-06-30 19:56:21 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:56:22 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-06-30 19:56:22 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
+2025-06-30 19:56:22 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
+2025-06-30 19:56:22 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo! 3.5 trigo Podría ser mejor
+2025-06-30 19:57:00 - twitch_bot - INFO - [Recompensa] solounturnomas: verduras (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
+2025-06-30 19:57:00 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:57:00 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-06-30 19:57:00 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
+2025-06-30 19:57:00 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
+2025-06-30 19:57:00 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo! 5 trigo No está mal!
+2025-06-30 19:57:14 - twitch_bot - INFO - [Recompensa] solounturnomas: hierro (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
+2025-06-30 19:57:14 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:57:14 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-06-30 19:57:14 - twitch_bot.database - INFO - Registrando acción: picar piedra
+2025-06-30 19:57:14 - twitch_bot.database - INFO - Acción registrada exitosamente: picar piedra
+2025-06-30 19:57:14 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a picar piedra! 5 piedra No está mal!
+2025-06-30 19:57:30 - twitch_bot - INFO - [Recompensa] solounturnomas: ss (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
+2025-06-30 19:57:30 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:57:30 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-06-30 19:57:30 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
+2025-06-30 19:57:31 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
+2025-06-30 19:57:31 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo! 6.5 trigo ¡Qué bien!
+2025-06-30 19:57:37 - twitch_bot - INFO - [Recompensa] solounturnomas: ssss (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
+2025-06-30 19:57:37 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:57:38 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-06-30 19:57:38 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
+2025-06-30 19:57:38 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
+2025-06-30 19:57:38 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo! 5 trigo No está mal!
+2025-06-30 19:57:47 - twitch_bot - INFO - [Recompensa] solounturnomas: verdura (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
+2025-06-30 19:57:47 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:57:49 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-06-30 19:57:49 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
+2025-06-30 19:57:50 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
+2025-06-30 19:57:50 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo! 3.5 trigo Podría ser mejor
+2025-06-30 19:58:02 - twitch_bot - INFO - [Recompensa] solounturnomas: verdutras (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
+2025-06-30 19:58:02 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:58:02 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-06-30 19:58:02 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
+2025-06-30 19:58:02 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
+2025-06-30 19:58:02 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo! 3.5 trigo, 1 verdura Podría ser mejor
+2025-06-30 19:58:14 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:58:14 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:58:14 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:58:14 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:58:16 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
+2025-06-30 19:58:48 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 19:58:48 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 19:58:48 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 19:58:48 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 19:58:48 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 19:58:49 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 19:58:49 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:58
+2025-06-30 19:58:49 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:58
+2025-06-30 19:58:58 - twitch_bot - INFO - [Recompensa] solounturnomas: hierbas (ID: 720eab8f-404a-4166-a035-b2db303cc4d5) - Acción: cazar en el bosque
+2025-06-30 19:58:58 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 19:58:58 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-06-30 19:58:58 - twitch_bot.database - INFO - Registrando acción: cazar en el bosque
+2025-06-30 19:58:59 - twitch_bot.database - INFO - Acción registrada exitosamente: cazar en el bosque
+2025-06-30 19:58:59 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha entrado al bosque para cazar! 1 carne, 3 piel No está mal!
+2025-06-30 20:00:26 - twitch_bot - INFO - [Mensaje] nightbot: Participa en el sorteo de un juego con !sorteo.
+2025-06-30 20:01:58 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 20:01:58 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 20:01:58 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 20:01:58 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 20:02:07 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
+2025-06-30 20:02:43 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 20:02:43 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 20:02:43 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 20:02:43 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-06-30 20:02:43 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-06-30 20:02:44 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-06-30 20:02:44 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 20:02
+2025-06-30 20:02:44 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 20:02
+2025-06-30 20:02:50 - twitch_bot - INFO - [Recompensa] solounturnomas: 1 (ID: 720eab8f-404a-4166-a035-b2db303cc4d5) - Acción: cazar en el bosque
+2025-06-30 20:02:50 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-06-30 20:02:50 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-06-30 20:02:50 - twitch_bot.database - INFO - Registrando acción: cazar en el bosque
+2025-06-30 20:02:50 - twitch_bot.database - INFO - Acción registrada exitosamente: cazar en el bosque
+2025-06-30 20:02:50 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha entrado al bosque para cazar! 1 carne, 4 piel, 2 hierba No está mal!
+2025-06-30 20:02:59 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-06-30 20:02:59 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-06-30 20:02:59 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-06-30 20:02:59 - twitch_bot.database - INFO - Tablas creadas exitosamente

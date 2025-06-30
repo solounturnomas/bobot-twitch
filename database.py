@@ -45,8 +45,9 @@ def init_db():
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     nombre TEXT UNIQUE NOT NULL,
                     -- Recursos
+                    cantidad_moneda INTEGER DEFAULT 1,
                     cantidad_madera INTEGER DEFAULT 1,
-                    cantidad_ramas INTEGER DEFAULT 1,
+                    cantidad_rama INTEGER DEFAULT 1,
                     cantidad_piedra INTEGER DEFAULT 1,
                     cantidad_hierro INTEGER DEFAULT 1,
                     cantidad_pescado INTEGER DEFAULT 1,
@@ -54,7 +55,7 @@ def init_db():
                     cantidad_verdura INTEGER DEFAULT 1,
                     cantidad_carne INTEGER DEFAULT 1,
                     cantidad_piel INTEGER DEFAULT 1,
-                    hierbas INTEGER DEFAULT 1,
+                    cantidad_hierba INTEGER DEFAULT 1,
                     --Niveles
                     nivel_leñador INTEGER DEFAULT 1,
                     nivel_recolector INTEGER DEFAULT 1,
@@ -63,21 +64,21 @@ def init_db():
                     nivel_agricultor INTEGER DEFAULT 1,
                     nivel_guardia INTEGER DEFAULT 1,
                     nivel_minero INTEGER DEFAULT 1,
-                    rango TEXT DEFAULT 'Ciudadano',
+                    rango INT DEFAULT 1,
                     -- Campos de herramientas (booleanos)
                     tiene_hacha BOOLEAN DEFAULT FALSE,
                     tiene_pico BOOLEAN DEFAULT FALSE,
                     tiene_espada BOOLEAN DEFAULT FALSE,
                     tiene_hazada BOOLEAN DEFAULT FALSE,
                     tiene_arco BOOLEAN DEFAULT FALSE,
-                    tiene_caña_pescar BOOLEAN DEFAULT FALSE,
+                    tiene_caña BOOLEAN DEFAULT FALSE,
                     -- Campo de fecha/hora para el pozo
                     fecha_pozo TIMESTAMP DEFAULT '2025-01-01 00:00:00',
                     -- auditoria
-                    fecha_crea TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    fecha_modificar TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    fecha_crear TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    fecha_modif TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                     usuario_crear TEXT,
-                    usuario_modificar TEXT,
+                    usuario_modif TEXT,
                     fecha_borrar TIMESTAMP,
                     usuario_borrar TEXT,
                     borrado_logico BOOLEAN DEFAULT FALSE,
@@ -145,12 +146,24 @@ def crear_ciudadano(nombre: str, usuario_crear: str = None) -> bool:
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            logger_db.info(f"Intentando crear ciudadano: {nombre}")
+            
+            # Verificar si el ciudadano ya existe
+            cursor.execute('SELECT id FROM ciudadanos WHERE nombre = ?', (nombre,))
+            if cursor.fetchone():
+                logger_db.error(f"Error al crear ciudadano {nombre}: ya existe")
+                return False
+                
+            # Insertar el nuevo ciudadano con sus recursos iniciales
             cursor.execute('''
-                INSERT INTO ciudadanos 
-                (nombre, usuario_crear, usuario_modificar)
-                VALUES (?, ?, ?)
-            ''', (nombre, usuario_crear, usuario_crear))
+                INSERT INTO ciudadanos (
+                    nombre,
+                    fecha_crea,
+                    usuario_crear,
+                    fecha_modif,
+                    usuario_modif
+                ) VALUES (?, CURRENT_TIMESTAMP, ?, CURRENT_TIMESTAMP, ?)
+            ''', (nombre, usuario_crear if usuario_crear else "sistema", usuario_crear if usuario_crear else "sistema"))
+            
             conn.commit()
             logger_db.info(f"Ciudadano creado exitosamente: {nombre}")
             return True
@@ -174,35 +187,36 @@ def actualizar_ciudadano(nombre: str, datos: Dict[str, Any], usuario_modificar: 
         True si se actualizó exitosamente, False si no existe.
     """
     try:
-        if not datos:
-            logger_db.warning(f"No se proporcionaron datos para actualizar ciudadano: {nombre}")
-            return False
-        
-        # Añadir campos de auditoría a los datos
-        datos['fecha_modificar'] = datetime.now()
-        datos['usuario_modificar'] = usuario_modificar
-        datos['version'] = datos.get('version', 1) + 1
-        
-        # Asegurarse de que los valores booleanos estén en el formato correcto
-        for campo in ['tiene_hacha', 'tiene_pico', 'tiene_espada', 'tiene_hazada',
-                     'tiene_arco', 'tiene_caña_pescar']:
-            if campo in datos:
-                datos[campo] = bool(datos[campo])
-        
-        set_clause = ', '.join(f'{campo} = ?' for campo in datos.keys())
-        valores = list(datos.values()) + [nombre]
-        
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            logger_db.info(f"Intentando actualizar ciudadano: {nombre}")
-            cursor.execute(f'UPDATE ciudadanos SET {set_clause} WHERE nombre = ?', valores)
-            conn.commit()
-            if cursor.rowcount > 0:
-                logger_db.info(f"Ciudadano actualizado exitosamente: {nombre}")
-                return True
-            else:
-                logger_db.warning(f"No se encontró ciudadano para actualizar: {nombre}")
+            # Verificar si el ciudadano existe
+            cursor.execute('SELECT id FROM ciudadanos WHERE nombre = ?', (nombre,))
+            ciudadano = cursor.fetchone()
+            if not ciudadano:
+                logger_db.error(f"Error al actualizar ciudadano {nombre}: ciudadano no encontrado")
                 return False
+                
+            # Construir la consulta SQL dinámicamente
+            campos_actualizar = []
+            valores = []
+            for campo, valor in datos.items():
+                campos_actualizar.append(f"{campo} = ?")
+                valores.append(valor)
+            
+            # Agregar campos de auditoría
+            campos_actualizar.extend([
+                "fecha_modif = CURRENT_TIMESTAMP",
+                "usuario_modif = ?"
+            ])
+            valores.append(usuario_modificar if usuario_modificar else "sistema")
+            # Construir la consulta final
+            consulta = f"UPDATE ciudadanos SET {', '.join(campos_actualizar)} WHERE nombre = ?"
+            valores.append(nombre)
+            cursor.execute(consulta, tuple(valores))
+            conn.commit()
+            logger_db.info(f"Ciudadano actualizado: {nombre}")
+            return True
+            
     except sqlite3.Error as e:
         logger_db.error(f"Error al actualizar ciudadano {nombre}: {e}")
         return False
@@ -221,28 +235,36 @@ def eliminar_ciudadano(nombre: str, usuario_borrar: str = None) -> bool:
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            logger_db.info(f"Intentando desactivar ciudadano: {nombre}")
+            
+            # Verificar si el ciudadano existe
+            cursor.execute('SELECT id FROM ciudadanos WHERE nombre = ?', (nombre,))
+            ciudadano = cursor.fetchone()
+            if not ciudadano:
+                logger_db.error(f"Error al desactivar ciudadano {nombre}: ciudadano no encontrado")
+                return False
+                
+            # Actualizar el registro con soft delete
             cursor.execute('''
                 UPDATE ciudadanos 
                 SET borrado_logico = 1,
-                    fecha_borrar = ?,
+                    fecha_borrar = CURRENT_TIMESTAMP,
                     usuario_borrar = ?,
-                    fecha_modificar = ?,
-                    usuario_modificar = ?
+                    fecha_modif = CURRENT_TIMESTAMP,
+                    usuario_modif = ?
                 WHERE nombre = ?
-            ''', (datetime.now(), usuario_borrar, datetime.now(), usuario_borrar, nombre))
+            ''', (usuario_borrar if usuario_borrar else "sistema",
+                  usuario_borrar if usuario_borrar else "sistema",
+                  nombre))
+            
             conn.commit()
-            if cursor.rowcount > 0:
-                logger_db.info(f"Ciudadano desactivado exitosamente: {nombre}")
-                return True
-            else:
-                logger_db.warning(f"No se encontró ciudadano para desactivar: {nombre}")
-                return False
+            logger_db.info(f"Ciudadano desactivado: {nombre}")
+            return True
+            
     except sqlite3.Error as e:
         logger_db.error(f"Error al desactivar ciudadano {nombre}: {e}")
         return False
 
-def listar_ciudadanos() -> list:
+def listar_ciudadanos():
     """
     Lista todos los ciudadanos activos en la base de datos.
     
@@ -252,10 +274,15 @@ def listar_ciudadanos() -> list:
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            cursor.execute('SELECT * FROM ciudadanos WHERE borrado_logico = 0')
-            ciudadanos = [dict(row) for row in cursor.fetchall()]
-            logger_db.info(f"Encontrados {len(ciudadanos)} ciudadanos")
-            return ciudadanos
+            cursor.execute('''
+                SELECT * FROM ciudadanos 
+                WHERE borrado_logico = 0
+                ORDER BY nombre
+            ''')
+            ciudadanos = cursor.fetchall()
+            logger_db.info(f"Listado de ciudadanos: {len(ciudadanos)} encontrados")
+            return [dict(c) for c in ciudadanos]
+            
     except sqlite3.Error as e:
         logger_db.error(f"Error al listar ciudadanos: {e}")
         return []
@@ -276,8 +303,9 @@ def mostrar_ciudadanos():
         print(f"Nombre: {ciudadano['nombre']}")
         print(f"Rango: {ciudadano['rango']}")
         print("\nRecursos:")
+        print(f"  Moneda: {ciudadano['cantidad_moneda']}")
         print(f"  Madera: {ciudadano['cantidad_madera']}")
-        print(f"  Ramas: {ciudadano['cantidad_ramas']}")
+        print(f"  Ramas: {ciudadano['cantidad_rama']}")
         print(f"  Piedra: {ciudadano['cantidad_piedra']}")
         print(f"  Hierro: {ciudadano['cantidad_hierro']}")
         print(f"  Pescado: {ciudadano['cantidad_pescado']}")
@@ -285,9 +313,10 @@ def mostrar_ciudadanos():
         print(f"  Verdura: {ciudadano['cantidad_verdura']}")
         print(f"  Carne: {ciudadano['cantidad_carne']}")
         print(f"  Piel: {ciudadano['cantidad_piel']}")
-        print(f"  Hierbas: {ciudadano['hierbas']}")
+        print(f"  Hierbas: {ciudadano['cantidad_hierba']}")
         
         print("\nNiveles:")
+        print(f"  Rango: {ciudadano['rango']}")
         print(f"  Leñador: {ciudadano['nivel_leñador']}")
         print(f"  Recolector: {ciudadano['nivel_recolector']}")
         print(f"  Pescador: {ciudadano['nivel_pescador']}")
@@ -304,7 +333,7 @@ def mostrar_ciudadanos():
             'espada': ciudadano['tiene_espada'],
             'hazada': ciudadano['tiene_hazada'],
             'arco': ciudadano['tiene_arco'],
-            'caña de pescar': ciudadano['tiene_caña_pescar']
+            'caña de pescar': ciudadano['tiene_caña']
         }
         
         herramientas_tiene = [herramienta for herramienta, tiene in herramientas.items() if tiene]
@@ -314,10 +343,11 @@ def mostrar_ciudadanos():
             print("- No tiene ninguna herramienta")
         
         print("\nAuditoría:")
-        print(f"  Fecha creación: {ciudadano['fecha_crea']}")
-        print(f"  Fecha última modificación: {ciudadano['fecha_modificar']}")
+        print(f"  Fecha del pozo: {ciudadano['fecha_pozo']}")
+        print(f"  Fecha creación: {ciudadano['fecha_crear']}")
+        print(f"  Fecha última modificación: {ciudadano['fecha_modif']}")
         print(f"  Creado por: {ciudadano['usuario_crear']}")
-        print(f"  Modificado por: {ciudadano['usuario_modificar']}")
+        print(f"  Modificado por: {ciudadano['usuario_modif']}")
         print("-" * 50)
 
 def registrar_accion(codigo_accion: str, mensaje_final: str, ciudadano_id: int = None) -> bool:

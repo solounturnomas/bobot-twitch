@@ -35,6 +35,9 @@ TOKEN_BOT = os.getenv('TOKEN_BOT')
 NOMBRE_BOT = os.getenv('NOMBRE_BOT')
 CANAL_BOT = os.getenv('CANAL_BOT')
 
+# Usar el nombre del bot como BOT_USERNAME
+BOT_USERNAME = NOMBRE_BOT
+
 # Diccionario de acciones para recompensas
 RECOMPENSAS = {
     'f7b19ecc-5085-43b2-a07e-dee6f8c064dd': 'talar',
@@ -88,7 +91,7 @@ class Bot(commands.Bot):
                 if accion:
                     logger.info(f"[Recompensa] {message.author.name}: {message.content} (ID: {reward_id}) - Acción: {accion}")
                     # Realizar acción y escribir mensaje en el chat
-                    await message.channel.send(realiza_accion(accion, message.author.name, reward_id))
+                    await message.channel.send(realiza_accion(accion, message.author.name, reward_id, message.content))
                 else:
                     logger.info(f"[Recompensa] {message.author.name}: {message.content} (ID: {reward_id}) - Acción no encontrada")
             else:
