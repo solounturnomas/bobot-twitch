@@ -1,0 +1,290 @@
+/* Variables de tema profesional tipo FIFA Manager */
+:root {
+    --primary-color: #2C3E50;    /* Azul grisáceo */
+    --secondary-color: #34495E;  /* Azul oscuro */
+    --accent-color: #3498DB;     /* Azul claro */
+    --text-color: #2C3E50;       /* Texto en azul grisáceo */
+    --background-color: #F8F9FA; /* Gris muy claro */
+    --card-background: #FFFFFF;  /* Blanco puro */
+    --border-color: #E0E0E0;     /* Gris suave */
+    --success-color: #2ECC71;    /* Verde profesional */
+    --warning-color: #E74C3C;    /* Rojo profesional */
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --animation-duration: 0.2s;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Encabezado */
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.logo-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: var(--card-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.logo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.header h1 {
+    color: var(--card-background);
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 600;
+    text-shadow: none;
+}
+
+/* Tarjetas */
+.card {
+    background-color: var(--card-background);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 4px var(--shadow-color);
+    transition: box-shadow var(--animation-duration) ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+.card h2 {
+    color: var(--accent-color);
+    margin-top: 0;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Listas */
+.list-group {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recursos {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+    padding: 15px 0;
+}
+
+.recursos::after {
+    content: '';
+    grid-column: span 6;
+}
+
+.recurso-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
+    min-width: 0; /* Evitar que los elementos se expandan más de su contenido */
+}
+
+.recurso-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.cantidad {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--text-color);
+    white-space: nowrap; /* Evitar que el número se divida en líneas */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recurso-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.recurso-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.cantidad {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--text-color);
+}
+
+.nivel-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.nivel-info {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.profesion-icon {
+    display: inline-block;
+    width: 24px;
+    text-align: center;
+    margin-right: 8px;
+    color: var(--accent-color);
+}
+
+.profesion-icon i {
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.nivel-bar {
+    flex: 1;
+    height: 8px;
+    background-color: var(--border-color);
+    border-radius: 4px;
+    margin: 0 15px;
+}
+
+.nivel-fill {
+    height: 100%;
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+.nivel-numero {
+    color: var(--text-color);
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+/* Botones */
+.btn {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color var(--animation-duration) ease;
+    margin: 5px;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.btn:hover {
+    background-color: #2980B9;
+    box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Niveles */
+.level-bar {
+    width: 100%;
+    height: 20px;
+    background-color: var(--border-color);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.level-fill {
+    height: 100%;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+/* Herramientas */
+.tools {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.tools img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    filter: brightness(0) saturate(100%);
+    transition: filter 0.3s ease;
+}
+
+.tools img.color {
+    filter: brightness(100%) saturate(100%);
+}
+
+/* Animaciones */
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .header h1 {
+        font-size: 2em;
+    }
+}

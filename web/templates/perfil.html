@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de {{ ciudadano.nombre }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .header {
+            background-color: var(--primary-color);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            height: auto;
+        }
+
+        .logo-container {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            background-color: var(--card-background);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 4px var(--shadow-color);
+        }
+
+        .logo {
+            height: 100%;
+            width: auto;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body class="fade-in">
+    <div class="container">
+        <div class="header">
+            <div class="logo-container">
+                <img src="{{ url_for('static', filename='img/Logo.png') }}" alt="Logo" class="logo">
+            </div>
+            <h1>Perfil de {{ ciudadano.nombre }}</h1>
+        </div>
+
+        <div class="card">
+            <h2>Información General</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <span>Rango:</span>
+                    {{ ciudadano.rango }}
+                </li>
+                <li class="list-group-item">
+                    <span>Fecha última visita al pozo:</span>
+                    {{ ciudadano.fecha_pozo }}
+                </li>
+                <li class="list-group-item">
+                    <span>Fecha creación:</span>
+                    {{ ciudadano.fecha_crear }}
+                </li>
+                <li class="list-group-item">
+                    <span>Última modificación:</span>
+                    {{ ciudadano.fecha_modif }}
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Recursos</h2>
+            <div class="recursos">
+                {% for nombre, cantidad in recursos.items() %}
+                <div class="recurso-item">
+                    <img src="{{ url_for('static', filename='img/recursos/' + recursos_singulares[nombre.lower()] + '.png') }}" 
+                         alt="{{ nombre }}" 
+                         class="recurso-icon">
+                    <span class="cantidad">{{ cantidad }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Niveles</h2>
+            <div class="niveles">
+                {% for nombre, nivel in niveles.items() %}
+                <div class="nivel-item">
+                    <div class="nivel-info">
+                        <span class="profesion-icon">
+                            {% if nombre == 'Leñador' %}<i class="fas fa-tree"></i>
+                            {% elif nombre == 'Recolector' %}<i class="fas fa-leaf"></i>
+                            {% elif nombre == 'Pescador' %}<i class="fas fa-fish"></i>
+                            {% elif nombre == 'Cazador' %}<i class="fas fa-bullseye"></i>
+                            {% elif nombre == 'Agricultor' %}<i class="fas fa-seedling"></i>
+                            {% elif nombre == 'Guardia' %}<i class="fas fa-shield-alt"></i>
+                            {% elif nombre == 'Minero' %}<i class="fas fa-gem"></i>
+                            {% endif %}
+                        </span>
+                        <span>{{ nombre }}:</span>
+                    </div>
+                    <div class="nivel-bar">
+                        <div class="nivel-fill" style="width: {{ nivel }}%"></div>
+                    </div>
+                    <span class="nivel-numero">{{ nivel }}%</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Herramientas</h2>
+            <div class="tools">
+                {% for nombre, tiene in herramientas.items() %}
+                    <img src="{{ url_for('static', filename='img/tools/' + (nombre.lower().replace(' ', '_') if nombre != 'Caña de pescar' else 'cana') + '.png') }}" 
+                         alt="{{ nombre }}" 
+                         class="tool {% if tiene %}color{% endif %}">
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Auditoría</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <span>Fecha creación:</span>
+                    {{ ciudadano.fecha_crear }}
+                </li>
+                <li class="list-group-item">
+                    <span>Fecha última modificación:</span>
+                    {{ ciudadano.fecha_modif }}
+                </li>
+                <li class="list-group-item">
+                    <span>Creado por:</span>
+                    {{ ciudadano.usuario_crear }}
+                </li>
+                <li class="list-group-item">
+                    <span>Modificado por:</span>
+                    {{ ciudadano.usuario_modif }}
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
