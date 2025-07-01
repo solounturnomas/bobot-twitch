@@ -1,3 +1,6 @@
+E:
+cd BOBOT
 git add .
 git commit -m "base de datos"
 git push -u origin master
+git status
