@@ -58,7 +58,8 @@ def api_mapa():
     with sqlite3.connect(DB_PATH) as conn:
         cursor = conn.cursor()
         cursor.execute('''
-            SELECT x, z, tipo FROM mapa
+            SELECT m.x, m.z, m.tipo, m.ciudadano_id, c.nivel_casa, c.nombre FROM mapa m
+            LEFT JOIN ciudadanos c ON m.ciudadano_id = c.id
         ''')
         casillas = cursor.fetchall()
         
@@ -70,7 +71,10 @@ def api_mapa():
             resultado.append({
                 'x': casilla[0],
                 'z': casilla[1],
-                'tipo': tipo_nombre
+                'tipo': tipo_nombre,
+                'ciudadano_id': casilla[3],
+                'nivel_casa': casilla[4],
+                'nombre': casilla[5]
             })
         
         return jsonify(resultado)

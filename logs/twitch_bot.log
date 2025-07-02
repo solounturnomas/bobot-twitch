@@ -1396,3 +1396,85 @@
 2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Caminos y solares actualizados exitosamente
 2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Solar más cercano encontrado en (-3, -1)
 2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Ciudadano 1 asignado al solar (-3, -1)
+2025-07-02 03:25:47 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:25:47 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:25:47 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:25:47 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:25:47 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:25:47 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:25:48 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:25:48 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:25:48 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:25:48 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:25:48 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:25:48 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:32:07 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:32:07 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:32:07 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:32:07 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:32:07 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:32:07 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:32:08 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:32:08 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:32:08 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:32:08 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:32:08 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:32:08 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:40:18 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:40:18 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:40:18 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:40:18 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:40:18 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:40:18 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:40:18 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:40:18 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:40:18 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:40:18 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:40:18 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:40:18 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:49:17 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:49:17 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:49:17 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:49:17 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:49:17 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:49:17 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:53:38 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:53:38 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:53:38 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:53:38 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:53:38 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:53:38 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:58:58 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:58:58 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:58:58 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:58:58 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:58:58 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:58:58 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:58:58 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:58:58 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:58:58 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:58:58 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:58:58 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:58:58 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 04:06:08 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 04:06:08 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 04:06:08 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 04:06:08 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 04:06:08 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 04:06:08 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 04:08:45 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 04:08:45 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 04:08:45 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 04:08:45 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 04:08:45 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 04:08:45 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 04:08:51 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 04:08:51 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 04:08:51 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 04:08:51 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 04:08:51 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 04:08:51 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 04:13:24 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-02 04:13:24 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-07-02 04:13:24 - twitch_bot.database - INFO - Registrando acción: FABRICAR
+2025-07-02 04:13:24 - twitch_bot.database - INFO - Acción registrada exitosamente: FABRICAR
