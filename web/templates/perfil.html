@@ -52,21 +52,29 @@
             <h2>Información General</h2>
             <ul class="list-group">
                 <li class="list-group-item">
-                    <span>Rango:</span>
-                    {{ ciudadano.rango }}
+                    <span>
+                    {{ desc_rango }}
+                    </span>
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                    <img src="{{ url_for('static', filename='img/pozo.png') }}" alt="Pozo" style="width:32px; height:32px; margin-right:8px;">
+                    <span class="me-2">{{ fecha_pozo_fmt }}</span>
+                </li>
+                <li class="list-group-item d-flex align-items-center" {% if show_mejora_info %}title="{{ tooltip_mejora }}"{% endif %}>
+                    <img src="{{ url_for('static', filename='img/casa/nivel_casa_' ~ ciudadano.nivel_casa ~ '.png') }}" alt="Casa nivel {{ ciudadano.nivel_casa }}" style="width:48px; height:48px; margin-right:8px;" {% if show_mejora_info and not puede_mejorar %}title="{{ tooltip_mejora }}"{% endif %}>
+                    <span class="me-2">{{ desc_casa }}</span>
+                    {% if puede_mejorar %}
+                    <form action="{{ url_for('route_mejorar_casa') }}" method="post" style="display:inline;">
+                        <button type="submit" style="border:none; background:transparent; padding:0;">
+                            <img src="{{ url_for('static', filename='img/martillo.png') }}" alt="Mejorar" style="width:32px; height:32px; margin-left:8px;" title="{{ tooltip_mejora }}">
+                        </button>
+                    </form>
+                    {% endif %}
                 </li>
                 <li class="list-group-item">
-                    <span>Fecha última visita al pozo:</span>
-                    {{ ciudadano.fecha_pozo }}
+                    En la ciudad desde: {{ ciudad_desde_fmt }} - Última vez en la ciudad: {{ ultima_ciudad_fmt }}
                 </li>
-                <li class="list-group-item">
-                    <span>Fecha creación:</span>
-                    {{ ciudadano.fecha_crear }}
-                </li>
-                <li class="list-group-item">
-                    <span>Última modificación:</span>
-                    {{ ciudadano.fecha_modif }}
-                </li>
+                
             </ul>
         </div>
 
@@ -74,11 +82,34 @@
             <h2>Recursos</h2>
             <div class="recursos">
                 {% for nombre, cantidad in recursos.items() %}
-                <div class="recurso-item">
+                <div class="recurso-item" title="{{ nombre }}">
                     <img src="{{ url_for('static', filename='img/recursos/' + recursos_singulares[nombre.lower()] + '.png') }}" 
                          alt="{{ nombre }}" 
+                         class="recurso-icon" 
+                         title="{{ nombre }}">
+                    <span class="cantidad" title="{{ nombre }}">{{ cantidad }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Productos</h2>
+            <div class="recursos">
+                {% for nombre, cantidad in productos.items() %}
+                <div class="recurso-item" title="{{ fabricacion_info[nombre]['tooltip'] }}">
+                    <img src="{{ url_for('static', filename='img/recursos/' + productos_singulares[nombre.lower()] + '.png') }}"
+                         alt="{{ nombre }}"
                          class="recurso-icon">
                     <span class="cantidad">{{ cantidad }}</span>
+                    {% set puede = fabricacion_info[nombre]['puede'] %}
+                    <form action="{{ url_for('route_fabricar', producto=nombre) }}" method="post" style="display:inline; margin-left:4px;" title="{{ fabricacion_info[nombre]['tooltip'] }}">
+                        {% if puede %}<button type="submit" style="background:none;border:none;padding:0;">{% else %}<button type="button" disabled style="background:none;border:none;padding:0;cursor:not-allowed;">{% endif %}
+                            <img src="{{ url_for('static', filename='img/martillo.png') }}"
+                                 alt="Fabricar"
+                                 style="width:20px;height:20px;{% if not puede %}filter:contrast(300%) opacity(0.5);{% endif %}">
+                        </button>
+                    </form>
                 </div>
                 {% endfor %}
             </div>
@@ -122,27 +153,7 @@
             </div>
         </div>
 
-        <div class="card">
-            <h2>Auditoría</h2>
-            <ul class="list-group">
-                <li class="list-group-item">
-                    <span>Fecha creación:</span>
-                    {{ ciudadano.fecha_crear }}
-                </li>
-                <li class="list-group-item">
-                    <span>Fecha última modificación:</span>
-                    {{ ciudadano.fecha_modif }}
-                </li>
-                <li class="list-group-item">
-                    <span>Creado por:</span>
-                    {{ ciudadano.usuario_crear }}
-                </li>
-                <li class="list-group-item">
-                    <span>Modificado por:</span>
-                    {{ ciudadano.usuario_modif }}
-                </li>
-            </ul>
-        </div>
+        
     </div>
 </body>
 </html>

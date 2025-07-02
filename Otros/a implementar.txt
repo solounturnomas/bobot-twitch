@@ -1,27 +1,21 @@
-muestrame una lista de las cosas necesarias para desarrollar lo que hay en este proyecto para hacerlo de 0 e ir probandolo poco a poco
-
-
-quiero añadir accion cazar
-añadir opcion pescar, la primera dará algo de carne y pieles y la segunda pesacado. añade estos recursos en todos los ficheros.
-
-el bot debe mandar un  mensaje conforme reclamen las recompensas de accion con la accion la cantidad de recursos conseguidos y la experiencia ganada.
-
-las columnas del ciudadano experiencia y nivel no tiene que exister ya que existen los niveles de las habilidades individualmente.
-
-cuando el usuario solounturnomas ponga hola en un mensaje en el chat el robot tendra que responder "hola jefe!"
 
 Sistema de niveles de ciudadanos:
     Por cada una de las acciones crear una habilidad que ira mejorando conforme se vaya relizando esa accion
     talar, picar, cultivar, cazar, luchar, pescar
 
-Hacer obtencion de recursos y experiencia variable segun se considere la accion como exitosa x1.3, normal x1 o poco exitosa x0.7.
+Hacer obtencion de experiencia variable segun se considere la accion como exitosa x1.3, normal x1 o poco exitosa x0.7.
+
 Crear sistema de comercio, para comprar herramientas y recursos y vender recursos.
     las herramientas seran, espada, arco, hazada, caña de pescar, pico y hacha
 
 
-añadir productos manufacturados, 
-    convierte el trigo, carne/ pescado en comida elaborada, 
-    la piedra en bloques, y la madera en tablones y ramas.
+sistemas de eventos de construccion
+horno
+sierra
+
+sistema de donacion de material
+
+
 
 añadir sistema de comida
     por cada dia que pase se consume una comida 
@@ -29,8 +23,4 @@ añadir sistema de comida
 añadir sistema de parcelas
     en un sistema de cuadriculas donde las 9 casillas centrales seran consideradas el centro del poblado
     la matriz se ira ampliando ampliando una casilla por cada lado conforme sea necesario quedando el centro del pueblo en las cordenadas 0.0
-
-añadir un sistema de construccion de la parcela,
-     pudiendo construir una tienda de campaña, donde hace falta pieles y madera, una cabaña con tablones y una casa con pìedra
-
 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa - Soloville</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/mapa.css') }}">
+    <script src="{{ url_for('static', filename='js/mapa.js') }}" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Mapa de Soloville</h1>
+        <nav>
+            <button id="btn-zoom-in">+</button>
+            <button id="btn-zoom-out">-</button>
+            <button id="btn-center">Centrar</button>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="grid-container">
+            <div id="grid"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Coordenadas actuales: <span id="current-coords">0,0</span></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,211 @@
+2025-07-01 18:57:37 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 18:57:37 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 18:57:37 - twitch_bot.database - INFO - Añadiendo columna nivel_casa a ciudadanos
+2025-07-01 18:57:37 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 18:57:37 - twitch_bot.database - INFO - Añadiendo columna cant_bloque a ciudadanos
+2025-07-01 18:57:37 - twitch_bot.database - INFO - Añadiendo columna cant_arcilla a ciudadanos
+2025-07-01 18:57:37 - twitch_bot.database - INFO - Añadiendo columna cant_ladrillos a ciudadanos
+2025-07-01 18:57:37 - twitch_bot.database - INFO - Añadiendo columna cant_comida a ciudadanos
+2025-07-01 18:57:37 - twitch_bot.database - INFO - Añadiendo columna cant_cuerda a ciudadanos
+2025-07-01 18:57:37 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 18:57:37 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 19:04:34 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 19:04:34 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 19:04:34 - twitch_bot.database - INFO - Añadiendo columna cant_ladrillo a ciudadanos
+2025-07-01 19:04:35 - twitch_bot.database - INFO - Copiando datos de cant_ladrillos a cant_ladrillo
+2025-07-01 19:04:35 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 19:04:35 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 19:06:49 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 19:06:49 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 19:06:49 - twitch_bot.database - INFO - Copiando datos de cant_ladrillos a cant_ladrillo
+2025-07-01 19:06:49 - twitch_bot.database - INFO - Eliminando columna antigua cant_ladrillos
+2025-07-01 19:06:49 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 19:06:49 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 19:07:24 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 19:07:24 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 19:07:24 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 19:07:24 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 19:07:24 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 19:28:17 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 19:28:17 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 19:28:17 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 19:28:17 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 19:28:17 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 19:28:17 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 19:28:17 - twitch_bot - INFO - Bot inicializado correctamente.
+2025-07-01 19:28:19 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
+2025-07-01 19:28:19 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:28
+2025-07-01 19:28:19 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:28
+2025-07-01 19:59:50 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 19:59:50 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 19:59:50 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 19:59:50 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 19:59:51 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 19:59:51 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 19:59:51 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 19:59:51 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 19:59:51 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 19:59:51 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 19:59:51 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 19:59:51 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 19:59:55 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 19:59:55 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-07-01 19:59:55 - twitch_bot.database - INFO - Registrando acción: MEJORAR_CASA
+2025-07-01 19:59:55 - twitch_bot.database - INFO - Acción registrada exitosamente: MEJORAR_CASA
+2025-07-01 19:59:55 - twitch_bot.database - INFO - solounturnomas ha mejorado su casa a nivel 1
+2025-07-01 20:03:10 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 20:03:10 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 20:03:10 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 20:03:10 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 20:03:10 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 20:03:10 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 20:03:11 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 20:03:11 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 20:03:11 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 20:03:11 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 20:03:11 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 20:03:11 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 20:05:12 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 20:05:12 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-07-01 20:05:12 - twitch_bot.database - INFO - Registrando acción: MEJORAR_CASA
+2025-07-01 20:05:12 - twitch_bot.database - INFO - Acción registrada exitosamente: MEJORAR_CASA
+2025-07-01 20:05:12 - twitch_bot.database - INFO - solounturnomas ha mejorado su casa a nivel 2
+2025-07-01 20:08:42 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 20:08:42 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 20:08:42 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 20:08:47 - twitch_bot.database - ERROR - Error al crear las tablas: database is locked
+2025-07-01 20:13:14 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 20:13:14 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 20:13:14 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 20:13:19 - twitch_bot.database - ERROR - Error al crear las tablas: database is locked
+2025-07-01 20:16:14 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 20:16:14 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 20:16:14 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 20:16:19 - twitch_bot.database - ERROR - Error al crear las tablas: database is locked
+2025-07-01 20:19:14 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 20:19:14 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 20:19:14 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 20:19:19 - twitch_bot.database - ERROR - Error al crear las tablas: database is locked
+2025-07-01 20:20:47 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 20:20:47 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 20:20:47 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 20:20:47 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 20:20:47 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 20:20:47 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 20:20:48 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 20:20:48 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 20:20:48 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 20:20:48 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 20:20:48 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 20:20:48 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 20:23:27 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 20:23:27 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 20:23:27 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 20:23:27 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 20:23:27 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 20:23:27 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 20:24:50 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 20:24:50 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 20:24:50 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 20:24:50 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 20:24:50 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 20:24:50 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 20:25:25 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 20:25:25 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 20:25:25 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 20:25:25 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 20:25:25 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 20:25:25 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 20:25:44 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 20:25:44 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 20:25:44 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 20:25:45 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 20:25:45 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 20:25:45 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 20:26:43 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 20:26:43 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 20:26:43 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 20:26:43 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 20:26:43 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 20:26:43 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 20:33:52 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 20:33:52 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 20:33:52 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 20:33:52 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 20:33:52 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 20:33:52 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 20:39:52 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 20:39:52 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 20:39:52 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 20:39:52 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 20:39:52 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 20:39:52 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 20:43:23 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 20:43:23 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cant_tablas
+2025-07-01 20:54:02 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 20:54:02 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cant_tablas
+2025-07-01 20:54:43 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 20:54:43 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-07-01 20:54:43 - twitch_bot.database - INFO - Registrando acción: FABRICAR
+2025-07-01 20:54:43 - twitch_bot.database - INFO - Acción registrada exitosamente: FABRICAR
+2025-07-01 20:54:52 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 20:54:56 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 20:54:58 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-07-01 20:54:58 - twitch_bot.database - INFO - Registrando acción: FABRICAR
+2025-07-01 20:54:58 - twitch_bot.database - INFO - Acción registrada exitosamente: FABRICAR
+2025-07-01 20:55:03 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 20:55:03 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-07-01 20:55:03 - twitch_bot.database - INFO - Registrando acción: FABRICAR
+2025-07-01 20:55:03 - twitch_bot.database - INFO - Acción registrada exitosamente: FABRICAR
+2025-07-01 20:55:10 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 20:55:11 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-07-01 20:55:11 - twitch_bot.database - INFO - Registrando acción: FABRICAR
+2025-07-01 20:55:11 - twitch_bot.database - INFO - Acción registrada exitosamente: FABRICAR
+2025-07-01 20:55:16 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 20:55:16 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cant_tablas
+2025-07-01 20:57:57 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 20:57:57 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cant_tablas
+2025-07-01 21:02:02 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 21:02:02 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cant_tablas
+2025-07-01 21:03:11 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 21:03:12 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-07-01 21:03:12 - twitch_bot.database - INFO - Registrando acción: FABRICAR
+2025-07-01 21:03:12 - twitch_bot.database - INFO - Acción registrada exitosamente: FABRICAR
+2025-07-01 21:06:48 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 21:06:48 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 21:06:48 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 21:06:48 - twitch_bot.database - INFO - Añadiendo columna cant_hierro_forjado a ciudadanos
+2025-07-01 21:06:48 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 21:06:48 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 21:06:48 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 21:07:06 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 21:07:06 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 21:07:06 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 21:07:06 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 21:07:06 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 21:07:06 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 21:07:16 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 21:07:16 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 21:07:16 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 21:07:16 - twitch_bot.database - INFO - Eliminando columna antigua cant_tablas
+2025-07-01 21:07:16 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 21:07:16 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 21:10:53 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 21:10:54 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-07-01 21:10:54 - twitch_bot.database - INFO - Registrando acción: FABRICAR
+2025-07-01 21:10:54 - twitch_bot.database - INFO - Acción registrada exitosamente: FABRICAR
+2025-07-01 21:10:59 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 21:10:59 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cant_tablas
+2025-07-01 21:11:46 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-01 21:11:46 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-01 21:11:46 - twitch_bot.database - INFO - Añadiendo columna cant_tablas a ciudadanos
+2025-07-01 21:11:46 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-01 21:11:46 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-01 21:13:09 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 21:13:09 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-07-01 21:13:09 - twitch_bot.database - INFO - Registrando acción: FABRICAR
+2025-07-01 21:13:09 - twitch_bot.database - INFO - Acción registrada exitosamente: FABRICAR
+2025-07-01 23:51:51 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-01 23:51:51 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
+2025-07-01 23:51:51 - twitch_bot.database - INFO - Registrando acción: FABRICAR
+2025-07-01 23:51:51 - twitch_bot.database - INFO - Acción registrada exitosamente: FABRICAR

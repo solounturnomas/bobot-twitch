@@ -1,829 +1,1398 @@
-2025-06-30 13:58:27 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 13:58:28 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 13:58:28 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 13:58
-2025-06-30 13:58:28 - twitch_bot - ERROR - Error en event_ready: name 'BOT_CANAL' is not defined
-2025-06-30 13:59:08 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 13:59:10 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 13:59:10 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 13:59
-2025-06-30 13:59:10 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 13:59
-2025-06-30 14:03:05 - twitch_bot - INFO - [Mensaje] solounturnomas: Hola
-2025-06-30 14:03:05 - twitch_bot - INFO - [Sistema] ¡Hola, jefe!
-2025-06-30 14:03:18 - twitch_bot - INFO - [Recompensa] solounturnomas: S (ID: f7b19ecc-5085-43b2-a07e-dee6f8c064dd) - Acción: talar
-2025-06-30 14:03:18 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha usado la acción Talar!
-2025-06-30 14:22:23 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 14:22:24 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 14:22:24 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 14:22
-2025-06-30 14:22:24 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 14:22
-2025-06-30 14:23:07 - twitch_bot - INFO - [Recompensa] solounturnomas: f (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción no encontrada
-2025-06-30 14:23:32 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: 065567f5-e68f-43cd-816f-f4ef0e64572d) - Acción no encontrada
-2025-06-30 14:23:58 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción no encontrada
-2025-06-30 14:24:23 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción no encontrada
-2025-06-30 14:24:42 - twitch_bot - INFO - [Recompensa] solounturnomas: 1 (ID: 720eab8f-404a-4166-a035-b2db303cc4d5) - Acción no encontrada
-2025-06-30 14:25:03 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 14:25:05 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 14:25:05 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 14:25
-2025-06-30 14:25:05 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 14:25
-2025-06-30 14:25:13 - twitch_bot - INFO - [Recompensa] solounturnomas: aw (ID: 065567f5-e68f-43cd-816f-f4ef0e64572d) - Acción: pescar
-2025-06-30 14:25:13 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a pescar!
-2025-06-30 14:25:20 - twitch_bot - INFO - [Recompensa] solounturnomas: as (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
-2025-06-30 14:25:20 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo!
-2025-06-30 14:25:28 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
-2025-06-30 14:25:28 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a picar piedra!
-2025-06-30 14:25:39 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: 720eab8f-404a-4166-a035-b2db303cc4d5) - Acción: cazar en el bosque
-2025-06-30 14:25:39 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha entrado al bosque para cazar!
-2025-06-30 14:25:45 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 14:25:45 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia!
-2025-06-30 14:25:53 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: f7b19ecc-5085-43b2-a07e-dee6f8c064dd) - Acción: talar
-2025-06-30 14:25:53 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha usado la acción Talar!
-2025-06-30 15:45:40 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 15:45:42 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 15:45:42 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 15:45
-2025-06-30 15:45:42 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 15:45
-2025-06-30 15:46:22 - twitch_bot - INFO - [Recompensa] solounturnomas: h (ID: f7b19ecc-5085-43b2-a07e-dee6f8c064dd) - Acción: talar
-2025-06-30 15:46:23 - twitch_bot - INFO - [Sistema] ¡solounturnomas se ha ido a talar al bosque!
-2025-06-30 15:56:40 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 15:56:40 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 15:56:40 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 15:56:40 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 15:56:44 - twitch_bot.database - INFO - Listado 1 ciudadanos activos
-2025-06-30 15:57:38 - twitch_bot.database - INFO - Listando historial de acciones
-2025-06-30 15:57:38 - twitch_bot.database - INFO - Encontradas 1 acciones en el historial
-2025-06-30 16:27:32 - twitch_bot.modificar_tabla - INFO - Iniciando modificación de la tabla ciudadanos
-2025-06-30 16:27:32 - twitch_bot.modificar_tabla - INFO - Campo añadido: tiene_hacha
-2025-06-30 16:27:33 - twitch_bot.modificar_tabla - INFO - Campo añadido: tiene_pico
-2025-06-30 16:27:33 - twitch_bot.modificar_tabla - INFO - Campo añadido: tiene_espada
-2025-06-30 16:27:33 - twitch_bot.modificar_tabla - INFO - Campo añadido: tiene_hazada
-2025-06-30 16:27:33 - twitch_bot.modificar_tabla - INFO - Campo añadido: tiene_arco
-2025-06-30 16:27:33 - twitch_bot.modificar_tabla - INFO - Campo añadido: tiene_caña_pescar
-2025-06-30 16:27:33 - twitch_bot.modificar_tabla - INFO - Campo añadido: fecha_pozo
-2025-06-30 16:27:33 - twitch_bot.modificar_tabla - INFO - Modificación de tabla completada exitosamente
-2025-06-30 16:27:52 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 16:27:52 - twitch_bot.database - ERROR - Error al crear las tablas: unrecognized token: "',
-                    -- auditoria
-                    fecha_crea TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    fecha_modificar TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    usuario_crear TEXT,
-                    usuario_modificar TEXT,
-                    fecha_borrar TIMESTAMP,
-                    usuario_borrar TEXT,
-                    borrado_logico BOOLEAN DEFAULT FALSE,
-                    version INTEGER DEFAULT 1,
-                )
-            "
-2025-06-30 16:28:15 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 16:28:15 - twitch_bot.database - ERROR - Error al crear las tablas: unrecognized token: "',
-                    -- auditoria
-                    fecha_crea TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    fecha_modificar TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    usuario_crear TEXT,
-                    usuario_modificar TEXT,
-                    fecha_borrar TIMESTAMP,
-                    usuario_borrar TEXT,
-                    borrado_logico BOOLEAN DEFAULT FALSE,
-                    version INTEGER DEFAULT 1,
-                )
-            "
-2025-06-30 16:28:58 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 16:28:58 - twitch_bot.database - ERROR - Error al crear las tablas: near ")": syntax error
-2025-06-30 16:29:56 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 16:29:56 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 16:29:56 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 16:29:56 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 16:29:59 - twitch_bot.database - INFO - Listado 1 ciudadanos activos
-2025-06-30 16:33:33 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 16:33:33 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 16:33:33 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 16:33:33 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 16:35:06 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 16:35:06 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 16:35:06 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 16:35:06 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 16:35:13 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 16:35:13 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 16:35:13 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 16:35:13 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 16:38:49 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 16:38:49 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 16:38:49 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 16:38:49 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 16:39:18 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 16:39:18 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 16:39:18 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 16:39:18 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 16:39:46 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 16:39:46 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 16:39:46 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 16:39:46 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 16:39:50 - twitch_bot.database - INFO - Encontrados 1 ciudadanos
-2025-06-30 16:58:34 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 16:58:34 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 16:58:34 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 16:58:34 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 16:58:34 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 16:58:35 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 16:58:35 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 16:58
-2025-06-30 16:58:35 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 16:58
-2025-06-30 16:59:14 - twitch_bot - INFO - [Recompensa] solounturnomas: as (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 16:59:14 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 16:59:14 - twitch_bot - ERROR - Error al procesar mensaje: name 'logging' is not defined
-2025-06-30 17:03:20 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:03:20 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:03:20 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:03:20 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:03:20 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 17:03:22 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 17:03:22 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:03
-2025-06-30 17:03:22 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:03
-2025-06-30 17:03:35 - twitch_bot - INFO - [Recompensa] solounturnomas: h (ID: 065567f5-e68f-43cd-816f-f4ef0e64572d) - Acción: pescar
-2025-06-30 17:03:35 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:03:35 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 17:03:36 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
-2025-06-30 17:03:36 - twitch_bot.database - INFO - Registrando acción: pescar
-2025-06-30 17:03:36 - twitch_bot.database - INFO - Acción registrada exitosamente: pescar
-2025-06-30 17:03:36 - twitch_bot - INFO - [Sistema] @solounturnomas ha realizado la acción pescar y obtiene:
-2025-06-30 17:05:07 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:05:07 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:05:07 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:05:07 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:05:10 - twitch_bot.database - INFO - Encontrados 1 ciudadanos
-2025-06-30 17:06:46 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:06:46 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:06:46 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:06:46 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:06:46 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 17:06:48 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 17:06:48 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:06
-2025-06-30 17:06:48 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:06
-2025-06-30 17:06:54 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: 065567f5-e68f-43cd-816f-f4ef0e64572d) - Acción: pescar
-2025-06-30 17:06:54 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:06:54 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 17:06:54 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
-2025-06-30 17:06:54 - twitch_bot.database - INFO - Registrando acción: pescar
-2025-06-30 17:06:54 - twitch_bot.database - INFO - Acción registrada exitosamente: pescar
-2025-06-30 17:06:54 - twitch_bot - INFO - [Sistema] @solounturnomas ha realizado la acción pescar y obtiene:
-2025-06-30 17:10:17 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:10:17 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:10:17 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:10:17 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:10:17 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 17:10:19 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 17:10:19 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:10
-2025-06-30 17:10:19 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:10
-2025-06-30 17:10:26 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: 065567f5-e68f-43cd-816f-f4ef0e64572d) - Acción: pescar
-2025-06-30 17:10:26 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:10:26 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 17:10:26 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
-2025-06-30 17:10:26 - twitch_bot.database - INFO - Registrando acción: pescar
-2025-06-30 17:10:26 - twitch_bot.database - INFO - Acción registrada exitosamente: pescar
-2025-06-30 17:10:26 - twitch_bot - INFO - [Sistema] @solounturnomas ha realizado la acción pescar y obtiene: 5 pescado
-2025-06-30 17:15:16 - twitch_bot - INFO - [Mensaje] nightbot: Participa en el sorteo de un juego con !sorteo.
-2025-06-30 17:17:59 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:17:59 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:17:59 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:17:59 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:18:01 - twitch_bot.database - INFO - Encontrados 1 ciudadanos
-2025-06-30 17:18:49 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:18:49 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:18:49 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:18:49 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:18:49 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 17:18:50 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 17:18:50 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:18
-2025-06-30 17:18:50 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:18
-2025-06-30 17:18:59 - twitch_bot - INFO - [Recompensa] solounturnomas: z (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
-2025-06-30 17:18:59 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:18:59 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 17:19:00 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
-2025-06-30 17:19:00 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
-2025-06-30 17:19:00 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
-2025-06-30 17:19:00 - twitch_bot - INFO - [Sistema] @solounturnomas ha realizado la acción trabajar en el campo y obtiene: 5 trigo
-2025-06-30 17:25:56 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:25:56 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:25:56 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:25:56 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:25:56 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 17:25:58 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 17:25:58 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:25
-2025-06-30 17:25:58 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:25
-2025-06-30 17:26:23 - twitch_bot - INFO - [Recompensa] solounturnomas: Quiero ramas y piedras (ID: f7b19ecc-5085-43b2-a07e-dee6f8c064dd) - Acción: talar
-2025-06-30 17:26:23 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:26:23 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 17:27:45 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:27:45 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:27:45 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:27:45 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:27:45 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 17:27:46 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 17:27:47 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:27
-2025-06-30 17:27:47 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:27
-2025-06-30 17:28:11 - twitch_bot - INFO - [Recompensa] solounturnomas: Quiero hierbas y piedra. (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
-2025-06-30 17:28:11 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:28:11 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 17:30:50 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:30:50 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:30:50 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:30:50 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:30:50 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 17:30:52 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 17:30:52 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:30
-2025-06-30 17:30:52 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:30
-2025-06-30 17:31:04 - twitch_bot - INFO - [Recompensa] solounturnomas: Quiero piedra y hierbas (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
-2025-06-30 17:31:04 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:31:04 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 17:33:13 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:33:13 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:33:13 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:33:13 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:33:13 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 17:33:14 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 17:33:14 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:33
-2025-06-30 17:33:14 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:33
-2025-06-30 17:33:36 - twitch_bot - INFO - [Recompensa] solounturnomas: Quiero piedras y hierbas (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
-2025-06-30 17:33:36 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:33:36 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 17:33:36 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_hierbas
-2025-06-30 17:33:36 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
-2025-06-30 17:33:36 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
-2025-06-30 17:33:36 - twitch_bot - INFO - [Sistema] ¡{autor} ha comenzado a trabajar en el campo! 5 trigo, 1 hierbas
-2025-06-30 17:35:32 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:35:32 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:35:32 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:35:32 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:35:32 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 17:35:34 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 17:35:34 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:35
-2025-06-30 17:35:34 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:35
-2025-06-30 17:35:40 - twitch_bot - INFO - [Recompensa] solounturnomas: hierba (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
-2025-06-30 17:35:40 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:35:40 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 17:38:00 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:38:00 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:38:00 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:38:00 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:38:00 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 17:38:01 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 17:38:01 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:38
-2025-06-30 17:38:01 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:38
-2025-06-30 17:38:10 - twitch_bot - INFO - [Recompensa] solounturnomas: hierba (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
-2025-06-30 17:38:10 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:38:10 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 17:38:10 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_hierbas
-2025-06-30 17:38:10 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
-2025-06-30 17:38:10 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
-2025-06-30 17:38:10 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo! 5 trigo, 1 hierbas
-2025-06-30 17:38:23 - twitch_bot - INFO - [Recompensa] solounturnomas: hierba (ID: 065567f5-e68f-43cd-816f-f4ef0e64572d) - Acción: pescar
-2025-06-30 17:38:23 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:38:23 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 17:38:23 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_hierbas
-2025-06-30 17:38:23 - twitch_bot.database - INFO - Registrando acción: pescar
-2025-06-30 17:38:24 - twitch_bot.database - INFO - Acción registrada exitosamente: pescar
-2025-06-30 17:38:24 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a pescar! 5 pescado, 1 hierbas
-2025-06-30 17:38:31 - twitch_bot - INFO - [Recompensa] solounturnomas: hierba (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
-2025-06-30 17:38:31 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:38:31 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 17:40:02 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:40:02 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:40:02 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:40:02 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:40:02 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 17:40:04 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 17:40:04 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:40
-2025-06-30 17:40:04 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:40
-2025-06-30 17:40:17 - twitch_bot - INFO - [Recompensa] solounturnomas: hierba y piedra y hierro (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
-2025-06-30 17:40:17 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:40:17 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 17:41:08 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:41:08 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:41:08 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:41:08 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:41:08 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 17:41:10 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 17:41:10 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:41
-2025-06-30 17:41:10 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:41
-2025-06-30 17:41:16 - twitch_bot - INFO - [Recompensa] solounturnomas: hierba (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
-2025-06-30 17:41:16 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:41:16 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 17:43:04 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:43:04 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:43:04 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:43:04 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:43:04 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 17:43:06 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 17:43:06 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:43
-2025-06-30 17:43:06 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:43
-2025-06-30 17:44:01 - twitch_bot - INFO - [Recompensa] solounturnomas: hierba (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
-2025-06-30 17:44:01 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:44:01 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 17:45:25 - twitch_bot - INFO - [Mensaje] nightbot: Participa en el sorteo de un juego con !sorteo.
-2025-06-30 17:48:37 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:48:37 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:48:37 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:48:37 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:48:37 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 17:48:38 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 17:48:38 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:48
-2025-06-30 17:48:38 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:48
-2025-06-30 17:48:45 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
-2025-06-30 17:48:45 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:48:45 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 17:50:47 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:50:47 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:50:47 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:50:47 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:50:47 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 17:50:48 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 17:50:48 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:50
-2025-06-30 17:50:48 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:50
-2025-06-30 17:50:52 - twitch_bot - INFO - [Recompensa] solounturnomas: as (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
-2025-06-30 17:50:52 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:50:52 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 17:54:02 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:54:02 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:54:02 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:54:02 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:54:02 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 17:54:04 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 17:54:04 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 17:54
-2025-06-30 17:54:04 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 17:54
-2025-06-30 17:54:12 - twitch_bot - INFO - [Recompensa] solounturnomas: piedra roca rocas (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
-2025-06-30 17:54:12 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:54:12 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 17:54:12 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
-2025-06-30 17:54:12 - twitch_bot.database - INFO - Registrando acción: picar piedra
-2025-06-30 17:54:12 - twitch_bot.database - INFO - Acción registrada exitosamente: picar piedra
-2025-06-30 17:54:12 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a picar piedra! 7 piedra
-2025-06-30 17:56:44 - twitch_bot - INFO - [Recompensa] solounturnomas: piedra roca, rocas piedras (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
-2025-06-30 17:56:44 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 17:56:44 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 17:56:45 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
-2025-06-30 17:56:45 - twitch_bot.database - INFO - Registrando acción: picar piedra
-2025-06-30 17:56:45 - twitch_bot.database - INFO - Acción registrada exitosamente: picar piedra
-2025-06-30 17:56:45 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a picar piedra! 14 piedra
-2025-06-30 17:59:21 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 17:59:21 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 17:59:21 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 17:59:21 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 17:59:23 - twitch_bot.database - INFO - Encontrados 1 ciudadanos
-2025-06-30 18:00:50 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 18:00:50 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 18:00:50 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 18:00:50 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 18:00:50 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 18:00:51 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 18:00:51 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 18:00
-2025-06-30 18:00:51 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 18:00
-2025-06-30 18:00:56 - twitch_bot - INFO - [Recompensa] solounturnomas: piedra (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
-2025-06-30 18:00:56 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:00:56 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:00:56 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
-2025-06-30 18:00:56 - twitch_bot.database - INFO - Registrando acción: picar piedra
-2025-06-30 18:00:56 - twitch_bot.database - INFO - Acción registrada exitosamente: picar piedra
-2025-06-30 18:00:56 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a picar piedra! 28 piedra
-2025-06-30 18:02:54 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 18:02:54 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 18:02:54 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 18:02:54 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 18:02:54 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 18:02:56 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 18:02:56 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 18:02
-2025-06-30 18:02:56 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 18:02
-2025-06-30 18:03:02 - twitch_bot - INFO - [Recompensa] solounturnomas: Roca (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
-2025-06-30 18:03:02 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:03:02 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:03:02 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
-2025-06-30 18:03:02 - twitch_bot.database - INFO - Registrando acción: picar piedra
-2025-06-30 18:03:02 - twitch_bot.database - INFO - Acción registrada exitosamente: picar piedra
-2025-06-30 18:03:02 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a picar piedra! 6 piedra
-2025-06-30 18:03:18 - twitch_bot - INFO - [Recompensa] solounturnomas: Roca piedra rocas piedras (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
-2025-06-30 18:03:18 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:03:18 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:03:19 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
-2025-06-30 18:03:19 - twitch_bot.database - INFO - Registrando acción: picar piedra
-2025-06-30 18:03:19 - twitch_bot.database - INFO - Acción registrada exitosamente: picar piedra
-2025-06-30 18:03:19 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a picar piedra! 6 piedra
-2025-06-30 18:03:45 - twitch_bot - INFO - [Recompensa] solounturnomas: carne piel hierba piedra (ID: 720eab8f-404a-4166-a035-b2db303cc4d5) - Acción: cazar en el bosque
-2025-06-30 18:03:45 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:03:45 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:03:45 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_hierbas
-2025-06-30 18:03:45 - twitch_bot.database - INFO - Registrando acción: cazar en el bosque
-2025-06-30 18:03:45 - twitch_bot.database - INFO - Acción registrada exitosamente: cazar en el bosque
-2025-06-30 18:03:45 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha entrado al bosque para cazar! 2 carne, 4 piel, 1 hierbas
-2025-06-30 18:04:40 - twitch_bot - INFO - [Recompensa] solounturnomas: dinero moneda (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 18:04:40 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:04:40 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:04:40 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
-2025-06-30 18:04:40 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 18:04:40 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 18:04:40 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 11 monedas
-2025-06-30 18:09:55 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 18:09:55 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 18:09:55 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 18:09:55 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 18:09:55 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 18:09:57 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 18:09:57 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 18:09
-2025-06-30 18:09:57 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 18:09
-2025-06-30 18:10:07 - twitch_bot - INFO - [Recompensa] solounturnomas: Moneda (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 18:10:07 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:10:07 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:10:07 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
-2025-06-30 18:10:07 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 18:10:07 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 18:10:07 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 12 monedas
-2025-06-30 18:11:20 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 18:11:20 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 18:11:20 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 18:11:20 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 18:11:20 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 18:11:22 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 18:11:22 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 18:11
-2025-06-30 18:11:22 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 18:11
-2025-06-30 18:11:33 - twitch_bot - INFO - [Recompensa] solounturnomas: moneda (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 18:11:33 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:11:33 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:11:33 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
-2025-06-30 18:11:33 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 18:11:34 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 18:11:34 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 12.5 monedas
-2025-06-30 18:12:32 - twitch_bot - INFO - [Recompensa] solounturnomas: carne (ID: 720eab8f-404a-4166-a035-b2db303cc4d5) - Acción: cazar en el bosque
-2025-06-30 18:12:32 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:12:32 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:12:32 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
-2025-06-30 18:12:32 - twitch_bot.database - INFO - Registrando acción: cazar en el bosque
-2025-06-30 18:12:33 - twitch_bot.database - INFO - Acción registrada exitosamente: cazar en el bosque
-2025-06-30 18:12:33 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha entrado al bosque para cazar! 1.25 carne, 3 piel
-2025-06-30 18:12:45 - twitch_bot - INFO - [Recompensa] solounturnomas: carne y piel (ID: 720eab8f-404a-4166-a035-b2db303cc4d5) - Acción: cazar en el bosque
-2025-06-30 18:12:45 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:12:45 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:12:46 - twitch_bot.database - INFO - Ciudadano actualizado exitosamente: solounturnomas
-2025-06-30 18:12:46 - twitch_bot.database - INFO - Registrando acción: cazar en el bosque
-2025-06-30 18:12:46 - twitch_bot.database - INFO - Acción registrada exitosamente: cazar en el bosque
-2025-06-30 18:12:46 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha entrado al bosque para cazar! 1.25 carne, 3.75 piel
-2025-06-30 18:15:18 - twitch_bot - INFO - [Mensaje] nightbot: Participa en el sorteo de un juego con !sorteo.
-2025-06-30 18:17:36 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 18:17:36 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 18:17:36 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 18:17:36 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 18:17:36 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 18:17:38 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 18:17:38 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 18:17
-2025-06-30 18:17:38 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 18:17
-2025-06-30 18:17:50 - twitch_bot - INFO - [Recompensa] solounturnomas: Monedas (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 18:17:50 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:17:50 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:17:50 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
-2025-06-30 18:17:50 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 18:17:51 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 18:17:51 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 16.25 monedas ¡Qué bien!
-2025-06-30 18:18:04 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 18:18:04 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:18:04 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:18:04 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
-2025-06-30 18:18:04 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 18:18:04 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 18:18:04 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 10 monedas No está mal!
-2025-06-30 18:18:15 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 18:18:15 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:18:15 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:18:15 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
-2025-06-30 18:18:15 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 18:18:15 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 18:18:15 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 13.0 monedas ¡Qué bien!
-2025-06-30 18:18:24 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 18:18:24 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:18:24 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:18:24 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
-2025-06-30 18:18:24 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 18:18:24 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 18:18:24 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 10 monedas No está mal!
-2025-06-30 18:18:49 - twitch_bot - INFO - [Recompensa] solounturnomas: ghkj (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 18:18:49 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:18:49 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:18:49 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
-2025-06-30 18:18:49 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 18:18:49 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 18:18:49 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 13.0 monedas ¡Qué bien!
-2025-06-30 18:18:59 - twitch_bot - INFO - [Recompensa] solounturnomas: jhkhgjk (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 18:18:59 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:18:59 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:18:59 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
-2025-06-30 18:18:59 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 18:18:59 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 18:18:59 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 10 monedas No está mal!
-2025-06-30 18:19:07 - twitch_bot - INFO - [Recompensa] solounturnomas: fghfgh (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 18:19:07 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:19:07 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:19:07 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
-2025-06-30 18:19:07 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 18:19:08 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 18:19:08 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 10 monedas No está mal!
-2025-06-30 18:19:15 - twitch_bot - INFO - [Recompensa] solounturnomas: yfklfhjk (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 18:19:15 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:19:15 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:19:15 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
-2025-06-30 18:19:15 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 18:19:15 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 18:19:15 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 10 monedas No está mal!
-2025-06-30 18:19:23 - twitch_bot - INFO - [Recompensa] solounturnomas: gfhxfgh (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 18:19:23 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:19:23 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:19:23 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
-2025-06-30 18:19:23 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 18:19:24 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 18:19:24 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 10 monedas No está mal!
-2025-06-30 18:20:47 - twitch_bot - INFO - [Recompensa] solounturnomas: yjtryj (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 18:20:47 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:20:47 - twitch_bot.database - INFO - Intentando actualizar ciudadano: solounturnomas
-2025-06-30 18:20:47 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: cantidad_monedas
-2025-06-30 18:20:47 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 18:20:47 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 18:20:47 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 7.0 monedas Podría ser mejor
-2025-06-30 18:25:46 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 18:25:46 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 18:25:46 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 18:25:46 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 18:25:46 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 18:25:48 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 18:25:48 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 18:25
-2025-06-30 18:25:48 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 18:25
-2025-06-30 18:26:13 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 18:26:13 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 18:26:13 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 18:30:33 - twitch_bot - INFO - [Mensaje] nightbot: Participa en el sorteo de un juego con !sorteo.
-2025-06-30 18:46:42 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 18:46:42 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 18:46:42 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 18:46:42 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 18:46:47 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
-2025-06-30 19:09:39 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:09:39 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:09:39 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:09:39 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:09:45 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
-2025-06-30 19:11:01 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:11:01 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:11:01 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:11:01 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:11:04 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
-2025-06-30 19:11:53 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:11:53 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:11:53 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:11:53 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:11:53 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 19:11:55 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 19:11:55 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:11
-2025-06-30 19:11:55 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:11
-2025-06-30 19:12:01 - twitch_bot - INFO - [Recompensa] solounturnomas: monedas (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 19:12:01 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:12:01 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 19:15:06 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:15:06 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:15:06 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:15:06 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:15:06 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 19:15:07 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 19:15:07 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:15
-2025-06-30 19:15:07 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:15
-2025-06-30 19:15:17 - twitch_bot - INFO - [Mensaje] nightbot: Participa en el sorteo de un juego con !sorteo.
-2025-06-30 19:15:24 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 19:15:24 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:15:24 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 19:17:40 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:17:40 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:17:40 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:17:40 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:17:40 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 19:17:41 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 19:17:41 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:17
-2025-06-30 19:17:41 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:17
-2025-06-30 19:17:46 - twitch_bot - INFO - [Recompensa] solounturnomas: s (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 19:17:46 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:17:46 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 19:20:12 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:20:12 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:20:12 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:20:12 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:20:12 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 19:20:14 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 19:20:14 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:20
-2025-06-30 19:20:14 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:20
-2025-06-30 19:20:19 - twitch_bot - INFO - [Recompensa] solounturnomas: ss (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 19:20:19 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:20:19 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 19:21:16 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:21:16 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:21:16 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:21:16 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:21:16 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 19:21:17 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 19:21:17 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:21
-2025-06-30 19:21:17 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:21
-2025-06-30 19:21:21 - twitch_bot - INFO - [Recompensa] solounturnomas: sss (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 19:21:21 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:21:21 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 19:22:42 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:22:42 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:22:42 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:22:42 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:22:42 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 19:22:44 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 19:22:44 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:22
-2025-06-30 19:22:44 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:22
-2025-06-30 19:22:47 - twitch_bot - INFO - [Recompensa] solounturnomas: sss (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 19:22:47 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:22:47 - twitch_bot - INFO - [Sistema] @solounturnomas Ha ocurrido un error al realizar la acción
-2025-06-30 19:24:52 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:24:52 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:24:52 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:24:52 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:24:52 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 19:24:53 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 19:24:53 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:24
-2025-06-30 19:24:53 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:24
-2025-06-30 19:24:57 - twitch_bot - INFO - [Recompensa] solounturnomas: ssds (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 19:24:57 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:24:57 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: fecha_modificar
-2025-06-30 19:24:57 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 19:24:57 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 19:24:57 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 10 moneda No está mal!
-2025-06-30 19:25:18 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:25:18 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:25:18 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:25:18 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:25:20 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
-2025-06-30 19:25:25 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
-2025-06-30 19:26:27 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
-2025-06-30 19:46:18 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:46:18 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:46:18 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:46:18 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:46:18 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 19:46:20 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 19:46:20 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:46
-2025-06-30 19:46:20 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:46
-2025-06-30 19:46:34 - twitch_bot - INFO - [Recompensa] solounturnomas: ddd (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 19:46:34 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:46:34 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: fecha_modificar
-2025-06-30 19:46:34 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 19:46:34 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 19:46:34 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 7.0 moneda Podría ser mejor
-2025-06-30 19:48:27 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:48:27 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:48:27 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:48:27 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:48:27 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 19:48:28 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 19:48:28 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:48
-2025-06-30 19:48:28 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:48
-2025-06-30 19:48:35 - twitch_bot - INFO - [Recompensa] solounturnomas: sws (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 19:48:35 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:48:35 - twitch_bot.database - ERROR - Error al actualizar ciudadano solounturnomas: no such column: fecha_modificar
-2025-06-30 19:48:35 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 19:48:36 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 19:48:36 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 13.0 moneda ¡Qué bien!
-2025-06-30 19:51:34 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:51:34 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:51:34 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:51:34 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:51:53 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:51:53 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:51:53 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:51:53 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:51:53 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 19:51:55 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 19:51:55 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:51
-2025-06-30 19:51:55 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:51
-2025-06-30 19:52:01 - twitch_bot - INFO - [Recompensa] solounturnomas: dsss (ID: f6a93674-c59c-43a3-8112-97b31f9b9571) - Acción: trabajar de guardia
-2025-06-30 19:52:01 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:52:01 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
-2025-06-30 19:52:01 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
-2025-06-30 19:52:02 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
-2025-06-30 19:52:02 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado su turno de guardia! 7.0 moneda Podría ser mejor
-2025-06-30 19:53:25 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:53:25 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:53:25 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:53:25 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:53:28 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
-2025-06-30 19:53:34 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
-2025-06-30 19:53:58 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:53:58 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:53:58 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:53:58 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:54:00 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
-2025-06-30 19:54:29 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:54:29 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:54:29 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:54:29 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:54:29 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 19:54:31 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 19:54:31 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:54
-2025-06-30 19:54:31 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:54
-2025-06-30 19:54:38 - twitch_bot - INFO - [Recompensa] solounturnomas: aaa (ID: f7b19ecc-5085-43b2-a07e-dee6f8c064dd) - Acción: talar
-2025-06-30 19:54:38 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:54:38 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
-2025-06-30 19:54:38 - twitch_bot.database - INFO - Registrando acción: talar
-2025-06-30 19:54:39 - twitch_bot.database - INFO - Acción registrada exitosamente: talar
-2025-06-30 19:54:39 - twitch_bot - INFO - [Sistema] ¡solounturnomas se ha ido a talar al bosque! 1 madera, 5 rama No está mal!
-2025-06-30 19:55:08 - twitch_bot - INFO - [Recompensa] solounturnomas: hierro (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
-2025-06-30 19:55:08 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:55:08 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
-2025-06-30 19:55:08 - twitch_bot.database - INFO - Registrando acción: picar piedra
-2025-06-30 19:55:08 - twitch_bot.database - INFO - Acción registrada exitosamente: picar piedra
-2025-06-30 19:55:08 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a picar piedra! 1.25 hierro, 5 piedra No está mal!
-2025-06-30 19:55:38 - twitch_bot - INFO - [Recompensa] solounturnomas: verduras (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
-2025-06-30 19:55:38 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:55:38 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
-2025-06-30 19:55:38 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
-2025-06-30 19:55:38 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
-2025-06-30 19:55:38 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo! 5 trigo No está mal!
-2025-06-30 19:56:21 - twitch_bot - INFO - [Recompensa] solounturnomas: verdura (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
-2025-06-30 19:56:21 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:56:22 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
-2025-06-30 19:56:22 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
-2025-06-30 19:56:22 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
-2025-06-30 19:56:22 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo! 3.5 trigo Podría ser mejor
-2025-06-30 19:57:00 - twitch_bot - INFO - [Recompensa] solounturnomas: verduras (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
-2025-06-30 19:57:00 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:57:00 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
-2025-06-30 19:57:00 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
-2025-06-30 19:57:00 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
-2025-06-30 19:57:00 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo! 5 trigo No está mal!
-2025-06-30 19:57:14 - twitch_bot - INFO - [Recompensa] solounturnomas: hierro (ID: 5e35690c-d9a7-4383-9365-ac3ddd2a28f0) - Acción: picar piedra
-2025-06-30 19:57:14 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:57:14 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
-2025-06-30 19:57:14 - twitch_bot.database - INFO - Registrando acción: picar piedra
-2025-06-30 19:57:14 - twitch_bot.database - INFO - Acción registrada exitosamente: picar piedra
-2025-06-30 19:57:14 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha empezado a picar piedra! 5 piedra No está mal!
-2025-06-30 19:57:30 - twitch_bot - INFO - [Recompensa] solounturnomas: ss (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
-2025-06-30 19:57:30 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:57:30 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
-2025-06-30 19:57:30 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
-2025-06-30 19:57:31 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
-2025-06-30 19:57:31 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo! 6.5 trigo ¡Qué bien!
-2025-06-30 19:57:37 - twitch_bot - INFO - [Recompensa] solounturnomas: ssss (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
-2025-06-30 19:57:37 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:57:38 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
-2025-06-30 19:57:38 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
-2025-06-30 19:57:38 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
-2025-06-30 19:57:38 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo! 5 trigo No está mal!
-2025-06-30 19:57:47 - twitch_bot - INFO - [Recompensa] solounturnomas: verdura (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
-2025-06-30 19:57:47 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:57:49 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
-2025-06-30 19:57:49 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
-2025-06-30 19:57:50 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
-2025-06-30 19:57:50 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo! 3.5 trigo Podría ser mejor
-2025-06-30 19:58:02 - twitch_bot - INFO - [Recompensa] solounturnomas: verdutras (ID: 45650b54-6ec3-4908-ac23-c71521d224e8) - Acción: trabajar en el campo
-2025-06-30 19:58:02 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:58:02 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
-2025-06-30 19:58:02 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
-2025-06-30 19:58:02 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
-2025-06-30 19:58:02 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha comenzado a trabajar en el campo! 3.5 trigo, 1 verdura Podría ser mejor
-2025-06-30 19:58:14 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:58:14 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:58:14 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:58:14 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:58:16 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
-2025-06-30 19:58:48 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 19:58:48 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 19:58:48 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 19:58:48 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 19:58:48 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 19:58:49 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 19:58:49 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 19:58
-2025-06-30 19:58:49 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 19:58
-2025-06-30 19:58:58 - twitch_bot - INFO - [Recompensa] solounturnomas: hierbas (ID: 720eab8f-404a-4166-a035-b2db303cc4d5) - Acción: cazar en el bosque
-2025-06-30 19:58:58 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 19:58:58 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
-2025-06-30 19:58:58 - twitch_bot.database - INFO - Registrando acción: cazar en el bosque
-2025-06-30 19:58:59 - twitch_bot.database - INFO - Acción registrada exitosamente: cazar en el bosque
-2025-06-30 19:58:59 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha entrado al bosque para cazar! 1 carne, 3 piel No está mal!
-2025-06-30 20:00:26 - twitch_bot - INFO - [Mensaje] nightbot: Participa en el sorteo de un juego con !sorteo.
-2025-06-30 20:01:58 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 20:01:58 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 20:01:58 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 20:01:58 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 20:02:07 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
-2025-06-30 20:02:43 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 20:02:43 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 20:02:43 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 20:02:43 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 20:02:43 - twitch_bot - INFO - Bot inicializado correctamente.
-2025-06-30 20:02:44 - twitch_bot - INFO - Bot "solounbobotmas" conectado exitosamente.
-2025-06-30 20:02:44 - twitch_bot - INFO - Enviando mensaje de bienvenida: ¡Buenos días! Bueno, en realidad son las 20:02
-2025-06-30 20:02:44 - twitch_bot - INFO - [Sistema] ¡Buenos días! Bueno, en realidad son las 20:02
-2025-06-30 20:02:50 - twitch_bot - INFO - [Recompensa] solounturnomas: 1 (ID: 720eab8f-404a-4166-a035-b2db303cc4d5) - Acción: cazar en el bosque
-2025-06-30 20:02:50 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
-2025-06-30 20:02:50 - twitch_bot.database - INFO - Ciudadano actualizado: solounturnomas
-2025-06-30 20:02:50 - twitch_bot.database - INFO - Registrando acción: cazar en el bosque
-2025-06-30 20:02:50 - twitch_bot.database - INFO - Acción registrada exitosamente: cazar en el bosque
-2025-06-30 20:02:50 - twitch_bot - INFO - [Sistema] ¡solounturnomas ha entrado al bosque para cazar! 1 carne, 4 piel, 2 hierba No está mal!
-2025-06-30 20:02:59 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 20:02:59 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 20:02:59 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 20:02:59 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 20:03:03 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
-2025-06-30 21:26:53 - twitch_bot.database - INFO - Iniciando creación de tablas
-2025-06-30 21:26:53 - twitch_bot.database - INFO - Tabla ciudadanos creada
-2025-06-30 21:26:53 - twitch_bot.database - INFO - Tabla historial_acciones creada
-2025-06-30 21:26:53 - twitch_bot.database - INFO - Tablas creadas exitosamente
-2025-06-30 21:26:57 - twitch_bot.database - INFO - Listado de ciudadanos: 1 encontrados
+2025-07-02 00:12:44 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 00:12:44 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 00:12:44 - twitch_bot.database - ERROR - Error al crear las tablas: no such column: y
+2025-07-02 00:13:57 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 00:13:57 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 00:13:57 - twitch_bot.database - ERROR - Error al crear las tablas: no such column: y
+2025-07-02 00:14:03 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 00:14:03 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 00:14:03 - twitch_bot.database - ERROR - Error al crear las tablas: no such column: y
+2025-07-02 00:15:19 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 00:15:19 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 00:15:19 - twitch_bot.database - ERROR - Error al crear las tablas: no such column: y
+2025-07-02 00:15:57 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 00:15:57 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 00:15:57 - twitch_bot.database - INFO - Tabla mapa creada
+2025-07-02 00:15:57 - twitch_bot.database - INFO - Añadiendo columna cant_tabla a ciudadanos
+2025-07-02 00:15:58 - twitch_bot.database - INFO - Tabla cuadricula creada
+2025-07-02 00:15:58 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 00:15:58 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 00:15:58 - twitch_bot.database - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 00:33:02 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 00:33:02 - twitch_bot.database - INFO - Tabla cuadricula antigua eliminada
+2025-07-02 00:33:02 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 00:33:02 - twitch_bot.database - INFO - Tabla mapa creada
+2025-07-02 00:33:02 - twitch_bot.database - INFO - Tabla cuadricula creada
+2025-07-02 00:33:02 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 00:33:02 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 00:41:49 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 00:41:49 - twitch_bot.database - INFO - Tabla cuadricula antigua eliminada
+2025-07-02 00:41:49 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 00:41:49 - twitch_bot.database - INFO - Tabla mapa creada
+2025-07-02 00:41:49 - twitch_bot.database - INFO - Tabla cuadricula creada
+2025-07-02 00:41:49 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 00:41:49 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 00:43:14 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 00:43:15 - twitch_bot.database - INFO - Tabla cuadricula antigua eliminada
+2025-07-02 00:43:15 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 00:43:15 - twitch_bot.database - INFO - Tabla mapa creada
+2025-07-02 00:43:15 - twitch_bot.database - INFO - Tabla cuadricula creada
+2025-07-02 00:43:15 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 00:43:15 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 00:44:02 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 00:44:02 - twitch_bot.database - INFO - Tabla cuadricula antigua eliminada
+2025-07-02 00:44:02 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 00:44:02 - twitch_bot.database - INFO - Tabla mapa creada
+2025-07-02 00:44:02 - twitch_bot.database - INFO - Tabla cuadricula creada
+2025-07-02 00:44:02 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 00:44:02 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 00:44:03 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 00:44:03 - twitch_bot.database - INFO - Tabla cuadricula antigua eliminada
+2025-07-02 00:44:03 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 00:44:03 - twitch_bot.database - INFO - Tabla mapa creada
+2025-07-02 00:44:03 - twitch_bot.database - INFO - Tabla cuadricula creada
+2025-07-02 00:44:03 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 00:44:03 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 00:47:03 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 00:47:03 - twitch_bot.database - INFO - Tabla cuadricula antigua eliminada
+2025-07-02 00:47:03 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 00:47:03 - twitch_bot.database - INFO - Tabla mapa creada
+2025-07-02 00:47:03 - twitch_bot.database - INFO - Tabla cuadricula creada
+2025-07-02 00:47:03 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 00:47:03 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 00:47:03 - twitch_bot.database - INFO - Tabla ciudadanos_nueva eliminada
+2025-07-02 00:47:03 - twitch_bot.database - INFO - Tabla cuadricula antigua eliminada
+2025-07-02 00:47:03 - twitch_bot.database - INFO - Proceso de eliminación de tablas antiguas completado
+2025-07-02 00:48:03 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 00:48:03 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 00:48:03 - twitch_bot.database - INFO - Tabla mapa creada
+2025-07-02 00:48:03 - twitch_bot.database - INFO - Tabla cuadricula creada
+2025-07-02 00:48:03 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 00:48:03 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 00:48:04 - twitch_bot.database - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 00:53:38 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 00:53:38 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 00:53:39 - twitch_bot.db_mapa - INFO - Casilla creada en (0, 0)
+2025-07-02 00:53:39 - twitch_bot.db_mapa - INFO - Casilla creada en (1, 0)
+2025-07-02 00:53:39 - twitch_bot.db_mapa - INFO - Casilla creada en (1, 1)
+2025-07-02 00:53:39 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 00:53:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 00:55:46 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 00:55:46 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 00:55:46 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 00:55:46 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 00:55:46 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 00:55:46 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 00:55:46 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 00:55:46 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:00:37 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:00:37 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:00:37 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:00:37 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:01:12 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:01:12 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:01:12 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:01:12 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:01:51 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 01:01:51 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 01:01:51 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 01:01:51 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 01:01:51 - twitch_bot.db_mapa - WARNING - Casilla en (1, 1) ya existe
+2025-07-02 01:01:51 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 01:01:51 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 01:01:51 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±1
+2025-07-02 01:01:51 - twitch_bot.db_mapa - INFO - Casilla creada en (-1, -1)
+2025-07-02 01:01:51 - twitch_bot.db_mapa - INFO - Casilla creada en (-1, 0)
+2025-07-02 01:01:51 - twitch_bot.db_mapa - INFO - Casilla creada en (-1, 1)
+2025-07-02 01:01:51 - twitch_bot.db_mapa - INFO - Casilla creada en (0, -1)
+2025-07-02 01:01:51 - twitch_bot.db_mapa - INFO - Casilla creada en (0, 1)
+2025-07-02 01:01:51 - twitch_bot.db_mapa - INFO - Casilla creada en (1, -1)
+2025-07-02 01:05:00 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:05:00 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:05:00 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:05:00 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:05:17 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:05:17 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:05:17 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:05:17 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 01:05:18 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 01:05:18 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 01:05:18 - twitch_bot.db_mapa - WARNING - Casilla en (1, 1) ya existe
+2025-07-02 01:05:18 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±3
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-3, -3)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-3, -2)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-3, -1)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-3, 0)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-3, 1)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-3, 2)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-3, 3)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-2, -3)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-2, -2)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-2, -1)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-2, 0)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-2, 1)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-2, 2)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-2, 3)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-1, -3)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-1, -2)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-1, 2)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (-1, 3)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (0, -3)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (0, -2)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (0, 2)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (0, 3)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (1, -3)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (1, -2)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (1, 2)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (1, 3)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (2, -3)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (2, -2)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (2, -1)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (2, 0)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (2, 1)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (2, 2)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (2, 3)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (3, -3)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (3, -2)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (3, -1)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (3, 0)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (3, 1)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (3, 2)
+2025-07-02 01:05:18 - twitch_bot.db_mapa - INFO - Casilla creada en (3, 3)
+2025-07-02 01:07:10 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:07:10 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:07:10 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:07:10 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:08:05 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:08:05 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:08:05 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:08:05 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:08:24 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:08:24 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:08:24 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:08:24 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:12:09 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:12:09 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:12:09 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:12:09 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:14:34 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:14:34 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:14:34 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:14:34 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:14:44 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:14:44 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:14:44 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:14:44 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:15:28 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 01:15:28 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 01:15:28 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 01:15:28 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 01:15:28 - twitch_bot.db_mapa - WARNING - Casilla en (1, 1) ya existe
+2025-07-02 01:15:28 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 01:15:28 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 01:15:28 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±3
+2025-07-02 01:15:28 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 01:15:28 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 01:30:34 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:30:34 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:30:34 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:30:34 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:30:34 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:30:34 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:30:34 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:30:34 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:34:02 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:34:02 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:34:02 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:34:02 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:34:12 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:34:12 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:34:12 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:34:12 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:42:13 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:42:13 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:42:13 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:42:13 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:42:13 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 01:42:13 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 01:42:13 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:42:13 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:42:13 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:42:13 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:42:13 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 01:42:13 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 01:43:48 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:43:48 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:43:48 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:43:48 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:43:48 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 01:43:48 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 01:43:49 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:43:49 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:43:49 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:43:49 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:43:49 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 01:43:49 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 01:52:24 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:52:24 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:52:24 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:52:24 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:52:24 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 01:52:24 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 01:52:24 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 01:52:24 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 01:52:24 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 01:52:24 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 01:52:24 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 01:52:24 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:01:50 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:01:50 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:01:50 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:01:50 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:01:50 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:01:50 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:01:50 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:01:50 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±3
+2025-07-02 02:01:51 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:01:51 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:01:59 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:01:59 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:01:59 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:01:59 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:01:59 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:01:59 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:01:59 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:01:59 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±3
+2025-07-02 02:01:59 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:01:59 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:02:14 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:02:14 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:02:14 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:02:14 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:02:14 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:02:14 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:02:14 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:02:14 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:02:14 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:02:14 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:02:14 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:02:14 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:07:48 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:07:48 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:07:48 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:07:48 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:07:48 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:07:48 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:08:54 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:08:54 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:08:54 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:08:54 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:08:54 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:08:54 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:08:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:08:54 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±3
+2025-07-02 02:08:54 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:08:54 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:09:11 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:09:11 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:09:11 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:09:11 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:09:11 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:09:11 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:09:12 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:09:12 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:09:12 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:09:12 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:09:12 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:09:12 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:10:21 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:10:21 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:10:21 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:10:21 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:10:21 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:10:21 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:10:29 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:10:29 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:10:29 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:10:29 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:10:29 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:10:29 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:10:30 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±3
+2025-07-02 02:10:30 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:10:30 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:10:32 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:10:32 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:10:32 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:10:32 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:10:32 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:10:32 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:10:33 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:10:33 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:10:33 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:10:33 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:10:33 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:10:33 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:10:57 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:10:57 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:10:57 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:10:57 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:10:57 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:10:57 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:10:57 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:10:57 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±3
+2025-07-02 02:10:57 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:10:57 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:11:51 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:11:51 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:11:51 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:11:51 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:11:51 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:11:51 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:11:51 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:11:51 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±3
+2025-07-02 02:11:51 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:11:51 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:11:51 - twitch_bot.db_mapa - WARNING - Casilla en (0, -3) ya existe
+2025-07-02 02:11:51 - twitch_bot.db_mapa - WARNING - No se pudo crear camino en (0, -3)
+2025-07-02 02:11:51 - twitch_bot.db_mapa - WARNING - Casilla en (0, 3) ya existe
+2025-07-02 02:11:51 - twitch_bot.db_mapa - WARNING - No se pudo crear camino en (0, 3)
+2025-07-02 02:11:51 - twitch_bot.db_mapa - INFO - Caminos verticales creados exitosamente
+2025-07-02 02:11:54 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:11:54 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:11:54 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:11:54 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:11:54 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:11:54 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:11:54 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:11:54 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:11:54 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:11:54 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:11:54 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:11:54 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:14:55 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:14:55 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:14:55 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:14:55 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:14:55 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:14:55 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:15:28 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:15:28 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:15:28 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:15:28 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:15:28 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:15:28 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:15:34 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:15:34 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:15:34 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:15:34 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:15:34 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:15:34 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:15:34 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:15:34 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±3
+2025-07-02 02:15:34 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:15:34 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:15:34 - twitch_bot.db_mapa - INFO - Caminos verticales actualizados exitosamente
+2025-07-02 02:15:40 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:15:40 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:15:40 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:15:40 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:15:40 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:15:40 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:15:41 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:15:41 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:15:41 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:15:41 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:15:41 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:15:41 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:16:44 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:16:44 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:16:44 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:16:44 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:16:44 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:16:44 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:16:49 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:16:49 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:16:49 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:16:49 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:16:49 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:16:49 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:16:50 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:16:50 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±3
+2025-07-02 02:16:51 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:16:51 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:16:51 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:16:52 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:16:52 - twitch_bot.db_mapa - INFO - Caminos verticales actualizados exitosamente
+2025-07-02 02:17:00 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:17:00 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:17:00 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:17:00 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:17:00 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:17:00 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:17:00 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:17:00 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:17:00 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:17:00 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:17:00 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:17:00 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:17:39 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:17:39 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:17:39 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:17:39 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:17:39 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:17:39 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±4
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (-4, -4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (-4, -3)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (-4, -2)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (-4, -1)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (-4, 0)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (-4, 1)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (-4, 2)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (-4, 3)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (-4, 4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (-3, -3)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (-3, 4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (-2, -4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (-2, 4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (-1, -4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (-1, 4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (0, -4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (0, 4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (1, -4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (1, 4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (2, -4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (2, 4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (3, -4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (3, 4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (4, -4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (4, -3)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (4, -2)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (4, -1)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (4, 0)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (4, 1)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (4, 2)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (4, 3)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla creada en (4, 4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:17:40 - twitch_bot.db_mapa - INFO - Caminos verticales actualizados exitosamente
+2025-07-02 02:17:42 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:17:42 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:17:42 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:17:42 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:17:42 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:17:42 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:17:42 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:17:42 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:17:42 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:17:42 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:17:42 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:17:42 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:25:55 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:25:55 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:25:55 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:25:55 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:25:55 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:25:55 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:26:13 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:26:13 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:26:13 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:26:13 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:26:13 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:26:13 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:26:52 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:26:52 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:26:52 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:26:52 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:26:52 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:26:52 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:26:52 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:26:52 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±4
+2025-07-02 02:26:52 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:26:52 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:26:52 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:26:52 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:26:52 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:26:52 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:26:52 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:26:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:26:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -2)
+2025-07-02 02:26:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -1)
+2025-07-02 02:26:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:26:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 1)
+2025-07-02 02:26:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 2)
+2025-07-02 02:26:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:26:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:26:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:26:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:26:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -2)
+2025-07-02 02:26:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -1)
+2025-07-02 02:26:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:26:55 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 1)
+2025-07-02 02:26:55 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 2)
+2025-07-02 02:26:55 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:26:55 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:26:55 - twitch_bot.db_mapa - INFO - Caminos actualizados exitosamente
+2025-07-02 02:26:58 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:26:58 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:26:58 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:26:58 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:26:58 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:26:58 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:26:59 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:26:59 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:26:59 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:26:59 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:26:59 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:26:59 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:30:29 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:30:29 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:30:29 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:30:29 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:30:29 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:30:29 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:30:29 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:30:29 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±4
+2025-07-02 02:30:30 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:30:30 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:30:30 - twitch_bot.db_mapa - INFO - Caminos actualizados exitosamente
+2025-07-02 02:30:40 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:30:40 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:30:40 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:30:40 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:30:40 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:30:40 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:30:41 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:30:41 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:30:41 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:30:41 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:30:41 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:30:41 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:31:24 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:31:24 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:31:24 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:31:24 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:31:24 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:31:24 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:31:30 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:31:30 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:31:30 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:31:30 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:31:30 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:31:30 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:31:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:31:30 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±4
+2025-07-02 02:31:30 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:31:30 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:31:32 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:31:32 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:31:32 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:31:32 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:31:32 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:31:32 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:31:32 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:31:32 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:31:32 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:31:32 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:31:32 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:31:32 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:33:26 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:33:26 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:34:00 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:34:00 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:34:00 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:34:00 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:34:00 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:34:00 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:34:00 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:34:00 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±4
+2025-07-02 02:34:00 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:34:00 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:34:00 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:34:00 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:34:00 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:34:00 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:36:32 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:36:32 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:36:32 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:36:32 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:36:32 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:36:32 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:36:32 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:36:32 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±4
+2025-07-02 02:36:32 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:36:32 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:36:32 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:36:32 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:36:32 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:36:32 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:36:32 - twitch_bot.db_mapa - INFO - Caminos actualizados exitosamente
+2025-07-02 02:36:39 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:36:39 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:36:39 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:36:39 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:36:39 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:36:39 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:36:39 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:36:39 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:36:39 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:36:39 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:36:39 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:36:39 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:37:53 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:37:53 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:37:53 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:37:53 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±6
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-6, -6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-6, -5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-6, -4)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-6, -3)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-6, -2)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-6, -1)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-6, 0)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-6, 1)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-6, 2)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-6, 3)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-6, 4)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-6, 5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-6, 6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-5, -6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-5, -5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-5, -4)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-5, -3)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-5, -2)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-5, -1)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-5, 0)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-5, 1)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-5, 2)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-5, 3)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-5, 4)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-5, 5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-5, 6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-4, -6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-4, -5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-4, 5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-4, 6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-3, -6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-3, -5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-3, 5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-3, 6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-2, -6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-2, -5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-2, 5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-2, 6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-1, -6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-1, -5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-1, 5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (-1, 6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (0, -6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (0, -5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (0, 5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (0, 6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (1, -6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (1, -5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (1, 1)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (1, 5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (2, -6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (2, -5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (2, 5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (2, 6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (3, -6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (3, -5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (3, 5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (3, 6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (4, -6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (4, -5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (4, 5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (4, 6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (5, -6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (5, -5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (5, -4)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (5, -3)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (5, -2)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (5, -1)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (5, 0)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (5, 1)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (5, 2)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (5, 3)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (5, 4)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (5, 5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (5, 6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (6, -6)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (6, -5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (6, -4)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (6, -3)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (6, -2)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (6, -1)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (6, 0)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (6, 1)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (6, 2)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (6, 3)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (6, 4)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (6, 5)
+2025-07-02 02:37:53 - twitch_bot.db_mapa - INFO - Casilla creada en (6, 6)
+2025-07-02 02:37:54 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:37:54 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:37:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -6)
+2025-07-02 02:37:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -5)
+2025-07-02 02:37:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:37:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:37:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:37:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:37:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 5)
+2025-07-02 02:37:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 6)
+2025-07-02 02:37:54 - twitch_bot.db_mapa - INFO - Caminos actualizados exitosamente
+2025-07-02 02:37:59 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:37:59 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:37:59 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:37:59 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:37:59 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:37:59 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:37:59 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:37:59 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:37:59 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:37:59 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:37:59 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:37:59 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:38:07 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:38:07 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:38:07 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:38:07 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:38:07 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:38:07 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:38:18 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:38:18 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:38:18 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:38:18 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:38:18 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:38:18 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:38:38 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:38:38 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:38:38 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:38:38 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:38:38 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:38:38 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:38:38 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:38:38 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±6
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -6)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -5)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 5)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 6)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -6)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -5)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 5)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 6)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -6)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -5)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 5)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 6)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -6)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -5)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 5)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 6)
+2025-07-02 02:38:39 - twitch_bot.db_mapa - INFO - Caminos actualizados exitosamente
+2025-07-02 02:40:27 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:40:27 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:40:27 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:40:27 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:40:27 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:40:27 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:40:32 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:40:32 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:40:32 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:40:32 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:40:32 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:40:32 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:40:32 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:40:32 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±6
+2025-07-02 02:40:32 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:40:32 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:40:32 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -6)
+2025-07-02 02:40:32 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -5)
+2025-07-02 02:40:32 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:40:32 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:40:32 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:40:32 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:40:32 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 5)
+2025-07-02 02:40:33 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 6)
+2025-07-02 02:40:33 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, -6)
+2025-07-02 02:40:33 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, -5)
+2025-07-02 02:40:33 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, -4)
+2025-07-02 02:40:33 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, -3)
+2025-07-02 02:40:33 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, -2)
+2025-07-02 02:40:33 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, -1)
+2025-07-02 02:40:33 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 0)
+2025-07-02 02:40:33 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 1)
+2025-07-02 02:40:33 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 2)
+2025-07-02 02:40:34 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 3)
+2025-07-02 02:40:34 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 4)
+2025-07-02 02:40:34 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 5)
+2025-07-02 02:40:34 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 6)
+2025-07-02 02:40:34 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -6)
+2025-07-02 02:40:34 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -5)
+2025-07-02 02:40:34 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:40:34 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:40:35 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:40:35 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:40:35 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 5)
+2025-07-02 02:40:35 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 6)
+2025-07-02 02:40:35 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, -6)
+2025-07-02 02:40:35 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, -5)
+2025-07-02 02:40:36 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, -4)
+2025-07-02 02:40:36 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, -3)
+2025-07-02 02:40:36 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, -2)
+2025-07-02 02:40:36 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, -1)
+2025-07-02 02:40:37 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 0)
+2025-07-02 02:40:37 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 1)
+2025-07-02 02:40:37 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 2)
+2025-07-02 02:40:37 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 3)
+2025-07-02 02:40:37 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 4)
+2025-07-02 02:40:38 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 5)
+2025-07-02 02:40:38 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 6)
+2025-07-02 02:40:38 - twitch_bot.db_mapa - INFO - Caminos actualizados exitosamente
+2025-07-02 02:41:00 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:41:00 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:41:00 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:41:00 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:41:00 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:41:00 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:43:45 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:43:45 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:43:45 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:43:45 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:43:45 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:43:45 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:43:52 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:43:52 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:43:52 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:43:52 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:43:52 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:43:52 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:43:52 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:43:52 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±6
+2025-07-02 02:43:52 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:43:52 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:43:52 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -6)
+2025-07-02 02:43:52 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -5)
+2025-07-02 02:43:52 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:43:52 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:43:52 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:43:52 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:43:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 5)
+2025-07-02 02:43:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 6)
+2025-07-02 02:43:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, -5)
+2025-07-02 02:43:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, -5)
+2025-07-02 02:43:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, -5)
+2025-07-02 02:43:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, -5)
+2025-07-02 02:43:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, -5)
+2025-07-02 02:43:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, -5)
+2025-07-02 02:43:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -5)
+2025-07-02 02:43:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, -5)
+2025-07-02 02:43:53 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, -5)
+2025-07-02 02:43:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, -5)
+2025-07-02 02:43:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, -5)
+2025-07-02 02:43:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, -5)
+2025-07-02 02:43:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, -5)
+2025-07-02 02:43:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 0)
+2025-07-02 02:43:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 0)
+2025-07-02 02:43:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 0)
+2025-07-02 02:43:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 0)
+2025-07-02 02:43:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 0)
+2025-07-02 02:43:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 0)
+2025-07-02 02:43:54 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 0)
+2025-07-02 02:43:55 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 0)
+2025-07-02 02:43:55 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 5)
+2025-07-02 02:43:55 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 5)
+2025-07-02 02:43:55 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 5)
+2025-07-02 02:43:55 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 5)
+2025-07-02 02:43:55 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, 5)
+2025-07-02 02:43:55 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, 5)
+2025-07-02 02:43:55 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 5)
+2025-07-02 02:43:55 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, 5)
+2025-07-02 02:43:56 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, 5)
+2025-07-02 02:43:56 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 5)
+2025-07-02 02:43:56 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 5)
+2025-07-02 02:43:56 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 5)
+2025-07-02 02:43:57 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 5)
+2025-07-02 02:43:57 - twitch_bot.db_mapa - INFO - Caminos actualizados exitosamente
+2025-07-02 02:45:18 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:45:18 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:45:18 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:45:18 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:45:18 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:45:18 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:46:14 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:46:14 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:46:14 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:46:14 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:46:14 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:46:14 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:46:14 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:46:14 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±6
+2025-07-02 02:46:14 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:46:14 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:46:14 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -6)
+2025-07-02 02:46:14 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -5)
+2025-07-02 02:46:14 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:46:14 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:46:14 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:46:14 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 6)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, -5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, -5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, -5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, -5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, -5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, -5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, -5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, -5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, -5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, -5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, -5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, -5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 0)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 0)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 0)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 0)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 0)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 0)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 0)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 0)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, 5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, 5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, 5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, 5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 5)
+2025-07-02 02:46:15 - twitch_bot.db_mapa - INFO - Caminos actualizados exitosamente
+2025-07-02 02:50:03 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:50:03 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:50:03 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:50:03 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:50:03 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:50:03 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:50:03 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:50:03 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±6
+2025-07-02 02:50:03 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:50:03 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:50:03 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -6)
+2025-07-02 02:50:03 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -5)
+2025-07-02 02:50:03 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:50:03 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:50:03 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:50:04 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:50:04 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 5)
+2025-07-02 02:50:04 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 6)
+2025-07-02 02:50:04 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, -5)
+2025-07-02 02:50:04 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, -5)
+2025-07-02 02:50:04 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, -5)
+2025-07-02 02:50:04 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, -5)
+2025-07-02 02:50:05 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, -5)
+2025-07-02 02:50:05 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, -5)
+2025-07-02 02:50:05 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -5)
+2025-07-02 02:50:05 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, -5)
+2025-07-02 02:50:05 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, -5)
+2025-07-02 02:50:05 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, -5)
+2025-07-02 02:50:06 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, -5)
+2025-07-02 02:50:06 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, -5)
+2025-07-02 02:50:06 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, -5)
+2025-07-02 02:50:06 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 0)
+2025-07-02 02:50:06 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 0)
+2025-07-02 02:50:06 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 0)
+2025-07-02 02:50:07 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 0)
+2025-07-02 02:50:07 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 0)
+2025-07-02 02:50:07 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 0)
+2025-07-02 02:50:07 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 0)
+2025-07-02 02:50:07 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 0)
+2025-07-02 02:50:07 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 5)
+2025-07-02 02:50:08 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 5)
+2025-07-02 02:50:08 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 5)
+2025-07-02 02:50:08 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 5)
+2025-07-02 02:50:08 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, 5)
+2025-07-02 02:50:08 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, 5)
+2025-07-02 02:50:08 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 5)
+2025-07-02 02:50:08 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, 5)
+2025-07-02 02:50:09 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, 5)
+2025-07-02 02:50:09 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 5)
+2025-07-02 02:50:09 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 5)
+2025-07-02 02:50:09 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 5)
+2025-07-02 02:50:09 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 5)
+2025-07-02 02:50:09 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -5)
+2025-07-02 02:50:10 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 5)
+2025-07-02 02:50:10 - twitch_bot.db_mapa - INFO - Caminos actualizados exitosamente
+2025-07-02 02:52:24 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:52:24 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:52:24 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:52:24 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:52:24 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:52:24 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:52:33 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:52:33 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:52:33 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:52:33 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:52:33 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:52:33 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:53:02 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:53:02 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 02:53:02 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 02:53:02 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±6
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -6)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 6)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, -5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, -5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, -5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, -5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, -5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, -5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, -5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, -5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, -5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, -5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, -5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, -5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 0)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 0)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 0)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 0)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 0)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 0)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 0)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 0)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, 5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, 5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, 5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, 5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 5)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, -6)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, -4)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, -1)
+2025-07-02 02:53:02 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 1)
+2025-07-02 02:53:03 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 4)
+2025-07-02 02:53:03 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 6)
+2025-07-02 02:53:03 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, -6)
+2025-07-02 02:53:03 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, -4)
+2025-07-02 02:53:03 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, -1)
+2025-07-02 02:53:03 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 1)
+2025-07-02 02:53:03 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 4)
+2025-07-02 02:53:03 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 6)
+2025-07-02 02:53:03 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, -6)
+2025-07-02 02:53:03 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, -4)
+2025-07-02 02:53:04 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, -1)
+2025-07-02 02:53:04 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 1)
+2025-07-02 02:53:04 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 4)
+2025-07-02 02:53:04 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 6)
+2025-07-02 02:53:04 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, -6)
+2025-07-02 02:53:04 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, -4)
+2025-07-02 02:53:04 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, -1)
+2025-07-02 02:53:04 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 1)
+2025-07-02 02:53:05 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 4)
+2025-07-02 02:53:05 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 6)
+2025-07-02 02:53:05 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, -6)
+2025-07-02 02:53:05 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, -4)
+2025-07-02 02:53:05 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, 4)
+2025-07-02 02:53:05 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, 6)
+2025-07-02 02:53:05 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, -6)
+2025-07-02 02:53:05 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, -4)
+2025-07-02 02:53:06 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, -3)
+2025-07-02 02:53:06 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, 3)
+2025-07-02 02:53:06 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, 4)
+2025-07-02 02:53:06 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, 6)
+2025-07-02 02:53:06 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, -6)
+2025-07-02 02:53:07 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, -4)
+2025-07-02 02:53:07 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, -3)
+2025-07-02 02:53:07 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, 3)
+2025-07-02 02:53:07 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, 4)
+2025-07-02 02:53:07 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, 6)
+2025-07-02 02:53:07 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, -6)
+2025-07-02 02:53:08 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, -4)
+2025-07-02 02:53:08 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, 4)
+2025-07-02 02:53:08 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, 6)
+2025-07-02 02:53:08 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, -6)
+2025-07-02 02:53:08 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, -4)
+2025-07-02 02:53:08 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, -1)
+2025-07-02 02:53:08 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 1)
+2025-07-02 02:53:09 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 4)
+2025-07-02 02:53:09 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 6)
+2025-07-02 02:53:09 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, -6)
+2025-07-02 02:53:09 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, -4)
+2025-07-02 02:53:09 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, -1)
+2025-07-02 02:53:09 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 1)
+2025-07-02 02:53:10 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 4)
+2025-07-02 02:53:10 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 6)
+2025-07-02 02:53:10 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, -6)
+2025-07-02 02:53:10 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, -4)
+2025-07-02 02:53:10 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, -1)
+2025-07-02 02:53:10 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 1)
+2025-07-02 02:53:10 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 4)
+2025-07-02 02:53:10 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 6)
+2025-07-02 02:53:10 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, -6)
+2025-07-02 02:53:11 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, -4)
+2025-07-02 02:53:11 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, -1)
+2025-07-02 02:53:11 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 1)
+2025-07-02 02:53:11 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 4)
+2025-07-02 02:53:11 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 6)
+2025-07-02 02:53:11 - twitch_bot.db_mapa - INFO - Caminos y solares actualizados exitosamente
+2025-07-02 02:57:00 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:57:00 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:57:00 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:57:00 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:57:00 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:57:00 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 02:59:11 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 02:59:11 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 02:59:11 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 02:59:11 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 02:59:11 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 02:59:11 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:01:56 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:01:56 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:01:56 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:01:56 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:01:56 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:01:56 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:02:07 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:02:07 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:02:07 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:02:07 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:02:07 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:02:07 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:05:30 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:05:30 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:05:30 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:05:30 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:05:30 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:05:30 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:05:45 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:05:45 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:05:45 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:05:45 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:05:45 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:05:45 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:06:13 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:06:13 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:06:13 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:06:13 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:06:13 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 03:06:13 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 03:06:13 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 03:06:13 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±6
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -6)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 6)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, -5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, -5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, -5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, -5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, -5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, -5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, -5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, -5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, -5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, -5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, -5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, -5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 0)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 0)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 0)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 0)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 0)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 0)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 0)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 0)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, 5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, 5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, 5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, 5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 5)
+2025-07-02 03:06:13 - twitch_bot.db_mapa - INFO - Caminos y solares actualizados exitosamente
+2025-07-02 03:06:22 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:06:22 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:06:22 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:06:22 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:06:22 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:06:22 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:06:22 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 03:06:22 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 03:06:22 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 03:06:22 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±6
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -6)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 6)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, -5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, -5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, -5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, -5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, -5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, -5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, -5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, -5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, -5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, -5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, -5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, -5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 0)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 0)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 0)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 0)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 0)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 0)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 0)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 0)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, 5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, 5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, 5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, 5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 5)
+2025-07-02 03:06:23 - twitch_bot.db_mapa - INFO - Caminos y solares actualizados exitosamente
+2025-07-02 03:06:54 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:06:54 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:06:54 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:06:54 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:06:54 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:06:54 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-02 03:10:30 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-02 03:10:30 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-02 03:10:30 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-02 03:10:30 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-02 03:10:30 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 03:10:30 - twitch_bot.db_mapa - WARNING - Casilla en (1, 0) ya existe
+2025-07-02 03:10:30 - twitch_bot.db_mapa - ERROR - Tipo de casilla no válido: CAMINO_GIRADO
+2025-07-02 03:10:30 - twitch_bot.db_mapa - WARNING - Casilla en (0, 0) ya existe
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 0)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Completando cuadrado hasta ±6
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casillas actualizadas a PUEBLO en el rango -2,-2 a 2,2
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla (0,0) actualizada a POZO
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -6)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -4)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, -3)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 3)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 4)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (0, 6)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, -5)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, -5)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, -5)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, -5)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, -5)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, -5)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, -5)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, -5)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, -5)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, -5)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, -5)
+2025-07-02 03:10:30 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, -5)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 0)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 0)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 0)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 0)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 0)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 0)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 0)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 0)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-6, 5)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-5, 5)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-4, 5)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-3, 5)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-2, 5)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (-1, 5)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (1, 5)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (2, 5)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (3, 5)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (4, 5)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (5, 5)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Casilla actualizada en (6, 5)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Caminos y solares actualizados exitosamente
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Solar más cercano encontrado en (-3, -1)
+2025-07-02 03:10:31 - twitch_bot.db_mapa - INFO - Ciudadano 1 asignado al solar (-3, -1)

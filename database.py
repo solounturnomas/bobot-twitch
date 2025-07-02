@@ -44,58 +44,59 @@ def init_db():
                 CREATE TABLE IF NOT EXISTS ciudadanos (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     nombre TEXT UNIQUE NOT NULL,
-                    -- Recursos
-                    cantidad_moneda INTEGER DEFAULT 1,
-                    cantidad_madera INTEGER DEFAULT 1,
-                    cantidad_rama INTEGER DEFAULT 1,
-                    cantidad_piedra INTEGER DEFAULT 1,
-                    cantidad_hierro INTEGER DEFAULT 1,
-                    cantidad_pescado INTEGER DEFAULT 1,
-                    cantidad_trigo INTEGER DEFAULT 1,
-                    cantidad_verdura INTEGER DEFAULT 1,
-                    cantidad_carne INTEGER DEFAULT 1,
-                    cantidad_piel INTEGER DEFAULT 1,
-                    cantidad_hierba INTEGER DEFAULT 1,
-                    --Niveles
-                    nivel_leñador INTEGER DEFAULT 1,
-                    nivel_recolector INTEGER DEFAULT 1,
-                    nivel_pescador INTEGER DEFAULT 1,
-                    nivel_cazador INTEGER DEFAULT 1,
-                    nivel_agricultor INTEGER DEFAULT 1,
-                    nivel_guardia INTEGER DEFAULT 1,
-                    nivel_minero INTEGER DEFAULT 1,
-                    rango INT DEFAULT 1,
-                    -- Campos de herramientas (booleanos)
+                    cantidad_moneda INTEGER DEFAULT 0,
+                    cantidad_madera INTEGER DEFAULT 0,
+                    cantidad_rama INTEGER DEFAULT 0,
+                    cantidad_piedra INTEGER DEFAULT 0,
+                    cant_arcilla INTEGER DEFAULT 0,
+                    cantidad_hierro INTEGER DEFAULT 0,
+                    cantidad_pescado INTEGER DEFAULT 0,
+                    cantidad_trigo INTEGER DEFAULT 0,
+                    cantidad_verdura INTEGER DEFAULT 0,
+                    cantidad_carne INTEGER DEFAULT 0,
+                    cantidad_piel INTEGER DEFAULT 0,
+                    cantidad_hierba INTEGER DEFAULT 0,
+                    cant_tablas INTEGER DEFAULT 0,
+                    cant_bloque INTEGER DEFAULT 0,
+                    cant_ladrillo INTEGER DEFAULT 0,
+                    cant_comida INTEGER DEFAULT 0,
+                    cant_hierro_forjado INTEGER DEFAULT 0,
+                    cant_cuerda INTEGER DEFAULT 0,
+                    nivel_leñador INTEGER DEFAULT 0,
+                    nivel_recolector INTEGER DEFAULT 0,
+                    nivel_pescador INTEGER DEFAULT 0,
+                    nivel_cazador INTEGER DEFAULT 0,
+                    nivel_agricultor INTEGER DEFAULT 0,
+                    nivel_guardia INTEGER DEFAULT 0,
+                    nivel_minero INTEGER DEFAULT 0,
+                    nivel_casa INTEGER DEFAULT 0,
                     tiene_hacha BOOLEAN DEFAULT FALSE,
                     tiene_pico BOOLEAN DEFAULT FALSE,
                     tiene_espada BOOLEAN DEFAULT FALSE,
                     tiene_hazada BOOLEAN DEFAULT FALSE,
                     tiene_arco BOOLEAN DEFAULT FALSE,
                     tiene_caña BOOLEAN DEFAULT FALSE,
-                    -- Campo de fecha/hora para el pozo
-                    fecha_pozo TIMESTAMP DEFAULT '2025-01-01 00:00:00',
-                    -- auditoria
-                    fecha_crear TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    fecha_modif TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    fecha_pozo TEXT,
+                    fecha_crear TEXT,
+                    fecha_modif TEXT,
+                    fecha_borrar TEXT,
                     usuario_crear TEXT,
                     usuario_modif TEXT,
-                    fecha_borrar TIMESTAMP,
                     usuario_borrar TEXT,
-                    borrado_logico BOOLEAN DEFAULT FALSE,
-                    version INTEGER DEFAULT 1
+                    activo BOOLEAN DEFAULT TRUE
                 )
             ''')
             logger_db.info("Tabla ciudadanos creada")
             
-            # Crear tabla de historial de acciones
+            # Crear tabla historial_acciones
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS historial_acciones (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    fecha_hora TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                     codigo_accion TEXT NOT NULL,
                     mensaje_final TEXT NOT NULL,
+                    fecha_hora DATETIME DEFAULT CURRENT_TIMESTAMP,
                     ciudadano_id INTEGER,
-                    FOREIGN KEY (ciudadano_id) REFERENCES ciudadanos(id)
+                    FOREIGN KEY(ciudadano_id) REFERENCES ciudadanos(id)
                 )
             ''')
             logger_db.info("Tabla historial_acciones creada")
@@ -104,7 +105,7 @@ def init_db():
             logger_db.info("Tablas creadas exitosamente")
             
     except sqlite3.Error as e:
-        logger_db.error(f"Error al crear las tablas: {e}")
+        logger_db.error(f"Error al crear tablas: {e}")
         raise
 
 def get_ciudadano(nombre: str) -> Optional[Dict[str, Any]]:
@@ -157,7 +158,7 @@ def crear_ciudadano(nombre: str, usuario_crear: str = None) -> bool:
             cursor.execute('''
                 INSERT INTO ciudadanos (
                     nombre,
-                    fecha_crea,
+                    fecha_crear,
                     usuario_crear,
                     fecha_modif,
                     usuario_modif
@@ -219,6 +220,127 @@ def actualizar_ciudadano(nombre: str, datos: Dict[str, Any], usuario_modificar: 
             
     except sqlite3.Error as e:
         logger_db.error(f"Error al actualizar ciudadano {nombre}: {e}")
+        return False
+
+# =============================================
+#  NUEVO: SISTEMA DE FABRICACIÓN
+# =============================================
+RECETAS_FABRICACION = {
+    'Tablas':   {'genera': 5, 'coste': {'cantidad_madera': 1}},
+    'Bloque':   {'genera': 3, 'coste': {'cantidad_piedra': 1}},
+    'Ladrillo': {'genera': 4, 'coste': {'cant_arcilla': 1}},
+    'Cuerda':   {'genera': 2, 'coste': {'cantidad_hierba': 3}},
+    'Comida':   {'genera': 1, 'coste': {'cantidad_carne': 1, 'cantidad_trigo': 2, 'cantidad_verdura': 1}},
+    'Hierro forjado': {'genera': 1, 'coste': {'cantidad_hierro': 2}},
+}
+
+def fabricar_producto(nombre: str, producto: str, usuario_modificar: str = None) -> bool:
+    """Intenta fabricar un producto para el ciudadano.
+    Retorna True si se fabricó, False si faltan recursos o error."""
+    producto = producto.capitalize()
+    if producto not in RECETAS_FABRICACION:
+        return False
+    receta = RECETAS_FABRICACION[producto]
+
+    ciudadano = get_ciudadano(nombre)
+    if not ciudadano:
+        return False
+
+    # Verificar recursos suficientes
+    for campo, cant_necesaria in receta['coste'].items():
+        if ciudadano.get(campo, 0) < cant_necesaria:
+            return False
+
+    # Preparar update
+    datos_update = {}
+    # Descontar recursos
+    for campo, cant_necesaria in receta['coste'].items():
+        datos_update[campo] = ciudadano[campo] - cant_necesaria
+    # Sumar producto manufacturado
+    campo_producto = {
+        'Tablas': 'cant_tabla',
+        'Bloque': 'cant_bloque',
+        'Ladrillo': 'cant_ladrillo',
+        'Cuerda': 'cant_cuerda',
+        'Comida': 'cant_comida',
+        'Hierro forjado': 'cant_hierro_forjado',
+    }[producto]
+    datos_update[campo_producto] = ciudadano.get(campo_producto, 0) + receta['genera']
+
+    if actualizar_ciudadano(nombre, datos_update, usuario_modificar):
+        registrar_accion('FABRICAR', f"Fabricó {receta['genera']} {producto}(s)", ciudadano_id=ciudadano['id'])
+        return True
+    return False
+
+# ---- FUNCIONES DE NEGOCIO EXISTENTES ----
+
+def mejorar_casa(nombre: str, usuario_modificar: str = None) -> bool:
+    """
+    Mejora la vivienda de un ciudadano si dispone de los recursos necesarios.
+
+    Niveles y requisitos:
+        1: 10 piel, 20 rama, 2 cuerda, 20 moneda
+        2: 20 madera, 1 hierro, 10 cuerda, 200 moneda
+        3: 40 piedra, 10 madera, 4 hierro, 1000 moneda
+        4: 60 ladrillo, 10 piedra, 10 madera, 10 hierro, 5000 moneda
+    """
+    requisitos_por_nivel = {
+        1: {
+            'cantidad_piel': 10,
+            'cantidad_rama': 20,
+            'cant_cuerda': 2,
+            'cantidad_moneda': 20,
+        },
+        2: {
+            'cantidad_madera': 20,
+            'cantidad_hierro': 1,
+            'cant_cuerda': 10,
+            'cantidad_moneda': 200,
+        },
+        3: {
+            'cantidad_piedra': 40,
+            'cantidad_madera': 10,
+            'cantidad_hierro': 4,
+            'cantidad_moneda': 1000,
+        },
+        4: {
+            'cant_ladrillo': 60,
+            'cantidad_piedra': 10,
+            'cantidad_madera': 10,
+            'cantidad_hierro': 10,
+            'cantidad_moneda': 5000,
+        },
+    }
+
+    ciudadano = get_ciudadano(nombre)
+    if not ciudadano:
+        logger_db.error(f"Ciudadano no encontrado: {nombre}")
+        return False
+
+    nivel_actual = ciudadano.get('nivel_casa', 0)
+    if nivel_actual >= 4:
+        logger_db.info(f"{nombre} ya tiene la casa al nivel máximo")
+        return False
+
+    siguiente_nivel = nivel_actual + 1
+    requisitos = requisitos_por_nivel[siguiente_nivel]
+
+    # Verificar recursos suficientes
+    for campo, requerido in requisitos.items():
+        if ciudadano.get(campo, 0) < requerido:
+            logger_db.info(f"{nombre} no tiene suficientes {campo} para mejorar la casa")
+            return False
+
+    # Construir datos de actualización: restar recursos y aumentar nivel_casa
+    datos_update = {'nivel_casa': siguiente_nivel}
+    for campo, requerido in requisitos.items():
+        datos_update[campo] = ciudadano[campo] - requerido
+
+    if actualizar_ciudadano(nombre, datos_update, usuario_modificar):
+        registrar_accion('MEJORAR_CASA', f"Casa mejorada a nivel {siguiente_nivel}", ciudadano_id=ciudadano['id'])
+        logger_db.info(f"{nombre} ha mejorado su casa a nivel {siguiente_nivel}")
+        return True
+    else:
         return False
 
 def eliminar_ciudadano(nombre: str, usuario_borrar: str = None) -> bool:
@@ -314,6 +436,12 @@ def mostrar_ciudadanos():
         print(f"  Carne: {ciudadano['cantidad_carne']}")
         print(f"  Piel: {ciudadano['cantidad_piel']}")
         print(f"  Hierbas: {ciudadano['cantidad_hierba']}")
+        print(f"  Tablas: {ciudadano['cant_tabla']}")
+        print(f"  Bloques: {ciudadano['cant_bloque']}")
+        print(f"  Arcilla: {ciudadano['cant_arcilla']}")
+        print(f"  Ladrillo: {ciudadano['cant_ladrillo']}")
+        print(f"  Comida: {ciudadano['cant_comida']}")
+        print(f"  Cuerda: {ciudadano['cant_cuerda']}")
         
         print("\nNiveles:")
         print(f"  Rango: {ciudadano['rango']}")
@@ -324,6 +452,7 @@ def mostrar_ciudadanos():
         print(f"  Agricultor: {ciudadano['nivel_agricultor']}")
         print(f"  Guardia: {ciudadano['nivel_guardia']}")
         print(f"  Minero: {ciudadano['nivel_minero']}")
+        print(f"  Nivel casa: {ciudadano['nivel_casa']}")
         
         # Mostrar solo las herramientas que tiene
         print("\nHerramientas que posee:")
