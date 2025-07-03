@@ -44,6 +44,7 @@ def init_db():
                 CREATE TABLE IF NOT EXISTS ciudadanos (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     nombre TEXT UNIQUE NOT NULL,
+                    energia INTEGER DEFAULT 20,
                     cantidad_moneda INTEGER DEFAULT 0,
                     cantidad_madera INTEGER DEFAULT 0,
                     cantidad_rama INTEGER DEFAULT 0,
@@ -76,6 +77,7 @@ def init_db():
                     tiene_hazada BOOLEAN DEFAULT FALSE,
                     tiene_arco BOOLEAN DEFAULT FALSE,
                     tiene_caña BOOLEAN DEFAULT FALSE,
+                    tiene_pala BOOLEAN DEFAULT FALSE,
                     fecha_pozo TEXT,
                     fecha_crear TEXT,
                     fecha_modif TEXT,
@@ -87,6 +89,35 @@ def init_db():
                 )
             ''')
             logger_db.info("Tabla ciudadanos creada")
+            
+            # Verificar columnas existentes
+            cursor.execute("PRAGMA table_info(ciudadanos)")
+            columnas = [col[1] for col in cursor.fetchall()]
+            
+            # Agregar columna nivel_constructor si no existe
+            if 'nivel_constructor' not in columnas:
+                logger_db.info("Agregando columna nivel_constructor a la tabla ciudadanos")
+                cursor.execute('''
+                    ALTER TABLE ciudadanos 
+                    ADD COLUMN nivel_constructor INTEGER DEFAULT 0
+                ''')
+            
+            # Agregar columna tiene_pala si no existe
+            if 'tiene_pala' not in columnas:
+                logger_db.info("Agregando columna tiene_pala a la tabla ciudadanos")
+                cursor.execute('''
+                    ALTER TABLE ciudadanos 
+                    ADD COLUMN tiene_pala BOOLEAN DEFAULT FALSE
+                ''')
+            
+            # Agregar columna energia si no existe
+            if 'energia' not in columnas:
+                logger_db.info("Agregando columna energia a la tabla ciudadanos")
+                cursor.execute('''
+                    ALTER TABLE ciudadanos 
+                    ADD COLUMN energia INTEGER DEFAULT 20
+                ''')
+                logger_db.info("Columna energia agregada exitosamente")
             
             # Crear tabla historial_acciones
             cursor.execute('''
@@ -226,12 +257,12 @@ def actualizar_ciudadano(nombre: str, datos: Dict[str, Any], usuario_modificar: 
 #  NUEVO: SISTEMA DE FABRICACIÓN
 # =============================================
 RECETAS_FABRICACION = {
-    'Tablas':   {'genera': 5, 'coste': {'cantidad_madera': 1}},
-    'Bloque':   {'genera': 3, 'coste': {'cantidad_piedra': 1}},
-    'Ladrillo': {'genera': 4, 'coste': {'cant_arcilla': 1}},
-    'Cuerda':   {'genera': 2, 'coste': {'cantidad_hierba': 3}},
-    'Comida':   {'genera': 1, 'coste': {'cantidad_carne': 1, 'cantidad_trigo': 2, 'cantidad_verdura': 1}},
-    'Hierro forjado': {'genera': 1, 'coste': {'cantidad_hierro': 2}},
+    'Tablas':   {'genera': 5, 'coste': {'cantidad_madera': 1, 'energia': 1}},
+    'Bloque':   {'genera': 3, 'coste': {'cantidad_piedra': 1, 'energia': 1}},
+    'Ladrillo': {'genera': 4, 'coste': {'cant_arcilla': 1, 'energia': 1}},
+    'Cuerda':   {'genera': 2, 'coste': {'cantidad_hierba': 3, 'energia': 1}},
+    'Comida':   {'genera': 1, 'coste': {'cantidad_carne': 1, 'cantidad_trigo': 2, 'cantidad_verdura': 1, 'energia': 1}},
+    'Hierro forjado': {'genera': 1, 'coste': {'cantidad_hierro': 2, 'energia': 1}},
 }
 
 def fabricar_producto(nombre: str, producto: str, usuario_modificar: str = None) -> bool:
@@ -258,7 +289,7 @@ def fabricar_producto(nombre: str, producto: str, usuario_modificar: str = None)
         datos_update[campo] = ciudadano[campo] - cant_necesaria
     # Sumar producto manufacturado
     campo_producto = {
-        'Tablas': 'cant_tabla',
+        'Tabla': 'cant_tabla',
         'Bloque': 'cant_bloque',
         'Ladrillo': 'cant_ladrillo',
         'Cuerda': 'cant_cuerda',
@@ -290,18 +321,21 @@ def mejorar_casa(nombre: str, usuario_modificar: str = None) -> bool:
             'cantidad_rama': 20,
             'cant_cuerda': 2,
             'cantidad_moneda': 20,
+            'energia': 5,
         },
         2: {
             'cantidad_madera': 20,
             'cantidad_hierro': 1,
             'cant_cuerda': 10,
             'cantidad_moneda': 200,
+            'energia': 10,
         },
         3: {
             'cantidad_piedra': 40,
             'cantidad_madera': 10,
             'cantidad_hierro': 4,
             'cantidad_moneda': 1000,
+            'energia': 15,
         },
         4: {
             'cant_ladrillo': 60,
@@ -309,7 +343,8 @@ def mejorar_casa(nombre: str, usuario_modificar: str = None) -> bool:
             'cantidad_madera': 10,
             'cantidad_hierro': 10,
             'cantidad_moneda': 5000,
-        },
+            'energia': 20,
+            },
     }
 
     ciudadano = get_ciudadano(nombre)
@@ -453,6 +488,7 @@ def mostrar_ciudadanos():
         print(f"  Guardia: {ciudadano['nivel_guardia']}")
         print(f"  Minero: {ciudadano['nivel_minero']}")
         print(f"  Nivel casa: {ciudadano['nivel_casa']}")
+        print(f"  Nivel constructor: {ciudadano['nivel_constructor']}")
         
         # Mostrar solo las herramientas que tiene
         print("\nHerramientas que posee:")
@@ -462,7 +498,8 @@ def mostrar_ciudadanos():
             'espada': ciudadano['tiene_espada'],
             'hazada': ciudadano['tiene_hazada'],
             'arco': ciudadano['tiene_arco'],
-            'caña de pescar': ciudadano['tiene_caña']
+            'caña de pescar': ciudadano['tiene_caña'],
+            'pala': ciudadano['tiene_pala']
         }
         
         herramientas_tiene = [herramienta for herramienta, tiene in herramientas.items() if tiene]
@@ -558,9 +595,7 @@ def listar_historial_acciones(fecha_inicio: str = None, fecha_fin: str = None,
             if fecha_fin:
                 condiciones.append("fecha_hora <= ?")
                 params.append(fecha_fin)
-            if codigo_accion:
-                condiciones.append("codigo_accion = ?")
-                params.append(codigo_accion)
+            
             if ciudadano_id is not None:
                 condiciones.append("ciudadano_id = ?")
                 params.append(ciudadano_id)

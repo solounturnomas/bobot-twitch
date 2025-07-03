@@ -4,111 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil de {{ ciudadano.nombre }}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
-    <style>
-        .header {
-            background-color: var(--primary-color);
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 25px;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 15px;
-            height: auto;
-        }
-
-        .logo-container {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            overflow: hidden;
-            background-color: var(--card-background);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 2px 4px var(--shadow-color);
-        }
-
-        .logo {
-            height: 100%;
-            width: auto;
-            object-fit: cover;
-        }
-    </style>
 </head>
 <body class="fade-in">
     <div class="container">
-        <div class="header">
-            <div class="logo-container">
-                <img src="{{ url_for('static', filename='img/Logo.png') }}" alt="Logo" class="logo">
+        <div class="header-container">
+            <div class="container_logo">
+                <div class="header">
+                    <div class="logo-container">
+                        <img src="{{ url_for('static', filename='img/Logo.png') }}" alt="Logo" class="logo">
+                    </div>
+                </div>
             </div>
-            <h1>Perfil de {{ ciudadano.nombre }}</h1>
+        </div>
+        
+        <div class="main-content">
+            <div class="main-cards">
+
+        <div class="card">
+            <span class="text-primary" title="Energía">⚡ {{ ciudadano.energia }}  </span><span class="title-primary">{{ ciudadano.nombre }}</span>  <span class="text-primary">{{ desc_rango }}</span> 
+            <table class="info-usuario">
+                <tr>
+                    <td class="info-cell" {% if show_mejora_info %}title="{{ tooltip_mejora }}"{% endif %}>
+                        <img src="{{ url_for('static', filename='img/casa/nivel_casa_' ~ ciudadano.nivel_casa ~ '.png') }}" alt="Casa nivel {{ ciudadano.nivel_casa }}" style="width:32px; height:32px; margin-right:4px;" {% if show_mejora_info and not puede_mejorar %}title="{{ tooltip_mejora }}"{% endif %}>
+                        {% if puede_mejorar %}
+                        <form action="{{ url_for('route_mejorar_casa') }}" method="post" style="display:inline;">
+                            <button type="submit" style="border:none; background:transparent; padding:0;">
+                                <img src="{{ url_for('static', filename='img/martillo.png') }}" alt="Mejorar" style="width:20px; height:20px; margin-left:4px;" title="{{ tooltip_mejora }}">
+                            </button>
+                        </form>
+                        {% endif %}
+                        <br><span class="text-primary">{{ desc_casa }}</span>
+                    </td>
+                    <td class="info-cell">
+                        <span class="text-primary">En la ciudad desde: </span><br>
+                        <span class="text-secondary">{{ ciudad_desde_fmt }}</span><br>    
+                        <span class="text-primary">Última vez visto: </span><br>
+                        <span class="text-secondary">{{ ultima_ciudad_fmt }}</span>
+                    </td>
+                    <td class="info-cell">
+                        <img src="{{ url_for('static', filename='img/pozo.png') }}" alt="Pozo" style="width:24px; height:24px; margin-right:4px;">
+                        <br><span class="text-primary">{{ fecha_pozo_fmt }}</span>
+                    </td>
+                </tr>
+            </table>
         </div>
 
         <div class="card">
-            <h2>Información General</h2>
-            <ul class="list-group">
-                <li class="list-group-item">
-                    <span>
-                    {{ desc_rango }}
-                    </span>
-                </li>
-                <li class="list-group-item d-flex align-items-center">
-                    <img src="{{ url_for('static', filename='img/pozo.png') }}" alt="Pozo" style="width:32px; height:32px; margin-right:8px;">
-                    <span class="me-2">{{ fecha_pozo_fmt }}</span>
-                </li>
-                <li class="list-group-item d-flex align-items-center" {% if show_mejora_info %}title="{{ tooltip_mejora }}"{% endif %}>
-                    <img src="{{ url_for('static', filename='img/casa/nivel_casa_' ~ ciudadano.nivel_casa ~ '.png') }}" alt="Casa nivel {{ ciudadano.nivel_casa }}" style="width:48px; height:48px; margin-right:8px;" {% if show_mejora_info and not puede_mejorar %}title="{{ tooltip_mejora }}"{% endif %}>
-                    <span class="me-2">{{ desc_casa }}</span>
-                    {% if puede_mejorar %}
-                    <form action="{{ url_for('route_mejorar_casa') }}" method="post" style="display:inline;">
-                        <button type="submit" style="border:none; background:transparent; padding:0;">
-                            <img src="{{ url_for('static', filename='img/martillo.png') }}" alt="Mejorar" style="width:32px; height:32px; margin-left:8px;" title="{{ tooltip_mejora }}">
-                        </button>
-                    </form>
-                    {% endif %}
-                </li>
-                <li class="list-group-item">
-                    En la ciudad desde: {{ ciudad_desde_fmt }} - Última vez en la ciudad: {{ ultima_ciudad_fmt }}
-                </li>
-                
-            </ul>
-        </div>
-
-        <div class="card">
-            <h2>Recursos</h2>
+            <span class="title-primary">Recursos</span>
             <div class="recursos">
                 {% for nombre, cantidad in recursos.items() %}
                 <div class="recurso-item" title="{{ nombre }}">
                     <img src="{{ url_for('static', filename='img/recursos/' + recursos_singulares[nombre.lower()] + '.png') }}" 
                          alt="{{ nombre }}" 
                          class="recurso-icon" 
-                         title="{{ nombre }}">
-                    <span class="cantidad" title="{{ nombre }}">{{ cantidad }}</span>
+                         title="{{ nombre }}"><br>
+                    <span class="cantidad" title="{{ nombre }}">
+                        {% if cantidad is number %}
+                            {% if cantidad == cantidad|int %}
+                                {{ "%d"|format(cantidad|int) }}
+                            {% else %}
+                                {{ "%.1f"|format(cantidad) }}
+                            {% endif %}
+                        {% else %}
+                            {{ cantidad }}
+                        {% endif %}
+                    </span>
                 </div>
                 {% endfor %}
             </div>
         </div>
 
         <div class="card">
-            <h2>Productos</h2>
-            <div class="recursos">
+            <span class="title-primary">Productos</span>
+            <div class="productos">
                 {% for nombre, cantidad in productos.items() %}
-                <div class="recurso-item" title="{{ fabricacion_info[nombre]['tooltip'] }}">
+                <div class="producto-item" title="{{ fabricacion_info[nombre]['tooltip'] }}">
                     <img src="{{ url_for('static', filename='img/recursos/' + productos_singulares[nombre.lower()] + '.png') }}"
                          alt="{{ nombre }}"
                          class="recurso-icon">
-                    <span class="cantidad">{{ cantidad }}</span>
+                    <span class="cantidad">
+                        {% if cantidad is number %}
+                            {% if cantidad == cantidad|int %}
+                                {{ "%d"|format(cantidad|int) }}
+                            {% else %}
+                                {{ "%.1f"|format(cantidad) }}
+                            {% endif %}
+                        {% else %}
+                            {{ cantidad }}
+                        {% endif %}
+                    </span>
                     {% set puede = fabricacion_info[nombre]['puede'] %}
                     <form action="{{ url_for('route_fabricar', producto=nombre) }}" method="post" style="display:inline; margin-left:4px;" title="{{ fabricacion_info[nombre]['tooltip'] }}">
                         {% if puede %}<button type="submit" style="background:none;border:none;padding:0;">{% else %}<button type="button" disabled style="background:none;border:none;padding:0;cursor:not-allowed;">{% endif %}
                             <img src="{{ url_for('static', filename='img/martillo.png') }}"
                                  alt="Fabricar"
-                                 style="width:20px;height:20px;{% if not puede %}filter:contrast(300%) opacity(0.5);{% endif %}">
+                                 style="width:12px;height:12px;{% if not puede %}filter:contrast(300%) opacity(0.5);{% endif %}">
                         </button>
                     </form>
                 </div>
@@ -117,10 +110,10 @@
         </div>
 
         <div class="card">
-            <h2>Niveles</h2>
+            <span class="title-primary">Niveles</span>
             <div class="niveles">
                 {% for nombre, nivel in niveles.items() %}
-                <div class="nivel-item">
+                <div class="nivel-item" title="{{ nombre }}">
                     <div class="nivel-info">
                         <span class="profesion-icon">
                             {% if nombre == 'Leñador' %}<i class="fas fa-tree"></i>
@@ -132,19 +125,15 @@
                             {% elif nombre == 'Minero' %}<i class="fas fa-gem"></i>
                             {% endif %}
                         </span>
-                        <span>{{ nombre }}:</span>
+                        <span class="nivel-numero">{{ nivel }}/5</span>
                     </div>
-                    <div class="nivel-bar">
-                        <div class="nivel-fill" style="width: {{ nivel }}%"></div>
-                    </div>
-                    <span class="nivel-numero">{{ nivel }}%</span>
                 </div>
                 {% endfor %}
             </div>
         </div>
 
         <div class="card">
-            <h2>Herramientas</h2>
+            <span class="title-primary">Herramientas</span>
             <div class="tools">
                 {% for nombre, tiene in herramientas.items() %}
                     <img src="{{ url_for('static', filename='img/tools/' + (nombre.lower().replace(' ', '_') if nombre != 'Caña de pescar' else 'cana') + '.png') }}" 
@@ -155,6 +144,92 @@
         </div>
 
         
+            </div>
+            <div class="acciones">
+                <div class="card">
+                    <span class="title-primary">Acciones</span>
+                    <div class="acciones-container">
+                        <div class="accion-item" title="Talar arboles" onclick="ejecutarAccion('talar')">
+                            <img src="{{ url_for('static', filename='img/acciones/talar.png') }}" alt="Talar arboles" class="accion-icon">
+                        </div>
+                        <div class="accion-item" title="Trabajar en el campo" onclick="ejecutarAccion('trabajar en el campo')">
+                            <img src="{{ url_for('static', filename='img/acciones/cultivar.png') }}" alt="Campo" class="accion-icon">
+                        </div>
+                        <div class="accion-item" title="Trabajar de guardia" onclick="ejecutarAccion('trabajar de guardia')">
+                            <img src="{{ url_for('static', filename='img/acciones/guardia.png') }}" alt="guardia" class="accion-icon">
+                        </div>
+                        <div class="accion-item" title="Picar piedra" onclick="ejecutarAccion('picar piedra')">
+                            <img src="{{ url_for('static', filename='img/acciones/minar.png') }}" alt="picar piedra" class="accion-icon">
+                        </div>
+                        <div class="accion-item" title="Cazar en el bosque" onclick="ejecutarAccion('cazar en el bosque')">
+                            <img src="{{ url_for('static', filename='img/acciones/cazar.png') }}" alt="cazar en el bosque" class="accion-icon">
+                        </div>
+                        <div class="accion-item" title="Pescar" onclick="ejecutarAccion('pescar')">
+                            <img src="{{ url_for('static', filename='img/acciones/pescar.png') }}" alt="pescar" class="accion-icon">
+                        </div>
+                        <div class="accion-item" title="Cavar arcilla" onclick="ejecutarAccion('cavar arcilla')">
+                            <img src="{{ url_for('static', filename='img/acciones/cavar.png') }}" alt="Cavar arcilla" class="accion-icon">
+                        </div>
+                        <script>
+                        function ejecutarAccion(accion) {
+                            // Mostrar mensaje de carga
+                            const loadingMsg = `Ejecutando ${accion}...`;
+                            //alert(loadingMsg);
+                            
+                            // Enviar la petición al backend
+                            fetch(`/realiza_accion_sin_mensaje`, {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json',
+                                },
+                                body: JSON.stringify({
+                                    accion: accion,
+                                    ciudadano_id: '{{ ciudadano.id }}'
+                                })
+                            })
+                            .then(response => response.json())
+                            .then(data => {
+                                if (data.redirect) {
+                                    window.location.href = data.redirect;
+                                } else if (data.mensaje) {
+                                  //  alert(data.mensaje);
+                                }
+                                // Recargar la página para actualizar los recursos
+                                if (data.success) {
+                                    setTimeout(() => {
+                                        window.location.reload();
+                                    }, 1000);
+                                }
+                            })
+                            .catch((error) => {
+                                console.error('Error:', error);
+                                alert('Ocurrió un error al realizar la acción');
+                            });
+                        }
+                        </script>
+                    </div>
+                </div>
+                
+                <!-- Bloque de Última Acción -->
+                <div class="card" >
+                    <span class="title-primary">Última Acción</span>
+                    {% if ultima_accion %}
+                        <span class="text-secondary">{{ ultima_accion.fecha_formateada }}</span>
+                    {% endif %}
+                    <div class="ultima-accion">
+                        {% if ultima_accion %}
+                            <div>
+                                <span class="text-primary">{{ ultima_accion.mensaje_final|replace('\n', '<br>')|safe }}</span>
+                            </div>
+                        {% else %}
+                            <div class="sin-accion">
+                                <span class="text-primary">No hay acciones registradas</span>
+                            </div>  
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

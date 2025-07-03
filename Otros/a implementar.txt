@@ -1,4 +1,14 @@
 
+
+para producir hace falta edificio
+sistema de recursos, productos, manufacturas, acciones segun tabla
+añadir carbon
+separar acciones de twitch
+añadir pozo
+acciones cuestan energia
+recompensa de twitch puntos por energia.
+
+
 Sistema de niveles de ciudadanos:
     Por cada una de las acciones crear una habilidad que ira mejorando conforme se vaya relizando esa accion
     talar, picar, cultivar, cazar, luchar, pescar
@@ -6,16 +16,16 @@ Sistema de niveles de ciudadanos:
 Hacer obtencion de experiencia variable segun se considere la accion como exitosa x1.3, normal x1 o poco exitosa x0.7.
 
 Crear sistema de comercio, para comprar herramientas y recursos y vender recursos.
-    las herramientas seran, espada, arco, hazada, caña de pescar, pico y hacha
+    las herramientas seran, espada, arco, hazada, caña de pescar, pico y hacha y pala
 
 
 sistemas de eventos de construccion
 horno
 sierra
 
+nivel cocina, carpinteria, manposteria, herrero, alfarero, cordelero
+
 sistema de donacion de material
-
-
 
 añadir sistema de comida
     por cada dia que pase se consume una comida 
@@ -24,3 +34,11 @@ añadir sistema de parcelas
     en un sistema de cuadriculas donde las 9 casillas centrales seran consideradas el centro del poblado
     la matriz se ira ampliando ampliando una casilla por cada lado conforme sea necesario quedando el centro del pueblo en las cordenadas 0.0
 
+paneles de eventos(construir pozo)
+panel de visitante (el herrero esta en la ciudadanos
+panel de objetivos (construye una tienda de campaña, asientate en la ciudad, consigue una herramienta, sube de nivel)
+panel de donaciones (donaciones de material)
+panel de 
+
+
+log accion construir casa, a nivel dos por a cabaña de madera

@@ -9,7 +9,8 @@ ROOT_DIR = os.path.dirname(os.path.dirname(__file__))
 if ROOT_DIR not in sys.path:
     sys.path.append(ROOT_DIR)
 
-from database import mejorar_casa, fabricar_producto, RECETAS_FABRICACION
+from database import mejorar_casa, fabricar_producto, RECETAS_FABRICACION, listar_historial_acciones
+from funciones.realiza_accion import realiza_accion_sin_mensaje
 from db_mapa import TIPOS_CASILLAS
 
 app = Flask(__name__)
@@ -100,6 +101,43 @@ def route_fabricar(producto):
         pass
     return redirect(url_for('perfil'))
 
+@app.route('/realiza_accion_sin_mensaje', methods=['POST'])
+def route_realiza_accion_sin_mensaje():
+    """Endpoint para realizar acciones sin mensaje desde la interfaz web."""
+    try:
+        data = request.get_json()
+        accion = data.get('accion')
+        ciudadano_id = data.get('ciudadano_id')
+        
+        # Obtener el nombre del ciudadano por su ID
+        with sqlite3.connect(DB_PATH) as conn:
+            cursor = conn.cursor()
+            cursor.execute('SELECT nombre FROM ciudadanos WHERE id = ?', (ciudadano_id,))
+            result = cursor.fetchone()
+            
+            if not result:
+                return jsonify({
+                    'success': False,
+                    'mensaje': 'Ciudadano no encontrado'
+                }), 404
+                
+            nombre_ciudadano = result[0]
+            
+        # Ejecutar la acción
+        resultado = realiza_accion_sin_mensaje(accion, nombre_ciudadano)
+        
+        return jsonify({
+            'success': True,
+            'mensaje': str(resultado)
+        })
+        
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'mensaje': f'Error al realizar la acción: {str(e)}'
+        }), 500
+    return redirect(url_for('perfil'))
+
 
 @app.route('/')
 def perfil():
@@ -149,7 +187,8 @@ def perfil():
         'Espada': ciudadano.get('tiene_espada', False),
         'Hazada': ciudadano.get('tiene_hazada', False),
         'Arco': ciudadano.get('tiene_arco', False),
-        'Caña de pescar': ciudadano.get('tiene_caña', False)
+        'Caña de pescar': ciudadano.get('tiene_caña', False),
+        'Pala': ciudadano.get('tiene_pala', False)
     }
     
     # Formatear fecha del pozo a dd/mm/yy HH:MM
@@ -262,6 +301,21 @@ def perfil():
 
     # Mostrar tooltip aunque no pueda mejorar, salvo si ya es nivel máximo
     show_mejora_info = nivel_casa_actual < 4
+    
+    # Obtener la última acción del ciudadano
+    ultima_accion = None
+    try:
+        acciones = listar_historial_acciones(ciudadano_id=ciudadano.get('id'), codigo_accion='ACCION')
+        if acciones:
+            ultima_accion = acciones[0]  # La más reciente es la primera
+            # Formatear la fecha
+            try:
+                fecha_dt = datetime.strptime(ultima_accion['fecha_hora'], '%Y-%m-%d %H:%M:%S')
+                ultima_accion['fecha_formateada'] = fecha_dt.strftime('%d/%m - %H:%M')
+            except Exception as e:
+                ultima_accion['fecha_formateada'] = ultima_accion['fecha_hora']
+    except Exception as e:
+        print(f"Error al obtener última acción: {e}")
 
     desc_casa = {
         0: 'Sin hogar',
@@ -287,6 +341,7 @@ def perfil():
                           recursos=recursos,
                           recursos_singulares=recursos_singulares,
                           niveles=niveles,
+                          ultima_accion=ultima_accion,
                           herramientas=herramientas)
 
 @app.route('/mapa')
@@ -336,8 +391,9 @@ def mapa():
         'Pico': ciudadano.get('tiene_pico', False),
         'Espada': ciudadano.get('tiene_espada', False),
         'Hazada': ciudadano.get('tiene_hazada', False),
-        'Arco': ciudadano.get('tiene_arco', False),
-        'Caña de pescar': ciudadano.get('tiene_caña', False)
+        'Arco': ciudadano.get('tiene_arco', False), 
+        'Caña de pescar': ciudadano.get('tiene_caña', False),
+        'Pala': ciudadano.get('tiene_pala', False)
     }
     
     return render_template('mapa.html', 

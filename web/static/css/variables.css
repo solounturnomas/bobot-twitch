@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #7B5E30;    /* Marrón dorado oscuro */
+    --secondary-color: #9e987c;  /* Verde amarillento */
+    --accent-color: #FFD700;     /* Dorado brillante */
+    --text-color: #332A1E;       /* Marrón oscuro */
+    --background-color: #f3ddc0; /* Beige claro */
+    --card-background: #755025;  /* Beige suave */
+    --border-color: #D4C49A;     /* Beige amarillento */
+    --success-color: #556B2F;    /* Verde oliva */
+    --warning-color: #B8860B;    /* Dorado oscuro */
+    --shadow-color: rgba(51, 42, 30, 0.1);
+    --animation-duration: 0.2s;
+}

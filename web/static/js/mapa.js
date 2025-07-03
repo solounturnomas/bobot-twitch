@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'SOLAR': 'solar.png',
         'CAMINO': 'camino.png',
         'CAMINO_2': 'camino_2.png',
-        'CAMINO_3': 'camino_3.png',
+        'CRUCE': 'cruce.png',
         'CAMINO_GIRADO_1': 'camino_girado_1.png',
         'CAMINO_GIRADO_2': 'camino_girado_2.png',
         'CAMINO_GIRADO_3': 'camino_girado_3.png',

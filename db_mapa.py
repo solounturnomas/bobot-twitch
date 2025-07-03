@@ -72,7 +72,7 @@ TIPOS_CASILLAS = {
     'PUEBLO': 12,
     'SOLAR': 13,
     'CAMINO_2': 14,
-    'CAMINO_3': 15
+    'CRUCE': 15
 }
 
 def crear_casilla(x: int, z: int, tipo: str) -> bool:
@@ -216,7 +216,7 @@ def tiene_casilla_caminera_adyacente(x: int, z: int) -> bool:
         True si tiene al menos una casilla adyacente de tipo camino, False en caso contrario
     """
     try:
-        tipos_camino = ["CAMINO", "CAMINO_2", "CAMINO_3"]
+        tipos_camino = ["CAMINO", "CAMINO_2", "CRUCE"]
         
         # Verificar todas las casillas adyacentes (8 posibles)
         for dx in [-1, 0, 1]:
@@ -232,6 +232,34 @@ def tiene_casilla_caminera_adyacente(x: int, z: int) -> bool:
         
     except sqlite3.Error as e:
         logger_mapa.error(f"Error al verificar casillas adyacentes: {e}")
+
+
+def tiene_CRUCE_adyacente(x: int, z: int) -> bool:
+    """
+    Verifica si una casilla tiene al menos una casilla adyacente que es de tipo CRUCE.
+    
+    Args:
+        x, z: Coordenadas de la casilla a verificar
+        
+    Returns:
+        True si tiene al menos una casilla adyacente de tipo CRUCE, False en caso contrario
+    """
+    try:
+        # Verificar todas las casillas adyacentes (8 posibles)
+        for dx in [-1, 0, 1]:
+            for dz in [-1, 0, 1]:
+                if dx == 0 and dz == 0:  # No verificar la casilla actual
+                    continue
+                    
+                tipo_adyacente = obtener_tipo_casilla(x + dx, z + dz)
+                if tipo_adyacente == "CRUCE":
+                    return True
+        
+        return False
+        
+    except sqlite3.Error as e:
+        logger_mapa.error(f"Error al verificar casillas CRUCE adyacentes: {e}")
+        return False
         return False
 
 
@@ -353,7 +381,7 @@ def crear_caminos_verticales():
     Actualiza las casillas existentes con diferentes tipos de camino:
     - CAMINO: Vertical en x=0 desde 0,-ABS hasta 0,-3 y desde 0,3 hasta 0,ABS
     - CAMINO_2: Todas las casillas en columnas múltiplos de 5
-    - CAMINO_3: Todas las casillas en columnas múltiplos de 5 y en la fila 0
+    - CRUCE: Todas las casillas en columnas múltiplos de 5 y en la fila 0
     
     Solo se actualizarán las casillas que sean de tipo CESPED, CAMINO o CAMINO_2.
     
@@ -397,8 +425,8 @@ def crear_caminos_verticales():
                     # Actualizar todas las casillas de la columna como CAMINO_2
                     tipo_actual = obtener_tipo_casilla(0, z)
                     if tipo_actual in ["CESPED", "CAMINO", "CAMINO_2"]:
-                        if not actualizar_casilla(0, z, "CAMINO_3"):
-                            logger_mapa.warning(f"No se pudo actualizar CAMINO_3 en (0, {z})")
+                        if not actualizar_casilla(0, z, "CRUCE"):
+                            logger_mapa.warning(f"No se pudo actualizar CRUCE en (0, {z})")
             
             # Convertir casillas adyacentes a caminos en SOLAR si son CESPED
             for x in range(-max_abs, max_abs + 1):
@@ -408,8 +436,16 @@ def crear_caminos_verticales():
                         if not actualizar_casilla(x, z, "SOLAR"):
                             logger_mapa.warning(f"No se pudo actualizar casilla a SOLAR en ({x}, {z})")
             
+            # Convertir casillas SOLAR adyacentes a CRUCE en CESPED
+            for x in range(-max_abs, max_abs + 1):
+                for z in range(-max_abs, max_abs + 1):
+                    tipo_actual = obtener_tipo_casilla(x, z)
+                    if tipo_actual == "SOLAR" and tiene_CRUCE_adyacente(x, z):
+                        if not actualizar_casilla(x, z, "CESPED"):
+                            logger_mapa.warning(f"No se pudo actualizar casilla SOLAR a CESPED en ({x}, {z})")
+            
             conn.commit()
-            logger_mapa.info("Caminos y solares actualizados exitosamente")
+            logger_mapa.info("Caminos, solares y conversiones a césped actualizados exitosamente")
             return True
             
     except sqlite3.Error as e:

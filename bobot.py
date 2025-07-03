@@ -91,7 +91,7 @@ class Bot(commands.Bot):
                 if accion:
                     logger.info(f"[Recompensa] {message.author.name}: {message.content} (ID: {reward_id}) - Acción: {accion}")
                     # Realizar acción y escribir mensaje en el chat
-                    await message.channel.send(realiza_accion(accion, message.author.name, reward_id, message.content))
+                    await message.channel.send(realiza_accion(accion, message.author.name, message.content))
                 else:
                     logger.info(f"[Recompensa] {message.author.name}: {message.content} (ID: {reward_id}) - Acción no encontrada")
             else:

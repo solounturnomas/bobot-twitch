@@ -18,17 +18,19 @@ MENSAJES_POR_DEFECTO = {
     'trabajar de guardia': '¡{autor} ha empezado su turno de guardia!',
     'picar piedra': '¡{autor} ha empezado a picar piedra!',
     'cazar en el bosque': '¡{autor} ha entrado al bosque para cazar!',
-    'pescar': '¡{autor} ha empezado a pescar!'
+    'pescar': '¡{autor} ha empezado a pescar!',
+    'cavar arcilla': '¡{autor} ha empezado a cavar arcilla!',   
 }
-
-def realiza_accion(accion: str, nombre_ciudadano: str, reward_id: str, mensaje: str = '') -> str:
+def realiza_accion_sin_mensaje(accion: str, nombre_ciudadano: str) -> str:
+    return realiza_accion(accion, nombre_ciudadano, '')
+    
+def realiza_accion(accion: str, nombre_ciudadano: str, mensaje: str = '') -> str:
     """
     Realiza una acción específica, actualiza recursos y devuelve el mensaje final con los detalles.
     
     Args:
         accion: Código de la acción a realizar
         nombre_ciudadano: Nombre del ciudadano que realiza la acción
-        reward_id: ID de la recompensa
         mensaje: Mensaje completo del usuario para detectar palabras clave
         
     Returns:
@@ -46,7 +48,7 @@ def realiza_accion(accion: str, nombre_ciudadano: str, reward_id: str, mensaje: 
         MENSAJES_RESULTADO = {
             'exito': '¡Qué bien!',
             'normal': 'No está mal!',
-            'fracaso': 'Podría ser mejor'
+            'fracaso': 'Podría ser mejor.'
         }
 
         # Determinar el resultado de la acción (exito, normal, fracaso)
@@ -72,7 +74,8 @@ def realiza_accion(accion: str, nombre_ciudadano: str, reward_id: str, mensaje: 
             'pescado': 0,
             'verdura': 0,
             'hierba': 0,
-            'piedra': 0
+            'piedra': 0,
+            'arcilla': 0
         }
 
         # Palabras clave para cada recurso según la acción
@@ -82,6 +85,7 @@ def realiza_accion(accion: str, nombre_ciudadano: str, reward_id: str, mensaje: 
             'trabajar de guardia': ['moneda', 'hierba'],
             'picar piedra': ['piedra', 'hierro', 'hierba'],
             'cazar en el bosque': ['carne', 'piel', 'hierba'],
+            'cavar arcilla': ['arcilla', 'hierba'],
             'pescar': ['pescado', 'hierba']
         }
 
@@ -98,7 +102,8 @@ def realiza_accion(accion: str, nombre_ciudadano: str, reward_id: str, mensaje: 
             'hierbas': ['hierba', 'hierbas'],
             'piedra': ['piedra', 'piedras', 'roca', 'rocas'],
             'moneda': ['moneda', 'monedas', 'coin', 'dinero'],
-            'verdura': ['verdura', 'verduras']
+            'verdura': ['verdura', 'verduras'],
+            'arcilla': ['arcilla', 'arcillas']
         }
 
         # Actualizar fecha de última modificación
@@ -166,10 +171,17 @@ def realiza_accion(accion: str, nombre_ciudadano: str, reward_id: str, mensaje: 
 
         elif accion == 'pescar':
             recursos_obtenidos['pescado'] += 5
-            if ciudadano['tiene_caña_pescar']:
+            if ciudadano['tiene_caña']:
                 recursos_obtenidos['pescado'] += 5
             if uso_pozo:
                 recursos_obtenidos['pescado'] += 1
+                recursos_obtenidos['hierba'] += 2
+        elif accion == 'cavar arcilla':
+            recursos_obtenidos['arcilla'] += 5
+            if ciudadano['tiene_pala']:
+                recursos_obtenidos['arcilla'] += 5
+            if uso_pozo:
+                recursos_obtenidos['arcilla'] += 1
                 recursos_obtenidos['hierba'] += 2
         # Detectar palabras clave en el mensaje solo para los recursos permitidos en esta acción
         if accion in recursos_por_accion:
@@ -189,7 +201,8 @@ def realiza_accion(accion: str, nombre_ciudadano: str, reward_id: str, mensaje: 
                         'verdura': 'cantidad_verdura',
                         'hierba': 'cantidad_hierba',
                         'piedra': 'cantidad_piedra',
-                        'moneda': 'cantidad_moneda'
+                        'moneda': 'cantidad_moneda',
+                        'arcilla': 'cant_arcilla'
                     }[recurso]
                     cantidad_actual = ciudadano.get(nombre_campo, 0)
                     cantidad_obtenida = recursos_obtenidos.get(recurso, 0)
@@ -223,7 +236,8 @@ def realiza_accion(accion: str, nombre_ciudadano: str, reward_id: str, mensaje: 
                     'verdura': 'cantidad_verdura',
                     'hierba': 'cantidad_hierba',
                     'piedra': 'cantidad_piedra',
-                    'moneda': 'cantidad_moneda'
+                    'moneda': 'cantidad_moneda',
+                    'arcilla': 'cant_arcilla'
                 }[recurso]
                 cantidad_actual = ciudadano.get(nombre_campo, 0)
                 datos_actualizar[nombre_campo] = cantidad_actual + cantidad
@@ -231,13 +245,14 @@ def realiza_accion(accion: str, nombre_ciudadano: str, reward_id: str, mensaje: 
         
         # Registrar la acción con detalles de recursos
         mensaje_base = MENSAJES_POR_DEFECTO.get(accion, f"@{nombre_ciudadano} ha realizado la acción {accion} y obtiene:")
-        mensaje_final = mensaje_base.format(autor=nombre_ciudadano)
+        mensaje_final = mensaje_base.format(autor=nombre_ciudadano) + "\n"
         recursos_obtenidos_str = []
         for recurso, cantidad in recursos_obtenidos.items():
             if cantidad > 0:
                 recursos_obtenidos_str.append(f"{cantidad} {recurso}")
-        mensaje_final += " " + ", ".join(recursos_obtenidos_str)
-        mensaje_final += f" {MENSAJES_RESULTADO[resultado]}"
+        if recursos_obtenidos_str:
+            mensaje_final += ", ".join(recursos_obtenidos_str) + ".\n"
+        mensaje_final += f"{MENSAJES_RESULTADO[resultado]}"
         database.registrar_accion(accion, mensaje_final, ciudadano.get('id', 0))
         return mensaje_final
 
