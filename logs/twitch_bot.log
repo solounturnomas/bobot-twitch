@@ -798,3 +798,25 @@
 2025-07-03 03:08:50 - twitch_bot.database - INFO - Acción registrada exitosamente: cazar en el bosque
 2025-07-03 03:08:51 - twitch_bot.database - INFO - Listando historial de acciones
 2025-07-03 03:08:51 - twitch_bot.database - INFO - Encontradas 146 acciones en el historial
+2025-07-03 03:20:28 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-03 03:20:28 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-03 03:20:28 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-03 03:20:28 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-03 03:20:28 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-03 03:20:28 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-03 03:20:28 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-03 03:20:28 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-03 03:20:28 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-03 03:20:28 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-03 03:20:28 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-03 03:20:28 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-03 03:20:32 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-03 03:20:32 - twitch_bot.database - INFO - Encontradas 146 acciones en el historial
+2025-07-03 03:22:49 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-03 03:22:49 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-03 03:22:49 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-03 03:22:49 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-03 03:22:49 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-03 03:22:49 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-03 03:23:16 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-03 03:23:16 - twitch_bot.database - INFO - Encontradas 146 acciones en el historial

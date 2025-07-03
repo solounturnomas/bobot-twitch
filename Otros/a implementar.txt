@@ -7,7 +7,7 @@ separar acciones de twitch
 añadir pozo
 acciones cuestan energia
 recompensa de twitch puntos por energia.
-
+replanteo de cantidades de recursos, dinero/energia.
 
 Sistema de niveles de ciudadanos:
     Por cada una de las acciones crear una habilidad que ira mejorando conforme se vaya relizando esa accion
@@ -37,6 +37,7 @@ añadir sistema de parcelas
 paneles de eventos(construir pozo)
 panel de visitante (el herrero esta en la ciudadanos
 panel de objetivos (construye una tienda de campaña, asientate en la ciudad, consigue una herramienta, sube de nivel)
+recompensas de energia por objetivos
 panel de donaciones (donaciones de material)
 panel de 
 

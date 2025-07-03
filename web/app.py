@@ -88,7 +88,7 @@ def route_mejorar_casa():
         mejorar_casa(nombre, usuario_modificar=nombre)
     except Exception:
         pass  # Se podría loggear
-        return redirect(url_for('perfil'))
+        return redirect(url_for('ciudadano'))
 
 
 @app.route('/fabricar/<producto>', methods=['POST'])
@@ -99,7 +99,7 @@ def route_fabricar(producto):
         fabricar_producto(nombre, producto, usuario_modificar=nombre)
     except Exception:
         pass
-    return redirect(url_for('perfil'))
+    return redirect(url_for('ciudadano'))
 
 @app.route('/realiza_accion_sin_mensaje', methods=['POST'])
 def route_realiza_accion_sin_mensaje():
@@ -136,11 +136,12 @@ def route_realiza_accion_sin_mensaje():
             'success': False,
             'mensaje': f'Error al realizar la acción: {str(e)}'
         }), 500
-    return redirect(url_for('perfil'))
+    return redirect(url_for('ciudadano'))
 
 
-@app.route('/')
-def perfil():
+@app.route('/ciudadano')
+@app.route('/')  # Mantener ruta raíz para compatibilidad
+def ciudadano():
     ciudadano = get_ciudadano('solounturnomas')
     if not ciudadano:
         return "Ciudadano no encontrado"
@@ -325,7 +326,7 @@ def perfil():
         4: 'Casa de ladrillos',
     }.get(ciudadano.get('nivel_casa', 0), 'Desconocido')
     
-    return render_template('perfil.html',
+    return render_template('ciudadano.html',
                           ciudadano=ciudadano,
                           fecha_pozo_fmt=fecha_pozo_fmt,
                           desc_casa=desc_casa,
