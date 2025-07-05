@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/ciudadanos.js') }}"></script>
 </head>
 <body class="fade-in">
     <div class="container">
@@ -136,7 +137,7 @@
             <span class="title-primary">Herramientas</span>
             <div class="tools">
                 {% for nombre, datos in herramientas.items() %}
-                    <img src="{{ url_for('static', filename='img/' + (datos.imagen.lower().replace(' ', '_') if nombre != 'Caña de pescar' else 'cana') ) }}" 
+                    <img src="{{ url_for('static', filename='img/' + (datos.imagen.lower().replace(' ', '_') ) ) }}" 
                          alt="{{ nombre }}" 
                          class="tool {% if datos.tiene %}color{% endif %}">
                 {% endfor %}
@@ -148,167 +149,16 @@
             <div class="acciones">
                 <div class="card">
                     <span class="title-primary">Acciones</span>
-                    <div class="acciones-container">
-                        <div class="accion-item" title="Talar arboles" onclick="ejecutarAccion('talar')">
-                            <img src="{{ url_for('static', filename='img/acciones/talar.png') }}" alt="Talar arboles" class="accion-icon">
+                    <div class="acciones-container">                        
+                        {% for accion in acciones %}
+                        <div class="accion-item" 
+                             title="{{ accion.nombre }}"
+                             onclick="ejecutarAccion('{{ accion.codigo }}', '{{ ciudadano.nombre }}')">
+                            <img src="{{ url_for('static', filename='img/acciones/' + accion.imagen) }}" 
+                                 alt="{{ accion.nombre }}" 
+                                 class="accion-icon">
                         </div>
-                        <div class="accion-item" title="Trabajar en el campo" onclick="ejecutarAccion('trabajar en el campo')">
-                            <img src="{{ url_for('static', filename='img/acciones/cultivar.png') }}" alt="Campo" class="accion-icon">
-                        </div>
-                        <div class="accion-item" title="Trabajar de guardia" onclick="ejecutarAccion('trabajar de guardia')">
-                            <img src="{{ url_for('static', filename='img/acciones/guardia.png') }}" alt="guardia" class="accion-icon">
-                        </div>
-                        <div class="accion-item" title="Picar piedra" onclick="ejecutarAccion('picar piedra')">
-                            <img src="{{ url_for('static', filename='img/acciones/minar.png') }}" alt="picar piedra" class="accion-icon">
-                        </div>
-                        <div class="accion-item" title="Cazar en el bosque" onclick="ejecutarAccion('cazar en el bosque')">
-                            <img src="{{ url_for('static', filename='img/acciones/cazar.png') }}" alt="cazar en el bosque" class="accion-icon">
-                        </div>
-                        <div class="accion-item" title="Pescar" onclick="ejecutarAccion('pescar')">
-                            <img src="{{ url_for('static', filename='img/acciones/pescar.png') }}" alt="pescar" class="accion-icon">
-                        </div>
-                        <div class="accion-item" title="Cavar arcilla" onclick="ejecutarAccion('cavar arcilla')">
-                            <img src="{{ url_for('static', filename='img/acciones/cavar.png') }}" alt="Cavar arcilla" class="accion-icon">
-                        </div>
-                        <script>
-                        function ejecutarAccion(accion) {
-                            // Deshabilitar todos los botones de acción
-                            const botones = document.querySelectorAll('.accion-item');
-                            botones.forEach(boton => {
-                                boton.style.opacity = '0.5';
-                                boton.style.pointerEvents = 'none';
-                            });
-                            
-                            // Mostrar mensaje de carga en la interfaz
-                            const ultimaAccionDiv = document.querySelector('.ultima-accion');
-                            if (ultimaAccionDiv) {
-                                ultimaAccionDiv.innerHTML = `
-                                    <div>
-                                        <span class="text-primary">Ejecutando ${accion}...</span>
-                                    </div>
-                                `;
-                            }
-                            
-                            // Enviar la petición al backend
-                            fetch(`/realiza_accion`, {
-                                method: 'POST',
-                                headers: {
-                                    'Content-Type': 'application/json',
-                                },
-                                body: JSON.stringify({
-                                    accion: accion,
-                                    ciudadano_id: '{{ ciudadano.id }}'
-                                })
-                            })
-                            .then(response => {
-                                if (!response.ok) {
-                                    throw new Error(`Error HTTP: ${response.status}`);
-                                }
-                                return response.json();
-                            })
-                            .then(data => {
-                                console.log('Respuesta del servidor:', data);
-                                
-                                if (data.redirect) {
-                                    window.location.href = data.redirect;
-                                    return;
-                                }
-                                
-                                // Mostrar mensaje de éxito o error
-                                if (data.success) {
-                                    if (data.mensaje) {
-                                        const ultimaAccionDiv = document.querySelector('.ultima-accion');
-                                        if (ultimaAccionDiv) {
-                                            // Mostrar el mensaje completo con saltos de línea
-                                            const mensajeConSaltos = data.mensaje.replace(/\n/g, '<br>');
-                                            ultimaAccionDiv.innerHTML = `
-                                                <div>
-                                                    <span class="text-primary">${mensajeConSaltos}</span>
-                                                </div>
-                                            `;
-                                        }
-                                    }
-                                    // Recargar la página para actualizar los recursos
-                                    setTimeout(() => {
-                                        window.location.reload();
-                                    }, 1000);
-                                } else {
-                                    // Mostrar mensaje de error
-                                    alert(data.mensaje || 'La acción no se pudo completar');
-                                    // Volver a habilitar los botones
-                                    botones.forEach(boton => {
-                                        boton.style.opacity = '1';
-                                        boton.style.pointerEvents = 'auto';
-                                    });
-                                }
-                            })
-                            .catch((error) => {
-                                console.error('Error en la petición:', error);
-                                alert(`Error al realizar la acción: ${error.message}`);
-                                // Volver a habilitar los botones
-                                botones.forEach(boton => {
-                                    boton.style.opacity = '1';
-                                    boton.style.pointerEvents = 'auto';
-                                });
-                            });
-                        }
-                        </script>
-                        
-                        <script>
-                        // Función para manejar la fabricación de productos
-                        async function fabricarProducto(nombreProducto, elemento) {
-                            // Verificar si el producto es fabricable
-                            if (elemento.classList.contains('no-fabricable')) {
-                                return; // No hacer nada si no es fabricable
-                            }
-                            
-                            // Mostrar indicador de carga
-                            const originalTitle = elemento.title;
-                            elemento.title = 'Fabricando...';
-                            elemento.style.opacity = '0.7';
-                            
-                            try {
-                                // Hacer la petición al servidor
-                                const response = await fetch('/fabricar', {
-                                    method: 'POST',
-                                    headers: {
-                                        'Content-Type': 'application/json',
-                                    },
-                                    body: JSON.stringify({ producto: nombreProducto })
-                                });
-                                
-                                const data = await response.json();
-                                
-                                if (data.success) {
-                                    // Recargar la página para actualizar los recursos
-                                    location.reload();
-                                } else {
-                                    // Mostrar mensaje de error
-                                    mostrarMensaje('error', data.message);
-                                    // Restaurar el estado del botón
-                                    elemento.title = originalTitle;
-                                    elemento.style.opacity = '1';
-                                }
-                            } catch (error) {
-                                console.error('Error al fabricar producto:', error);
-                                mostrarMensaje('error', 'Error al conectar con el servidor');
-                                // Restaurar el estado del botón
-                                elemento.title = originalTitle;
-                                elemento.style.opacity = '1';
-                            }
-                        }
-                        
-                        // Función para mostrar mensajes al usuario
-                        function mostrarMensaje(tipo, mensaje) {
-                            // Aquí puedes implementar tu propio sistema de notificaciones
-                            // Por ahora, usamos alert para simplificar
-                            if (tipo === 'success') {
-                                alert('✓ ' + mensaje);
-                            } else {
-                                alert('✗ ' + mensaje);
-                            }
-                        }
-                        </script>
+                        {% endfor %}
                     </div>
                 </div>
                 
@@ -321,7 +171,7 @@
                     <div class="ultima-accion">
                         {% if ultima_accion %}
                             <div>
-                                <span class="text-primary">{{ ultima_accion.mensaje_final|replace('\n', '<br>')|safe }}</span>
+                                <span>{{ ultima_accion.mensaje_final|replace('\n', '<br>')|safe }}</span>
                             </div>
                         {% else %}
                             <div class="sin-accion">
@@ -333,5 +183,6 @@
             </div>
         </div>
     </div>
+   
 </body>
 </html>

@@ -14,8 +14,8 @@ ROOT_DIR = os.path.dirname(os.path.dirname(__file__))
 if ROOT_DIR not in sys.path:
     sys.path.append(ROOT_DIR)
 
-from database import mejorar_casa, listar_historial_acciones, get_db_connection, info_fabricacion, es_producto_fabricable, fabricar_producto
-from funciones.realiza_accion import realiza_accion 
+from DB_DML_FUNCIONES import mejorar_casa, listar_historial_acciones, get_db_connection, info_fabricacion, es_producto_fabricable, fabricar_producto
+from DB_DML_FUNCIONES import realizar_accion 
 from db_mapa import TIPOS_CASILLAS
 
 app = Flask(__name__)
@@ -34,7 +34,7 @@ def get_ciudadano(nombre):
             SELECT c.nombre as nombre,
             c.id as id, 
             c.nivel_casa as nivel_casa,
-            ROUND(rc.cantidad, 2) as energia,
+            rtrim( rtrim( round(rc.cantidad, 2), '0'), '.' ) as energia,
             c.fecha_pozo as fecha_pozo,
             c.rango as rango,
             c.fecha_crear as fecha_crear,
@@ -90,44 +90,6 @@ def route_mejorar_casa():
     except Exception:
         pass  # Se podría loggear
         return redirect(url_for('ciudadano'))
-
-
-@app.route('/realiza_accion', methods=['POST'])
-def route_realiza_accion():
-    """Endpoint para realizar acciones sin mensaje desde la interfaz web."""
-    try:
-        data = request.get_json()
-        accion = data.get('accion')
-        ciudadano_id = data.get('ciudadano_id')
-        
-        # Obtener el nombre del ciudadano por su ID
-        with sqlite3.connect(DB_PATH) as conn:
-            cursor = conn.cursor()
-            cursor.execute('SELECT nombre FROM ciudadanos WHERE id = ?', (ciudadano_id,))
-            result = cursor.fetchone()
-            
-            if not result:
-                return jsonify({
-                    'success': False,
-                    'mensaje': 'Ciudadano no encontrado'
-                }), 404
-                
-            nombre_ciudadano = result[0]
-            
-        # Ejecutar la acción
-        resultado = realiza_accion(accion, nombre_ciudadano)
-        
-        return jsonify({
-            'success': True,
-            'mensaje': str(resultado)
-        })
-        
-    except Exception as e:
-        return jsonify({
-            'success': False,
-            'mensaje': f'Error al realizar la acción: {str(e)}'
-        }), 500
-    return redirect(url_for('ciudadano'))
 
 
 @app.route('/ciudadano')
@@ -219,9 +181,6 @@ def ciudadano():
             ''', (ciudadano['id'],))
             
             productos_db = cursor.fetchall()
-            
-            # Debug: Ver qué datos estamos obteniendo
-            logger.info(f"Productos obtenidos de la base de datos: {productos_db}")
             
             # Inicializar diccionario de productos
             productos = {}
@@ -393,13 +352,47 @@ def ciudadano():
                     'icono': row[2],
                     'nivel': row[3]
                 })
+            
+            # Obtener las acciones disponibles
+            cursor.execute('''
+                SELECT codigo, nombre, titulo, imagen 
+                FROM acciones 
+                WHERE activo = 1
+                ORDER BY nombre
+            ''')
+            # Asegurarse de que cada fila sea un diccionario
+            acciones = []
+            for row in cursor.fetchall():
+                if hasattr(row, 'keys'):  # Si ya es un diccionario
+                    acciones.append(dict(row))
+                else:  # Si es una tupla, crear un diccionario manualmente
+                    acciones.append({
+                        'codigo': row[0],
+                        'nombre': row[1],
+                        'titulo': row[2],
+                        'imagen': row[3]
+                    })
+            
+            print(f"Acciones obtenidas de la base de datos: {acciones}")  # Para depuración
+            
     except Exception as e:
-        logger.error(f"Error al obtener habilidades del ciudadano: {e}")
+        logger.error(f"Error al obtener datos del ciudadano: {e}")
+        acciones = []
     
+    # Depuración: imprimir las acciones que se enviarán a la plantilla
+    print(f"Acciones a pasar a la plantilla: {acciones}")
+    
+    # Asegurarse de que acciones sea una lista de diccionarios
+    if not isinstance(acciones, list):
+        print(f"Error: acciones no es una lista, es de tipo: {type(acciones)}")
+        acciones = []
+    
+    # Pasar las acciones a la plantilla
     return render_template('ciudadano.html',
                          ciudadano=ciudadano,
                          fecha_pozo=fecha_pozo_fmt,
                          desc_rango=desc_rango,
+                         desc_casa=desc_casa,
                          ciudad_desde_fmt=ciudad_desde_fmt,
                          ultima_ciudad_fmt=ultima_ciudad_fmt,
                          show_mejora_info=show_mejora_info,
@@ -410,7 +403,8 @@ def ciudadano():
                          ultima_accion=ultima_accion,
                          habilidades_ciudadano=habilidades_ciudadano,
                          herramientas=herramientas,
-                         es_producto_fabricable=es_producto_fabricable)
+                         es_producto_fabricable=es_producto_fabricable,
+                         acciones=acciones)  # Asegurarse de que acciones se pase a la plantilla
 
 @app.route('/fabricar', methods=['POST'])
 def fabricar():
@@ -439,6 +433,63 @@ def fabricar():
         return jsonify({
             'success': False,
             'message': f'Error al procesar la solicitud: {str(e)}'
+        }), 500
+
+@app.route('/ejecutar-accion', methods=['POST'])
+def ejecutar_accion():
+    """Endpoint para ejecutar una acción del juego."""
+    try:
+        data = request.get_json()
+        print(f"[DEBUG] Datos recibidos: {data}")  # Depuración
+        
+        if not data:
+            return jsonify({
+                'success': False,
+                'mensaje': 'No se recibieron datos JSON en la solicitud'
+            }), 400
+            
+        codigo_accion = data.get('codigo_accion')
+        nombre_ciudadano = data.get('nombre_ciudadano')
+        
+        print(f"[DEBUG] Código de acción: {codigo_accion}")  # Depuración
+        print(f"[DEBUG] Nombre del ciudadano: {nombre_ciudadano}")  # Depuración
+        
+        if not codigo_accion or not nombre_ciudadano:
+            error_msg = 'Faltan parámetros requeridos: '
+            if not codigo_accion:
+                error_msg += 'código de acción, '
+            if not nombre_ciudadano:
+                error_msg += 'nombre del ciudadano'
+            return jsonify({
+                'success': False,
+                'mensaje': error_msg.strip(', ')
+            }), 400
+        
+        # Llamar a la función realizar_accion del módulo DB_DML_FUNCIONES
+        from DB_DML_FUNCIONES import realizar_accion
+        resultado = realizar_accion(nombre_ciudadano, codigo_accion)
+        
+        # Formatear la respuesta
+        if resultado.get('exito'):
+            return jsonify({
+                'success': True,
+                'mensaje': resultado.get('mensaje', 'Acción ejecutada con éxito'),
+                'recursos_obtenidos': resultado.get('recursos_obtenidos', {}),
+                'energia_restante': resultado.get('energia_restante', 0)
+            })
+        else:
+            # Si hay un mensaje específico de error, usarlo; de lo contrario, mensaje genérico
+            mensaje_error = resultado.get('mensaje', 'Error al ejecutar la acción')
+            return jsonify({
+                'success': False,
+                'mensaje': mensaje_error
+            }), 400
+            
+    except Exception as e:
+        logger.error(f'Error al ejecutar acción: {str(e)}')
+        return jsonify({
+            'success': False,
+            'mensaje': f'Error en el servidor: {str(e)}'
         }), 500
 
 @app.route('/mapa')

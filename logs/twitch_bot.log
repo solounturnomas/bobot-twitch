@@ -2358,3 +2358,471 @@ sqlite3.OperationalError: no such column: activo
 2025-07-05 03:49:05 - twitch_bot.database - INFO - Acción registrada exitosamente: talar
 2025-07-05 03:49:07 - twitch_bot.database - INFO - Listando historial de acciones
 2025-07-05 03:49:07 - twitch_bot.database - INFO - Se encontraron 10 acciones en el historial
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Tabla herramientas creada
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Las herramientas ya están inicializadas
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Tabla acciones creada
+2025-07-05 12:03:41 - twitch_bot.database - ERROR - Error al inicializar acciones: no such table: acciones
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Tabla recursos_acciones creada
+2025-07-05 12:03:41 - twitch_bot.database - ERROR - Error al inicializar relaciones entre acciones y recursos: no such table: recursos_acciones
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Tabla herramientas_ciudadano creada
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Índices de herramientas_ciudadano creados
+2025-07-05 12:03:41 - twitch_bot.database - INFO - 7 herramientas inicializadas
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Se crearon 7 relaciones ciudadano-herramienta
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-05 12:03:41 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Tabla herramientas creada
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Las herramientas ya están inicializadas
+2025-07-05 12:07:24 - twitch_bot.database - INFO - Tabla acciones creada
+2025-07-05 12:07:29 - twitch_bot.database - ERROR - Error al inicializar acciones: database is locked
+2025-07-05 12:07:29 - twitch_bot.database - INFO - Tabla recursos_acciones creada
+2025-07-05 12:07:29 - twitch_bot.database - WARNING - Acción no encontrada: talar
+2025-07-05 12:07:29 - twitch_bot.database - WARNING - Acción no encontrada: cultivar
+2025-07-05 12:07:29 - twitch_bot.database - WARNING - Acción no encontrada: guardia
+2025-07-05 12:07:29 - twitch_bot.database - WARNING - Acción no encontrada: picar
+2025-07-05 12:07:29 - twitch_bot.database - WARNING - Acción no encontrada: cazar
+2025-07-05 12:07:29 - twitch_bot.database - WARNING - Acción no encontrada: pescar
+2025-07-05 12:07:29 - twitch_bot.database - WARNING - Acción no encontrada: cavar
+2025-07-05 12:07:29 - twitch_bot.database - INFO - Se insertaron 0 relaciones iniciales entre acciones y recursos
+2025-07-05 12:07:29 - twitch_bot.database - INFO - Tabla herramientas_ciudadano creada
+2025-07-05 12:07:29 - twitch_bot.database - INFO - Índices de herramientas_ciudadano creados
+2025-07-05 12:07:29 - twitch_bot.database - INFO - 7 herramientas inicializadas
+2025-07-05 12:07:29 - twitch_bot.database - INFO - Se crearon 7 relaciones ciudadano-herramienta
+2025-07-05 12:07:29 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-05 12:07:29 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Tabla herramientas creada
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Las herramientas ya están inicializadas
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Tabla acciones creada
+2025-07-05 12:11:33 - twitch_bot.database - ERROR - No se encontró la herramienta requerida: caña
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Tabla recursos_acciones creada
+2025-07-05 12:11:33 - twitch_bot.database - WARNING - Acción no encontrada: talar
+2025-07-05 12:11:33 - twitch_bot.database - WARNING - Acción no encontrada: cultivar
+2025-07-05 12:11:33 - twitch_bot.database - WARNING - Acción no encontrada: guardia
+2025-07-05 12:11:33 - twitch_bot.database - WARNING - Acción no encontrada: picar
+2025-07-05 12:11:33 - twitch_bot.database - WARNING - Acción no encontrada: cazar
+2025-07-05 12:11:33 - twitch_bot.database - WARNING - Acción no encontrada: pescar
+2025-07-05 12:11:33 - twitch_bot.database - WARNING - Acción no encontrada: cavar
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Se insertaron 0 relaciones iniciales entre acciones y recursos
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Tabla herramientas_ciudadano creada
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Índices de herramientas_ciudadano creados
+2025-07-05 12:11:33 - twitch_bot.database - INFO - 7 herramientas inicializadas
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Se crearon 7 relaciones ciudadano-herramienta
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Herramientas existentes eliminadas para forzar reinicialización
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Se insertaron 6 herramientas iniciales
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Se insertaron 7 acciones iniciales
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: talar -> madera
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: talar -> rama
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: talar -> hierba
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: talar -> energia
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: talar -> moneda
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: cultivar -> trigo
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: cultivar -> verdura
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: cultivar -> hierba
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: cultivar -> energia
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: cultivar -> moneda
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: guardia -> energia
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: guardia -> hierba
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: guardia -> moneda
+2025-07-05 12:11:33 - twitch_bot.database - WARNING - Acción no encontrada: picar
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: cazar -> carne
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: cazar -> piel
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: cazar -> hierba
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: cazar -> energia
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: cazar -> moneda
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: pescar -> pescado
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: pescar -> agua
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: pescar -> hierba
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: pescar -> energia
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: pescar -> moneda
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: cavar -> arcilla
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: cavar -> hierba
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: cavar -> energia
+2025-07-05 12:11:33 - twitch_bot.database - DEBUG - Insertada relación: cavar -> moneda
+2025-07-05 12:11:33 - twitch_bot.database - INFO - Se insertaron 27 relaciones iniciales entre acciones y recursos
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Tabla herramientas creada
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Las herramientas ya están inicializadas
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Tabla acciones creada
+2025-07-05 12:12:20 - twitch_bot.database - ERROR - Error al inicializar acciones: no such table: acciones
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Tabla recursos_acciones creada
+2025-07-05 12:12:20 - twitch_bot.database - ERROR - Error al inicializar relaciones entre acciones y recursos: no such table: recursos_acciones
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Tabla herramientas_ciudadano creada
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Índices de herramientas_ciudadano creados
+2025-07-05 12:12:20 - twitch_bot.database - INFO - 7 herramientas inicializadas
+2025-07-05 12:12:20 - twitch_bot.database - INFO - Se crearon 8 relaciones ciudadano-herramienta
+2025-07-05 12:12:21 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-05 12:12:21 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Tabla herramientas creada
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Tabla acciones creada
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Tabla recursos_acciones creada
+2025-07-05 12:16:06 - twitch_bot.database - INFO - Las herramientas ya están inicializadas
+2025-07-05 12:16:11 - twitch_bot.database - ERROR - Error inesperado al insertar acciones: database is locked
+2025-07-05 12:16:11 - twitch_bot.database - ERROR - Error al inicializar acciones
+2025-07-05 12:16:11 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Tabla herramientas creada
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Las herramientas ya están inicializadas
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Tabla herramientas_ciudadano creada
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Índices de herramientas_ciudadano creados
+2025-07-05 12:44:51 - twitch_bot.database - INFO - 7 herramientas inicializadas
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Se crearon 8 relaciones ciudadano-herramienta
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-05 12:44:51 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Tabla herramientas creada
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Las herramientas ya están inicializadas
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Tabla herramientas_ciudadano creada
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Índices de herramientas_ciudadano creados
+2025-07-05 12:45:19 - twitch_bot.database - INFO - 7 herramientas inicializadas
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Se crearon 8 relaciones ciudadano-herramienta
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-05 12:45:19 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-05 12:45:20 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 12:45:20 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Tabla herramientas creada
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Las herramientas ya están inicializadas
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Tabla herramientas_ciudadano creada
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Índices de herramientas_ciudadano creados
+2025-07-05 12:45:20 - twitch_bot.database - INFO - 7 herramientas inicializadas
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Se crearon 8 relaciones ciudadano-herramienta
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-05 12:45:20 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-05 12:45:20 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 12:45:20 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 12:45:26 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-05 12:45:26 - twitch_bot.database - INFO - Se encontraron 10 acciones en el historial
+2025-07-05 12:45:57 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-05 12:45:57 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=madera, cantidad=1.3
+2025-07-05 12:45:57 - twitch_bot.database - INFO - Recuperado recurso: ID=2, Nombre=Madera
+2025-07-05 12:45:57 - twitch_bot.database - INFO - Recurso existente - ID: 12, Actual: 53.29999999999999, Nueva cantidad: 54.59999999999999
+2025-07-05 12:45:57 - twitch_bot.database - INFO - Actualizando cantidad a 54.59999999999999 para recurso madera
+2025-07-05 12:45:57 - twitch_bot.database - INFO - Recurso madera actualizado exitosamente
+2025-07-05 12:45:57 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=rama, cantidad=6.5
+2025-07-05 12:45:57 - twitch_bot.database - INFO - Recuperado recurso: ID=3, Nombre=Rama
+2025-07-05 12:45:57 - twitch_bot.database - INFO - Recurso existente - ID: 17, Actual: 101.5, Nueva cantidad: 108.0
+2025-07-05 12:45:57 - twitch_bot.database - INFO - Actualizando cantidad a 108.0 para recurso rama
+2025-07-05 12:45:57 - twitch_bot.database - INFO - Recurso rama actualizado exitosamente
+2025-07-05 12:45:57 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=energia, cantidad=-1
+2025-07-05 12:45:57 - twitch_bot.database - INFO - Recuperado recurso: ID=13, Nombre=Energia
+2025-07-05 12:45:57 - twitch_bot.database - INFO - Recurso existente - ID: 7, Actual: 0, Nueva cantidad: -1
+2025-07-05 12:45:57 - twitch_bot.database - INFO - Estableciendo cantidad a 0 para recurso energia
+2025-07-05 12:45:57 - twitch_bot.database - INFO - Recurso energia actualizado exitosamente
+2025-07-05 12:45:57 - twitch_bot.database - INFO - Registrando acción: talar
+2025-07-05 12:45:57 - twitch_bot.database - INFO - Acción registrada exitosamente: talar
+2025-07-05 12:46:00 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-05 12:46:00 - twitch_bot.database - INFO - Se encontraron 10 acciones en el historial
+2025-07-05 12:46:03 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-05 12:46:03 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=moneda, cantidad=7.0
+2025-07-05 12:46:03 - twitch_bot.database - INFO - Recuperado recurso: ID=1, Nombre=Moneda
+2025-07-05 12:46:03 - twitch_bot.database - INFO - Recurso existente - ID: 13, Actual: 108, Nueva cantidad: 115.0
+2025-07-05 12:46:03 - twitch_bot.database - INFO - Actualizando cantidad a 115.0 para recurso moneda
+2025-07-05 12:46:03 - twitch_bot.database - INFO - Recurso moneda actualizado exitosamente
+2025-07-05 12:46:03 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=energia, cantidad=-1
+2025-07-05 12:46:03 - twitch_bot.database - INFO - Recuperado recurso: ID=13, Nombre=Energia
+2025-07-05 12:46:03 - twitch_bot.database - INFO - Recurso existente - ID: 7, Actual: 0, Nueva cantidad: -1
+2025-07-05 12:46:03 - twitch_bot.database - INFO - Estableciendo cantidad a 0 para recurso energia
+2025-07-05 12:46:04 - twitch_bot.database - INFO - Recurso energia actualizado exitosamente
+2025-07-05 12:46:04 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-07-05 12:46:04 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-07-05 12:46:06 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-05 12:46:06 - twitch_bot.database - INFO - Se encontraron 10 acciones en el historial
+2025-07-05 12:46:12 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-05 12:46:12 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=moneda, cantidad=7.0
+2025-07-05 12:46:12 - twitch_bot.database - INFO - Recuperado recurso: ID=1, Nombre=Moneda
+2025-07-05 12:46:12 - twitch_bot.database - INFO - Recurso existente - ID: 13, Actual: 115, Nueva cantidad: 122.0
+2025-07-05 12:46:12 - twitch_bot.database - INFO - Actualizando cantidad a 122.0 para recurso moneda
+2025-07-05 12:46:12 - twitch_bot.database - INFO - Recurso moneda actualizado exitosamente
+2025-07-05 12:46:12 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=energia, cantidad=-1
+2025-07-05 12:46:12 - twitch_bot.database - INFO - Recuperado recurso: ID=13, Nombre=Energia
+2025-07-05 12:46:12 - twitch_bot.database - INFO - Recurso existente - ID: 7, Actual: 0, Nueva cantidad: -1
+2025-07-05 12:46:12 - twitch_bot.database - INFO - Estableciendo cantidad a 0 para recurso energia
+2025-07-05 12:46:12 - twitch_bot.database - INFO - Recurso energia actualizado exitosamente
+2025-07-05 12:46:12 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-07-05 12:46:13 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-07-05 12:46:15 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-05 12:46:15 - twitch_bot.database - INFO - Se encontraron 10 acciones en el historial
+2025-07-05 12:46:18 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-05 12:46:18 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=moneda, cantidad=7.0
+2025-07-05 12:46:18 - twitch_bot.database - INFO - Recuperado recurso: ID=1, Nombre=Moneda
+2025-07-05 12:46:18 - twitch_bot.database - INFO - Recurso existente - ID: 13, Actual: 122, Nueva cantidad: 129.0
+2025-07-05 12:46:18 - twitch_bot.database - INFO - Actualizando cantidad a 129.0 para recurso moneda
+2025-07-05 12:46:19 - twitch_bot.database - INFO - Recurso moneda actualizado exitosamente
+2025-07-05 12:46:19 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=energia, cantidad=-1
+2025-07-05 12:46:19 - twitch_bot.database - INFO - Recuperado recurso: ID=13, Nombre=Energia
+2025-07-05 12:46:19 - twitch_bot.database - INFO - Recurso existente - ID: 7, Actual: 0, Nueva cantidad: -1
+2025-07-05 12:46:19 - twitch_bot.database - INFO - Estableciendo cantidad a 0 para recurso energia
+2025-07-05 12:46:19 - twitch_bot.database - INFO - Recurso energia actualizado exitosamente
+2025-07-05 12:46:19 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-07-05 12:46:19 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-07-05 12:46:21 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-05 12:46:21 - twitch_bot.database - INFO - Se encontraron 10 acciones en el historial
+2025-07-05 12:46:25 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-05 12:46:25 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=moneda, cantidad=13.0
+2025-07-05 12:46:25 - twitch_bot.database - INFO - Recuperado recurso: ID=1, Nombre=Moneda
+2025-07-05 12:46:25 - twitch_bot.database - INFO - Recurso existente - ID: 13, Actual: 129, Nueva cantidad: 142.0
+2025-07-05 12:46:25 - twitch_bot.database - INFO - Actualizando cantidad a 142.0 para recurso moneda
+2025-07-05 12:46:25 - twitch_bot.database - INFO - Recurso moneda actualizado exitosamente
+2025-07-05 12:46:25 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=energia, cantidad=-1
+2025-07-05 12:46:25 - twitch_bot.database - INFO - Recuperado recurso: ID=13, Nombre=Energia
+2025-07-05 12:46:25 - twitch_bot.database - INFO - Recurso existente - ID: 7, Actual: 0, Nueva cantidad: -1
+2025-07-05 12:46:25 - twitch_bot.database - INFO - Estableciendo cantidad a 0 para recurso energia
+2025-07-05 12:46:25 - twitch_bot.database - INFO - Recurso energia actualizado exitosamente
+2025-07-05 12:46:25 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-07-05 12:46:25 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-07-05 12:46:28 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-05 12:46:28 - twitch_bot.database - INFO - Se encontraron 10 acciones en el historial
+2025-07-05 13:14:07 - twitch_bot.database - ERROR - Error al importar módulos DDL/DML: cannot import name 'init_db' from 'database_ddl' (d:\BOBOT\database_ddl.py)
+2025-07-05 13:15:08 - twitch_bot.database - ERROR - Error inesperado al inicializar la base de datos: main() takes 0 positional arguments but 1 was given
+2025-07-05 13:15:51 - twitch_bot.database - ERROR - Error inesperado al inicializar la base de datos: main() takes 0 positional arguments but 1 was given
+2025-07-05 13:16:33 - twitch_bot.database - INFO - Base de datos inicializada correctamente
+2025-07-05 13:24:55 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 13:24:55 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 13:24:55 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 13:24:55 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 13:36:40 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 13:36:40 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 13:38:04 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 13:38:04 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 13:38:18 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 13:38:18 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 13:38:18 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 13:38:18 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 13:45:17 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 13:45:17 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 13:45:17 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 13:45:17 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 13:51:46 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 13:51:46 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 13:52:20 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 13:52:20 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 13:52:23 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 13:52:23 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 13:52:35 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 13:52:35 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 13:52:36 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 13:52:36 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 13:54:34 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 13:54:34 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 13:59:48 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 13:59:48 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:00:43 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:00:43 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:02:00 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:02:00 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:02:38 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:02:38 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:05:38 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:05:38 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:09:14 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:09:14 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:11:54 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:11:54 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:20:59 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:20:59 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:23:18 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:23:18 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:24:19 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:24:19 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:24:19 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:24:19 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:27:57 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:27:57 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:28:19 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:28:19 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:30:09 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:30:09 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:30:18 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:30:18 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:30:41 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:30:41 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:47:16 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:47:16 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:50:37 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:50:37 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 14:51:52 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 14:51:52 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 15:05:09 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 15:05:09 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 15:07:13 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 15:07:13 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 15:14:07 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 15:14:07 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 15:15:30 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 15:15:30 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 15:21:44 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 15:21:44 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 15:21:45 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 15:21:45 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 15:23:42 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 15:23:42 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 15:24:42 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 15:24:42 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 15:27:32 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 15:27:32 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 15:27:33 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 15:27:33 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 15:39:27 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 15:39:27 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 15:39:27 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 15:39:27 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 15:42:22 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 15:42:22 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 15:55:55 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 15:55:55 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 15:59:56 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 15:59:56 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 16:00:26 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 16:00:26 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 16:00:48 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 16:00:48 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 21:24:04 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 21:24:04 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 21:24:04 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 21:24:04 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 21:30:54 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 21:30:54 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 21:33:17 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 21:33:17 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 21:39:33 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 21:39:33 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 22:00:27 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 22:00:27 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 22:01:30 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 22:01:30 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 22:01:42 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 22:01:42 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 22:02:14 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 22:02:14 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 22:04:05 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 22:04:05 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 22:06:57 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 22:06:57 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 22:27:23 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 22:27:23 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 22:31:01 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 22:31:01 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 22:31:10 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 22:31:10 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 22:47:45 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 22:47:45 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 22:50:07 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 22:50:07 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 22:57:48 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 22:57:48 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 23:01:58 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 23:01:58 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 23:01:59 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 23:01:59 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 23:17:12 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 23:17:12 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-05 23:17:23 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-05 23:17:23 - twitch_bot.db_mapa - INFO - Tabla mapa creada

@@ -636,11 +636,15 @@ form button:hover img {
 
         /* Estilos para el bloque de Última Acción */
         .ultima-accion {
+            padding-left: 10px;
+            border-radius: 2px;
             padding: 10px;
-            font-size: 14px;
-            line-height: 1.4;
+            background-color: var(--border-color);
+            margin: 5px 0;
+            animation: fadeIn 0.3s ease-in;
+            text-align: center;
         }
-        
+                
         .accion-fecha {
             color: #666;
             margin-bottom: 5px;
@@ -666,6 +670,42 @@ form button:hover img {
             display: flex;
             align-items: center;
             gap: 5px;
+        }
+
+        /* Estilos para los mensajes de acción */
+        .cargando {
+            color: #2196F3; /* Azul */
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .accion-exitosa {
+            color: #4CAF50; /* Verde */
+            padding: 10px;
+            border-radius: 2px;
+            background-color: #e8f5e9; /* Verde claro de fondo */
+            margin: 5px 0;
+            animation: fadeIn 0.3s ease-in;
+        }
+        
+        .accion-error {
+            color: #f44336; /* Rojo */
+            padding: 10px;
+            border-radius: 2px;
+            background-color: #ffebee; /* Rojo claro de fondo */
+            margin: 5px 0;
+            animation: shake 0.5s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            20%, 60% { transform: translateX(-5px); }
+            40%, 80% { transform: translateX(5px); }
         }
         
         .ultima-accion i {

@@ -15,8 +15,7 @@ DB_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 # Agregar el directorio raíz al path de Python
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-import database
-from database import sumar_recurso_ciudadano
+from DB_DML_FUNCIONES import sumar_recurso_ciudadano, get_ciudadano, registrar_accion
 
 # Definir mensajes por defecto
 MENSAJES_POR_DEFECTO = {
@@ -48,7 +47,7 @@ def realiza_accion(accion: str, nombre_ciudadano: str) -> str:
     """
     try:
         # Obtener el ciudadano
-        ciudadano = database.get_ciudadano(nombre_ciudadano)
+        ciudadano = get_ciudadano(nombre_ciudadano)
         if not ciudadano:
             return f"@{nombre_ciudadano} No estás registrado en Soloville. ¡Usa !registro para unirte!"
         
@@ -254,7 +253,7 @@ def realiza_accion(accion: str, nombre_ciudadano: str) -> str:
         if recursos_obtenidos_str:
             mensaje_final += ", ".join(recursos_obtenidos_str) + ".\n"
         mensaje_final += f"{MENSAJES_RESULTADO[resultado]}"
-        database.registrar_accion(accion, mensaje_final, ciudadano.get('id', 0))
+        registrar_accion(accion, mensaje_final, ciudadano.get('id', 0))
         return mensaje_final 
 
     except Exception as e:

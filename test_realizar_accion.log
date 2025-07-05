@@ -1,0 +1,19 @@
+2025-07-05 15:17:55,073 - __main__ - ERROR - Error durante la prueba: No module named 'DB_DML_Funciones'
+Traceback (most recent call last):
+  File "d:\BOBOT\test_realizar_accion.py", line 32, in test_realizar_accion
+    from DB_DML_Funciones import realizar_accion
+ModuleNotFoundError: No module named 'DB_DML_Funciones'
+2025-07-05 15:18:36,233 - __main__ - ERROR - Error durante la prueba: No module named 'DB_DML_Funciones'
+Traceback (most recent call last):
+  File "d:\BOBOT\test_realizar_accion.py", line 42, in test_realizar_accion
+    from DB_DML_Funciones import realizar_accion
+ModuleNotFoundError: No module named 'DB_DML_Funciones'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\BOBOT\test_realizar_accion.py", line 46, in test_realizar_accion
+    import DB_DML_Funciones
+ModuleNotFoundError: No module named 'DB_DML_Funciones'
+2025-07-05 15:19:31,642 - database - ERROR - Error al realizar acción 1 para solounturnomas: name 'random' is not defined
+2025-07-05 15:20:37,421 - database - ERROR - Error al realizar acción 1 para solounturnomas: table historial_acciones has no column named usuario_crear
