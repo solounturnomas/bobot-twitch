@@ -23,6 +23,7 @@ import configuracion_logging
 from dotenv import load_dotenv
 import os
 from funciones.realiza_accion import realiza_accion
+from database import añadir_energia
 
 # Cargar variables de entorno
 load_dotenv()
@@ -40,12 +41,8 @@ BOT_USERNAME = NOMBRE_BOT
 
 # Diccionario de acciones para recompensas
 RECOMPENSAS = {
-    'f7b19ecc-5085-43b2-a07e-dee6f8c064dd': 'talar',
-    '45650b54-6ec3-4908-ac23-c71521d224e8': 'trabajar en el campo',
-    'f6a93674-c59c-43a3-8112-97b31f9b9571': 'trabajar de guardia',
-    '5e35690c-d9a7-4383-9365-ac3ddd2a28f0': 'picar piedra',
-    '720eab8f-404a-4166-a035-b2db303cc4d5': 'cazar en el bosque',
-    '065567f5-e68f-43cd-816f-f4ef0e64572d': 'pescar'
+    '3a923fe1-90f4-4f0b-bb09-fc53d5f1e0fb': 'energia1',
+    'e5b9f616-826d-4188-97f1-d99729748fae': 'energia10',
 }
 
 class Bot(commands.Bot):
@@ -88,10 +85,15 @@ class Bot(commands.Bot):
             if reward_id:
                 # Obtener la acción asociada a la recompensa
                 accion = RECOMPENSAS.get(reward_id)
-                if accion:
+                if accion: 
                     logger.info(f"[Recompensa] {message.author.name}: {message.content} (ID: {reward_id}) - Acción: {accion}")
                     # Realizar acción y escribir mensaje en el chat
-                    await message.channel.send(realiza_accion(accion, message.author.name, message.content))
+                    if RECOMPENSAS.get(reward_id) == 'energia1':
+                        await message.channel.send(añadir_energia(message.author.name, 1, "añadir_energia"))
+                    elif RECOMPENSAS.get(reward_id) == 'energia10':
+                        await message.channel.send(añadir_energia(message.author.name, 10, "añadir_energia"))
+                    else:
+                        await message.channel.send(realiza_accion(accion, message.author.name, message.content))
                 else:
                     logger.info(f"[Recompensa] {message.author.name}: {message.content} (ID: {reward_id}) - Acción no encontrada")
             else:

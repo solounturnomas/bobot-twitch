@@ -1,0 +1,2037 @@
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 00:02:09 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 00:02:09 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 00:02:09 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 00:02:09 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 00:02:09 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 00:02:18 - twitch_bot.database - INFO - Iniciando fabricación de Tabla para solounturnomas
+2025-07-04 00:02:18 - twitch_bot.database - INFO - Receta obtenida: {'producto_id': 15, 'producto_codigo': 'tabla', 'producto_nombre': 'Tabla', 'cantidad_generada': 5, 'coste': {'madera': 1, 'energia': 1}}
+2025-07-04 00:02:18 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-04 00:02:18 - twitch_bot.database - INFO - Ciudadano encontrado: ID=1, Nombre=solounturnomas
+2025-07-04 00:02:18 - twitch_bot.database - INFO - Recurso madera: Necesario=1, Actual=54.89999999999999
+2025-07-04 00:02:18 - twitch_bot.database - INFO - Recurso energia: Necesario=1, Actual=45.400000000000006
+2025-07-04 00:02:18 - twitch_bot.database - INFO - Iniciando transacción de fabricación
+2025-07-04 00:02:18 - twitch_bot.database - INFO - Procesando recurso: madera, cantidad a descontar: 1
+2025-07-04 00:02:18 - twitch_bot.database - INFO - ID de recurso madera (Madera): 2
+2025-07-04 00:02:18 - twitch_bot.database - INFO - Llamando a sumar_recurso_ciudadano para restar 1 de madera
+2025-07-04 00:02:18 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=madera, cantidad=-1
+2025-07-04 00:02:18 - twitch_bot.database - INFO - Recuperado recurso: ID=2, Nombre=Madera
+2025-07-04 00:02:18 - twitch_bot.database - INFO - Recurso existente - ID: 12, Actual: 54.89999999999999, Nueva cantidad: 53.89999999999999
+2025-07-04 00:02:18 - twitch_bot.database - INFO - Actualizando cantidad a 53.89999999999999 para recurso madera
+2025-07-04 00:02:23 - twitch_bot.database - ERROR - Error al confirmar la transacción: database is locked
+2025-07-04 00:02:23 - twitch_bot.database - ERROR - Error al restar recurso madera
+2025-07-04 00:02:23 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 18:30:26 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 18:30:26 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 18:30:26 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 18:30:27 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 18:30:27 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 18:30:27 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 18:30:41 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 18:31:43 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 18:33:03 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 18:33:03 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 18:33:03 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 18:33:08 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 18:37:15 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 18:37:15 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 18:37:15 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 18:37:16 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 18:37:16 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 18:37:16 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 18:37:19 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 18:41:22 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 19:00:11 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 19:00:11 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 19:00:11 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 19:05:08 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 19:05:08 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 19:05:08 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 19:05:08 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 19:05:08 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 19:05:08 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 19:05:08 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 19:05:08 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 19:05:08 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 19:05:08 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 19:05:08 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 19:05:08 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 19:05:08 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 19:05:08 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 19:05:09 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 19:05:09 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 19:05:09 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 19:05:09 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 19:05:09 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 19:05:57 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 19:05:57 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 19:05:57 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 19:10:04 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 19:12:25 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 19:12:38 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 19:13:29 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 19:14:08 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 19:16:01 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 19:16:01 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 19:16:01 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 19:16:03 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 19:17:02 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 19:17:02 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 19:17:02 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 19:17:02 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 19:17:02 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 19:17:02 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 19:17:02 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 19:17:02 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 19:17:02 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 19:17:02 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 19:17:02 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 19:17:02 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 19:17:02 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 19:17:02 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 19:17:03 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 19:17:03 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 19:17:03 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 19:19:18 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 19:21:15 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 19:21:15 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 19:21:15 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 19:21:15 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 19:21:15 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 19:21:15 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 19:21:15 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 19:21:15 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 19:21:15 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 19:21:15 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 19:21:15 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 19:21:15 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 19:21:15 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 19:21:15 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 19:21:16 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 19:21:16 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 19:21:16 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 19:21:16 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 19:21:16 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 19:21:19 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 19:22:15 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 19:22:33 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 19:22:33 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 19:22:33 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 19:22:33 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 19:22:33 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 19:22:33 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 19:22:33 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 19:22:33 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 19:22:33 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 19:22:33 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 19:22:33 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 19:22:33 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 19:22:33 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 19:22:33 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 19:22:34 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 19:22:34 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 19:22:34 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 19:22:34 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 19:22:34 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 19:22:35 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 19:22:46 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 19:22:46 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 19:22:46 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 19:22:46 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 19:22:46 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 19:22:46 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 19:22:46 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 19:22:46 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 19:22:46 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 19:22:46 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 19:22:46 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 19:22:46 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 19:22:46 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 19:22:46 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 19:22:47 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 19:22:47 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 19:22:47 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 19:22:47 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 19:22:47 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 19:22:47 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 19:24:10 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 19:24:10 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 19:24:10 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 19:24:10 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 19:24:10 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 19:24:13 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 19:24:36 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 19:24:51 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 19:24:51 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 19:24:51 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 19:25:46 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 19:25:56 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 19:36:49 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 19:36:49 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 19:36:49 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 19:36:49 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 19:36:49 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 19:36:49 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 19:36:49 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 19:36:49 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 19:36:49 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 19:36:49 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 19:36:49 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 19:36:49 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 19:36:49 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 19:36:49 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 19:36:49 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 19:36:49 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 19:36:50 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 19:36:50 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 19:36:50 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 19:45:43 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 19:45:43 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 19:45:43 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:00:57 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:01:06 - twitch_bot.database - ERROR - Error al fabricar Tabla para solounturnomas: no such column: fecha_modificacion
+2025-07-04 20:01:21 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:03:26 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:03:26 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:03:26 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:03:26 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:03:26 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:03:26 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:03:26 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:03:26 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:03:26 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:03:26 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:03:26 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:03:26 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:03:26 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:03:26 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:03:26 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:03:26 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:03:27 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:03:27 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:03:27 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:03:30 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:05:04 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:05:11 - twitch_bot.database - ERROR - Error al fabricar Tabla para solounturnomas: no such column: fecha_modificacion
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-04 20:07:24 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=trigo, cantidad=7
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Recuperado recurso: ID=8, Nombre=Trigo
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Recurso existente - ID: 19, Actual: 61.9, Nueva cantidad: 68.9
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Actualizando cantidad a 68.9 para recurso trigo
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Recurso trigo actualizado exitosamente
+2025-07-04 20:07:24 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=verdura, cantidad=1
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Recuperado recurso: ID=9, Nombre=Verdura
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Recurso existente - ID: 20, Actual: 52, Nueva cantidad: 53
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Actualizando cantidad a 53 para recurso verdura
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Recurso verdura actualizado exitosamente
+2025-07-04 20:07:24 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=hierba, cantidad=2
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Recuperado recurso: ID=12, Nombre=Hierba
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Recurso existente - ID: 8, Actual: 1, Nueva cantidad: 3
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Actualizando cantidad a 3 para recurso hierba
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Recurso hierba actualizado exitosamente
+2025-07-04 20:07:24 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=energia, cantidad=-0.8
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Recuperado recurso: ID=13, Nombre=Energia
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Recurso existente - ID: 7, Actual: 45.400000000000006, Nueva cantidad: 44.60000000000001
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Actualizando cantidad a 44.60000000000001 para recurso energia
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Recurso energia actualizado exitosamente
+2025-07-04 20:07:24 - twitch_bot.database - INFO - Registrando acción: trabajar en el campo
+2025-07-04 20:07:25 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar en el campo
+2025-07-04 20:07:26 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:08:00 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:08:00 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:08:00 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:08:31 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:08:33 - twitch_bot.database - ERROR - Error durante la fabricación de Tabla para solounturnomas: no such column: fecha_modificacion
+2025-07-04 20:09:46 - twitch_bot.database - ERROR - Error durante la fabricación de Ladrillo para solounturnomas: no such column: fecha_modificacion
+2025-07-04 20:10:34 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:10:34 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:10:34 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:10:34 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:10:34 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:10:34 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:10:34 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:10:34 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:10:34 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:10:34 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:10:34 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:10:34 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:10:34 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:10:34 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:10:34 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:10:34 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:10:35 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:10:35 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:10:35 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:10:35 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:10:35 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:10:37 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:10:40 - twitch_bot.database - ERROR - Error durante la fabricación de Tabla para solounturnomas: no such column: fecha_modificacion
+2025-07-04 20:13:47 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:13:47 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:13:47 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:13:47 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:13:47 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:13:47 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:13:47 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:13:47 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:13:47 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:13:47 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:13:47 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:13:47 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:13:47 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:13:47 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:13:47 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:13:47 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:13:48 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:13:48 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:13:48 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:14:10 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:14:10 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:14:10 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:14:13 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:14:13 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:14:13 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:14:19 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:14:19 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:14:19 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:14:24 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:14:24 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:14:24 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:14:30 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:14:34 - twitch_bot.database - ERROR - Error al fabricar Tabla para solounturnomas: no such column: fecha_modificacion
+2025-07-04 20:14:41 - twitch_bot.database - ERROR - Error al fabricar Cuerda para solounturnomas: no such column: fecha_modificacion
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:17:36 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:17:36 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:17:36 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:19:25 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:19:25 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:19:25 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:19:25 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:19:25 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:19:25 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:19:25 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:19:25 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:19:25 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:19:25 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:19:25 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:19:25 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:19:25 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:19:25 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:19:25 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:19:25 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:19:26 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:19:26 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:19:26 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:19:31 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:19:31 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:19:31 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:19:31 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:19:31 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:19:31 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:19:31 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:19:31 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:19:31 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:19:31 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:19:31 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:19:31 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:19:31 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:19:31 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:19:31 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:20:48 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:20:48 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:20:48 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:20:49 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:20:49 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:20:49 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:20:49 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:20:49 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:20:49 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:20:49 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:20:49 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:20:49 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:20:49 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:20:49 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:20:49 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:20:49 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:20:49 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:20:49 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:21:08 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:21:08 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:21:08 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:21:15 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:21:15 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:21:15 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:21:15 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:21:15 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:21:15 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:21:15 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:21:15 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:21:15 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:21:15 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:21:15 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:21:15 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:21:15 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:21:15 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:21:17 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:21:17 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:21:17 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:21:17 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:21:17 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:24:59 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:24:59 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:24:59 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:25:00 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:25:00 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:25:00 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:25:00 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:25:00 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:25:00 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:25:00 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:25:00 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:25:00 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:25:00 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:25:00 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:25:00 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:25:00 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:25:00 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:25:00 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:30:55 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:30:55 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:30:55 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:30:55 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:30:55 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:30:55 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:30:55 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:30:55 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:30:55 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:30:55 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:30:55 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:30:55 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:30:55 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:30:55 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:30:55 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:33:19 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:33:19 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:33:19 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:33:19 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:33:19 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:33:21 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:33:21 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:33:21 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:33:21 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:33:21 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:33:21 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:33:21 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:33:21 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:33:21 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:33:21 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:33:21 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:33:21 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:33:21 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:33:21 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:33:21 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:35:24 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:35:24 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:35:24 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:36:57 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:36:57 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "d:\BOBOT\database.py", line 761, in es_producto_fabricable
+    cursor = conn.cursor()
+             ^^^^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:36:57 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "d:\BOBOT\database.py", line 761, in es_producto_fabricable
+    cursor = conn.cursor()
+             ^^^^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:36:57 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "d:\BOBOT\database.py", line 761, in es_producto_fabricable
+    cursor = conn.cursor()
+             ^^^^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:36:57 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "d:\BOBOT\database.py", line 761, in es_producto_fabricable
+    cursor = conn.cursor()
+             ^^^^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:36:57 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "d:\BOBOT\database.py", line 761, in es_producto_fabricable
+    cursor = conn.cursor()
+             ^^^^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:36:57 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "d:\BOBOT\database.py", line 761, in es_producto_fabricable
+    cursor = conn.cursor()
+             ^^^^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:36:57 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "d:\BOBOT\database.py", line 761, in es_producto_fabricable
+    cursor = conn.cursor()
+             ^^^^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:36:57 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "d:\BOBOT\database.py", line 761, in es_producto_fabricable
+    cursor = conn.cursor()
+             ^^^^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:36:57 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "d:\BOBOT\database.py", line 761, in es_producto_fabricable
+    cursor = conn.cursor()
+             ^^^^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:36:57 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "d:\BOBOT\database.py", line 761, in es_producto_fabricable
+    cursor = conn.cursor()
+             ^^^^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:36:57 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "d:\BOBOT\database.py", line 761, in es_producto_fabricable
+    cursor = conn.cursor()
+             ^^^^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:36:57 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "d:\BOBOT\database.py", line 761, in es_producto_fabricable
+    cursor = conn.cursor()
+             ^^^^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:36:57 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "d:\BOBOT\database.py", line 761, in es_producto_fabricable
+    cursor = conn.cursor()
+             ^^^^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:36:57 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "d:\BOBOT\database.py", line 761, in es_producto_fabricable
+    cursor = conn.cursor()
+             ^^^^^^^^^^^
+AttributeError: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:37:31 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:37:31 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:37:31 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:38:04 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:38:04 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:38:04 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:38:04 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:38:04 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:38:04 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:38:04 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:38:04 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:38:04 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:38:04 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:38:04 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:38:04 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:38:04 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:38:04 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:38:04 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:39:46 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:39:46 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:39:46 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:39:46 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:39:46 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:39:46 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:39:46 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:39:46 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:41:38 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:41:38 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:41:38 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:41:38 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:41:38 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:41:38 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:41:38 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:41:38 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:44:04 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:44:04 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:44:04 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:44:04 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:44:04 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:44:04 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:44:04 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:44:04 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:44:04 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:44:04 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:44:04 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:44:04 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:44:04 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:44:04 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:44:05 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:44:05 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:44:05 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:44:05 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:44:05 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:44:23 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:44:23 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:44:23 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:44:24 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:44:24 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:44:24 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:44:24 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:44:24 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:44:24 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:44:24 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:44:24 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:46:07 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:46:07 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:46:07 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:52:09 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:52:09 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 20:56:01 - BOBOT.database - INFO - Iniciando creación de tablas
+2025-07-04 20:56:01 - BOBOT.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:56:01 - BOBOT.database - INFO - Tabla habilidades creada
+2025-07-04 20:56:01 - BOBOT.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:56:01 - BOBOT.database - INFO - Tabla habilidades insertada
+2025-07-04 20:56:01 - BOBOT.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:56:01 - BOBOT.database - INFO - Tabla recursos creada
+2025-07-04 20:56:01 - BOBOT.database - INFO - Recursos por defecto insertados
+2025-07-04 20:56:01 - BOBOT.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:56:01 - BOBOT.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:56:01 - BOBOT.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:56:01 - BOBOT.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:56:01 - BOBOT.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:56:01 - BOBOT.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:56:02 - BOBOT.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:56:02 - BOBOT.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:56:02 - BOBOT.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:56:02 - BOBOT.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:56:02 - BOBOT.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:56:11 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:56:11 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:56:11 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:56:11 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:56:12 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:56:12 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:56:12 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:56:12 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:56:12 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:56:12 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:56:12 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:56:12 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:56:12 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:56:12 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:56:12 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:56:12 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:56:12 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:56:12 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:56:12 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:57:11 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:57:11 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:57:11 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:58:08 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:58:08 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:58:08 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:58:09 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 20:58:09 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: Cannot operate on a closed database.
+2025-07-04 20:58:09 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: Cannot operate on a closed database.
+2025-07-04 20:58:09 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: Cannot operate on a closed database.
+2025-07-04 20:58:09 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: Cannot operate on a closed database.
+2025-07-04 20:58:09 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: Cannot operate on a closed database.
+2025-07-04 20:58:09 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: Cannot operate on a closed database.
+2025-07-04 20:58:09 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: Cannot operate on a closed database.
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:58:38 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:58:38 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:58:38 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:58:39 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:58:39 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:58:39 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:58:39 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:58:39 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:59:13 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:59:13 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: Cannot operate on a closed database.
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:59:39 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:59:39 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:59:39 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 20:59:48 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 20:59:48 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 20:59:48 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 20:59:48 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 20:59:48 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 20:59:48 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 20:59:48 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 20:59:48 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 20:59:48 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 20:59:48 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 20:59:48 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 20:59:48 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 20:59:48 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 20:59:48 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 20:59:49 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 20:59:49 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 20:59:49 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 20:59:49 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 20:59:49 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:01:00 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:01:00 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:01:00 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:01:00 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:01:00 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:01:00 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:01:00 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:01:00 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:01:00 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:01:00 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:01:00 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:01:00 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:01:00 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:01:00 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:01:00 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:01:00 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:01:01 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:01:01 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 21:01:50 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:01:50 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:01:50 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:01:50 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:01:50 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:01:50 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:01:51 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:01:51 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:01:51 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:01:51 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:01:51 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:01:51 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:01:51 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:01:51 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:01:51 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:01:51 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:01:51 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:01:51 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:01:51 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:03:59 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:03:59 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:03:59 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:03:59 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:03:59 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:03:59 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:03:59 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:03:59 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:03:59 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:03:59 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:03:59 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:03:59 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:03:59 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:03:59 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:04:00 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:04:00 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:04:00 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:04:00 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:12:33 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:12:33 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:12:33 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:12:34 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:12:34 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:12:34 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:12:34 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:12:34 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:12:35 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:12:35 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 21:12:35 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 21:12:35 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 21:12:35 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 21:12:35 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 21:12:35 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 21:12:35 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:13:07 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:13:07 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: '_GeneratorContextManager' object has no attribute 'cursor'
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:20:37 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:20:37 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:20:37 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:20:42 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:20:42 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: Cannot operate on a closed database.
+2025-07-04 21:20:57 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:20:57 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:20:57 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:20:57 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:20:57 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:20:57 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:20:57 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:20:57 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:20:57 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:20:57 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:20:57 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:20:57 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:20:57 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:20:57 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:20:57 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:20:57 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:20:58 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:20:58 - twitch_bot.database - ERROR - Error al verificar si el producto es fabricable: Cannot operate on a closed database.
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:26:51 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:27:10 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:27:10 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:27:10 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:27:10 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:27:10 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:27:11 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:27:13 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:27:18 - twitch_bot.database - ERROR - Error al fabricar Tabla para solounturnomas: no such column: fecha_modificacion
+2025-07-04 21:28:16 - twitch_bot.database - ERROR - Error al fabricar Tabla para solounturnomas: no such column: fecha_modificacion
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:29:35 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:29:35 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:29:35 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:30:06 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:30:06 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:30:06 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:31:16 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:31:16 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:31:16 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:31:17 - twitch_bot.database - ERROR - Error al fabricar Tabla para solounturnomas: no such column: fecha_modificacion
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:31:54 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:31:54 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:31:54 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:31:55 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:31:55 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:31:55 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:31:58 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:32:01 - twitch_bot.database - ERROR - Error al fabricar Tabla para solounturnomas: no such column: fecha_modificacion
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:34:33 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:34:33 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:34:33 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:34:34 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:34:34 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:34:34 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:34:39 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:34:42 - twitch_bot.database - ERROR - Error al fabricar Tabla para solounturnomas: no such column: fecha_modificacion
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:35:20 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:35:20 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:35:20 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:35:24 - twitch_bot.database - ERROR - Error al fabricar Tabla para solounturnomas: no such column: usuario_modificacion
+2025-07-04 21:35:35 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:35:37 - twitch_bot.database - ERROR - Error al fabricar Tabla para solounturnomas: no such column: usuario_modificacion
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:35:58 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:35:58 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:35:58 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:36:02 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:36:05 - twitch_bot.database - ERROR - Error al fabricar Tabla para solounturnomas: table recursos_ciudadano has no column named fecha_creacion
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:36:36 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:36:36 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:36:36 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:36:38 - twitch_bot.database - ERROR - Error al fabricar Tabla para solounturnomas: table recursos_ciudadano has no column named fecha_crea
+2025-07-04 21:40:13 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:40:13 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:40:13 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:40:13 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:40:13 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:40:13 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:40:13 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:40:13 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:40:13 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:40:13 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:40:13 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:40:13 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:40:13 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:40:13 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:40:14 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:40:14 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:40:14 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:40:14 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:40:14 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:40:18 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:40:23 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:40:27 - twitch_bot.database - ERROR - Error al fabricar Tabla para solounturnomas: table recursos_ciudadano has no column named usuario_crea
+2025-07-04 21:40:42 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:40:42 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:40:42 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:40:42 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:40:43 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:40:43 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:40:43 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:40:43 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:40:43 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:40:43 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:40:43 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:40:43 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:40:43 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:40:43 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:40:43 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:40:43 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:40:43 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:40:43 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:40:43 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:40:45 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:40:51 - twitch_bot.database - ERROR - Error al fabricar Comida para solounturnomas: no such column: excluded.usuario_creacion
+2025-07-04 21:41:12 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:41:12 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:41:12 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:41:12 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:41:12 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:41:12 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:41:12 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:41:12 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:41:12 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:41:12 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:41:12 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:41:12 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:41:12 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:41:12 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:41:12 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:41:12 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:41:13 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:41:13 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:41:13 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:41:14 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:41:17 - twitch_bot.database - ERROR - Error al fabricar Tabla para solounturnomas: table historial_acciones has no column named accion
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:42:36 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:42:36 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:42:36 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:42:38 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:42:44 - twitch_bot.database - ERROR - Error al fabricar Tabla para solounturnomas: table historial_acciones has no column named detalle
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:43:19 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:43:19 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:43:19 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:43:46 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:43:46 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:43:46 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:43:51 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:43:54 - twitch_bot.database - INFO - solounturnomas fabricó exitosamente 5 Tabla
+2025-07-04 21:44:00 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:46:22 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:46:22 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:46:22 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:47:53 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:47:53 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:47:53 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:47:53 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:47:53 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:47:53 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:47:53 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:47:53 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:47:53 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:47:53 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:47:53 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:47:53 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:47:53 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:47:53 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:47:53 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:47:53 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:47:54 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:47:54 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:47:54 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:47:57 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:47:57 - twitch_bot.database - ERROR - Error al listar historial de acciones: no such column: fecha_crear
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:48:32 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:48:32 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:48:32 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:48:36 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:48:36 - twitch_bot.database - INFO - Se encontraron 10 acciones en el historial
+2025-07-04 21:48:48 - twitch_bot.database - INFO - solounturnomas fabricó exitosamente 1 Comida
+2025-07-04 21:48:51 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:48:51 - twitch_bot.database - INFO - Se encontraron 10 acciones en el historial
+2025-07-04 21:48:56 - twitch_bot.database - INFO - Ciudadano encontrado: solounturnomas
+2025-07-04 21:48:56 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=moneda, cantidad=10.5
+2025-07-04 21:48:56 - twitch_bot.database - INFO - Recuperado recurso: ID=1, Nombre=Moneda
+2025-07-04 21:48:56 - twitch_bot.database - INFO - Recurso existente - ID: 13, Actual: 65, Nueva cantidad: 75.5
+2025-07-04 21:48:56 - twitch_bot.database - INFO - Actualizando cantidad a 75.5 para recurso moneda
+2025-07-04 21:48:56 - twitch_bot.database - INFO - Recurso moneda actualizado exitosamente
+2025-07-04 21:48:56 - twitch_bot.database - INFO - sumar_recurso_ciudadano - Iniciando: ciudadano_id=1, recurso=energia, cantidad=-0.8
+2025-07-04 21:48:56 - twitch_bot.database - INFO - Recuperado recurso: ID=13, Nombre=Energia
+2025-07-04 21:48:56 - twitch_bot.database - INFO - Recurso existente - ID: 7, Actual: 42.60000000000001, Nueva cantidad: 41.80000000000001
+2025-07-04 21:48:56 - twitch_bot.database - INFO - Actualizando cantidad a 41.80000000000001 para recurso energia
+2025-07-04 21:48:56 - twitch_bot.database - INFO - Recurso energia actualizado exitosamente
+2025-07-04 21:48:56 - twitch_bot.database - INFO - Registrando acción: trabajar de guardia
+2025-07-04 21:48:56 - twitch_bot.database - INFO - Acción registrada exitosamente: trabajar de guardia
+2025-07-04 21:48:58 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:48:58 - twitch_bot.database - INFO - Se encontraron 10 acciones en el historial
+2025-07-04 21:49:11 - twitch_bot.database - INFO - solounturnomas fabricó exitosamente 5 Tabla
+2025-07-04 21:49:15 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:49:15 - twitch_bot.database - INFO - Se encontraron 10 acciones en el historial
+2025-07-04 21:49:21 - twitch_bot.database - INFO - solounturnomas fabricó exitosamente 5 Tabla
+2025-07-04 21:49:24 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:49:24 - twitch_bot.database - INFO - Se encontraron 10 acciones en el historial
+2025-07-04 21:49:28 - twitch_bot.database - INFO - solounturnomas fabricó exitosamente 2 Cuerda
+2025-07-04 21:49:31 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:49:31 - twitch_bot.database - INFO - Se encontraron 10 acciones en el historial
+2025-07-04 21:49:46 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:49:46 - twitch_bot.database - INFO - Se encontraron 10 acciones en el historial
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:50:09 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:50:09 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:50:09 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:50:10 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:50:16 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:50:16 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:50:16 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:50:16 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:50:16 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:50:16 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:50:16 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:50:16 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:50:16 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:50:16 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:50:16 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:50:16 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:50:16 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:50:16 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:50:18 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:50:18 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:50:18 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:50:18 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:50:18 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:50:23 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:50:23 - twitch_bot.database - INFO - Se encontraron 10 acciones en el historial
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:52:53 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:52:53 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla habilidades insertada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla habilidades_ciudadano insertada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla recursos creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Recursos por defecto insertados
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla recursos_ciudadano creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla fabricacion_productos creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla recursos_fabricacion creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Vista fabricacion_lista creada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla recursos_ciudadano insertada
+2025-07-04 21:52:53 - twitch_bot.database - INFO - Tabla historial_acciones creada
+2025-07-04 21:52:54 - twitch_bot.database - INFO - Tablas creadas exitosamente
+2025-07-04 21:52:54 - twitch_bot.database - INFO - Iniciando población de recetas de fabricación
+2025-07-04 21:52:54 - twitch_bot.database - INFO - Se insertaron/actualizaron 7 fabricaciones y 16 recursos en las tablas
+2025-07-04 21:52:54 - twitch_bot.db_mapa - INFO - Iniciando creación de tabla mapa
+2025-07-04 21:52:54 - twitch_bot.db_mapa - INFO - Tabla mapa creada
+2025-07-04 21:56:36 - twitch_bot.database - INFO - Listando historial de acciones
+2025-07-04 21:56:36 - twitch_bot.database - INFO - Se encontraron 10 acciones en el historial
+2025-07-04 21:58:31 - twitch_bot.database - INFO - Iniciando creación de tablas
+2025-07-04 21:58:31 - twitch_bot.database - INFO - Tabla ciudadanos creada
+2025-07-04 21:58:31 - twitch_bot.database - INFO - Tabla habilidades creada
+2025-07-04 21:58:31 - twitch_bot.database - INFO - Tabla habilidades_ciudadano creada
+2025-07-04 21:58:36 - twitch_bot.database - ERROR - Error al crear tablas: database is locked

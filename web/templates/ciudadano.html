@@ -11,20 +11,18 @@
 </head>
 <body class="fade-in">
     <div class="container">
-        <div class="header-container">
-            <div class="container_logo">
-                <div class="header">
-                    <div class="logo-container">
-                        <img src="{{ url_for('static', filename='img/Logo.png') }}" alt="Logo" class="logo">
+        <div class="main-content">
+            <div class="header-container">
+                <div class="container_logo">
+                    <div class="header">
+                        <div class="logo-container">
+                            <img src="{{ url_for('static', filename='img/Logo.png') }}" alt="Logo" class="logo">
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        
-        <div class="main-content">
+            </div>          
             <div class="main-cards">
-
-        <div class="card">
+                <div class="card">
             <span class="text-primary" title="Energía">⚡ {{ ciudadano.energia }}  </span><span class="title-primary">{{ ciudadano.nombre }}</span>  <span class="text-primary">{{ desc_rango }}</span> 
             <table class="info-usuario">
                 <tr>
@@ -47,7 +45,7 @@
                     </td>
                     <td class="info-cell">
                         <img src="{{ url_for('static', filename='img/pozo.png') }}" alt="Pozo" style="width:24px; height:24px; margin-right:4px;">
-                        <br><span class="text-primary">{{ fecha_pozo_fmt }}</span>
+                        <br><span class="text-primary">{{ fecha_pozo }}</span>
                     </td>
                 </tr>
             </table>
@@ -56,21 +54,21 @@
         <div class="card">
             <span class="title-primary">Recursos</span>
             <div class="recursos">
-                {% for nombre, cantidad in recursos.items() %}
-                <div class="recurso-item" title="{{ nombre }}">
-                    <img src="{{ url_for('static', filename='img/recursos/' + recursos_singulares[nombre.lower()] + '.png') }}" 
-                         alt="{{ nombre }}" 
+                {% for recurso in recursos %}
+                <div class="recurso-item" title="{{ recurso.titulo }}">
+                    <img src="{{ url_for('static', filename='img/recursos/' + recurso.imagen ) }}" 
+                         alt="{{ recurso.nombre }}" 
                          class="recurso-icon" 
-                         title="{{ nombre }}"><br>
-                    <span class="cantidad" title="{{ nombre }}">
-                        {% if cantidad is number %}
-                            {% if cantidad == cantidad|int %}
-                                {{ "%d"|format(cantidad|int) }}
+                         title="{{ recurso.titulo }}"><br>
+                    <span class="cantidad" title="{{ recurso.titulo }}">
+                        {% if recurso.cantidad is number %}
+                            {% if recurso.cantidad == recurso.cantidad|int %}
+                                {{ "%d"|format(recurso.cantidad|int) }}
                             {% else %}
-                                {{ "%.1f"|format(cantidad) }}
+                                {{ "%.1f"|format(recurso.cantidad) }}
                             {% endif %}
                         {% else %}
-                            {{ cantidad }}
+                            {{ recurso.cantidad }}
                         {% endif %}
                     </span>
                 </div>
@@ -81,30 +79,32 @@
         <div class="card">
             <span class="title-primary">Productos</span>
             <div class="productos">
-                {% for nombre, cantidad in productos.items() %}
-                <div class="producto-item" title="{{ fabricacion_info[nombre]['tooltip'] }}">
-                    <img src="{{ url_for('static', filename='img/recursos/' + productos_singulares[nombre.lower()] + '.png') }}"
-                         alt="{{ nombre }}"
+                {% for nombre, producto in productos.items() %}
+                <div class="recurso-item" title="{{ producto.tooltip|default(producto.titulo, true) }}">
+                    <img src="{{ url_for('static', filename='img/recursos/' + producto.imagen) }}" 
+                         alt="{{ nombre }}" 
                          class="recurso-icon">
                     <span class="cantidad">
-                        {% if cantidad is number %}
-                            {% if cantidad == cantidad|int %}
-                                {{ "%d"|format(cantidad|int) }}
+                        {% if producto.cantidad is number %}
+                            {% if producto.cantidad == producto.cantidad|int %}
+                                {{ "%d"|format(producto.cantidad|int) }}
                             {% else %}
-                                {{ "%.1f"|format(cantidad) }}
+                                {{ "%.1f"|format(producto.cantidad) }}
                             {% endif %}
                         {% else %}
-                            {{ cantidad }}
+                            {{ producto.cantidad }}
                         {% endif %}
                     </span>
-                    {% set puede = fabricacion_info[nombre]['puede'] %}
-                    <form action="{{ url_for('route_fabricar', producto=nombre) }}" method="post" style="display:inline; margin-left:4px;" title="{{ fabricacion_info[nombre]['tooltip'] }}">
-                        {% if puede %}<button type="submit" style="background:none;border:none;padding:0;">{% else %}<button type="button" disabled style="background:none;border:none;padding:0;cursor:not-allowed;">{% endif %}
-                            <img src="{{ url_for('static', filename='img/martillo.png') }}"
-                                 alt="Fabricar"
-                                 style="width:12px;height:12px;{% if not puede %}filter:contrast(300%) opacity(0.5);{% endif %}">
-                        </button>
-                    </form>
+                    <br>
+                    <div class="icono-martillo">
+                        {% set es_fabricable = es_producto_fabricable(ciudadano.nombre, nombre) %}
+                        <img src="{{ url_for('static', filename='img/martillo.png') }}" 
+                             alt="Fabricar" 
+                             class="recurso-icon {% if not es_fabricable %}no-fabricable{% else %}fabricable{% endif %}"
+                             data-producto="{{ nombre }}"
+                             title="{{ 'No hay suficientes recursos para fabricar' if not es_fabricable else 'Haz clic para fabricar ' + nombre }}"
+                             {% if es_fabricable %}onclick="fabricarProducto('{{ nombre }}', this)"{% endif %}>
+                    </div>
                 </div>
                 {% endfor %}
             </div>
@@ -113,22 +113,21 @@
         <div class="card">
             <span class="title-primary">Niveles</span>
             <div class="niveles">
-                {% for nombre, nivel in niveles.items() %}
-                <div class="nivel-item" title="{{ nombre }}">
-                    <div class="nivel-info">
-                        <span class="profesion-icon">
-                            {% if nombre == 'Leñador' %}<i class="fas fa-tree"></i>
-                            {% elif nombre == 'Recolector' %}<i class="fas fa-leaf"></i>
-                            {% elif nombre == 'Pescador' %}<i class="fas fa-fish"></i>
-                            {% elif nombre == 'Cazador' %}<i class="fas fa-bullseye"></i>
-                            {% elif nombre == 'Agricultor' %}<i class="fas fa-seedling"></i>
-                            {% elif nombre == 'Guardia' %}<i class="fas fa-shield-alt"></i>
-                            {% elif nombre == 'Minero' %}<i class="fas fa-gem"></i>
-                            {% endif %}
-                        </span>
-                        <span class="nivel-numero">{{ nivel }}/5</span>
-                    </div>
+                {% for habilidad in habilidades_ciudadano %}
+                <div class="nivel-item" title="{{ habilidad.nombre }} - Nivel {{ habilidad.nivel }}">
+                    {% if habilidad.icono %}
+                        {% if 'fa-' in habilidad.icono %}
+                            <i class="fas {{ habilidad.icono }}"></i>
+                        {% else %}
+                            <i class="fas fa-{{ habilidad.icono }}"></i>
+                        {% endif %}
+                    {% else %}
+                        <i class="fas fa-question"></i>
+                    {% endif %}
+                    <span class="nivel-valor">{{ habilidad.nivel }}</span>
                 </div>
+                {% else %}
+                <div class="text-secondary">Sin habilidades aún</div>
                 {% endfor %}
             </div>
         </div>
@@ -136,10 +135,10 @@
         <div class="card">
             <span class="title-primary">Herramientas</span>
             <div class="tools">
-                {% for nombre, tiene in herramientas.items() %}
-                    <img src="{{ url_for('static', filename='img/tools/' + (nombre.lower().replace(' ', '_') if nombre != 'Caña de pescar' else 'cana') + '.png') }}" 
+                {% for nombre, datos in herramientas.items() %}
+                    <img src="{{ url_for('static', filename='img/' + (datos.imagen.lower().replace(' ', '_') if nombre != 'Caña de pescar' else 'cana') ) }}" 
                          alt="{{ nombre }}" 
-                         class="tool {% if tiene %}color{% endif %}">
+                         class="tool {% if datos.tiene %}color{% endif %}">
                 {% endfor %}
             </div>
         </div>
@@ -173,12 +172,25 @@
                         </div>
                         <script>
                         function ejecutarAccion(accion) {
-                            // Mostrar mensaje de carga
-                            const loadingMsg = `Ejecutando ${accion}...`;
-                            //alert(loadingMsg);
+                            // Deshabilitar todos los botones de acción
+                            const botones = document.querySelectorAll('.accion-item');
+                            botones.forEach(boton => {
+                                boton.style.opacity = '0.5';
+                                boton.style.pointerEvents = 'none';
+                            });
+                            
+                            // Mostrar mensaje de carga en la interfaz
+                            const ultimaAccionDiv = document.querySelector('.ultima-accion');
+                            if (ultimaAccionDiv) {
+                                ultimaAccionDiv.innerHTML = `
+                                    <div>
+                                        <span class="text-primary">Ejecutando ${accion}...</span>
+                                    </div>
+                                `;
+                            }
                             
                             // Enviar la petición al backend
-                            fetch(`/realiza_accion_sin_mensaje`, {
+                            fetch(`/realiza_accion`, {
                                 method: 'POST',
                                 headers: {
                                     'Content-Type': 'application/json',
@@ -188,24 +200,113 @@
                                     ciudadano_id: '{{ ciudadano.id }}'
                                 })
                             })
-                            .then(response => response.json())
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error(`Error HTTP: ${response.status}`);
+                                }
+                                return response.json();
+                            })
                             .then(data => {
+                                console.log('Respuesta del servidor:', data);
+                                
                                 if (data.redirect) {
                                     window.location.href = data.redirect;
-                                } else if (data.mensaje) {
-                                  //  alert(data.mensaje);
+                                    return;
                                 }
-                                // Recargar la página para actualizar los recursos
+                                
+                                // Mostrar mensaje de éxito o error
                                 if (data.success) {
+                                    if (data.mensaje) {
+                                        const ultimaAccionDiv = document.querySelector('.ultima-accion');
+                                        if (ultimaAccionDiv) {
+                                            // Mostrar el mensaje completo con saltos de línea
+                                            const mensajeConSaltos = data.mensaje.replace(/\n/g, '<br>');
+                                            ultimaAccionDiv.innerHTML = `
+                                                <div>
+                                                    <span class="text-primary">${mensajeConSaltos}</span>
+                                                </div>
+                                            `;
+                                        }
+                                    }
+                                    // Recargar la página para actualizar los recursos
                                     setTimeout(() => {
                                         window.location.reload();
                                     }, 1000);
+                                } else {
+                                    // Mostrar mensaje de error
+                                    alert(data.mensaje || 'La acción no se pudo completar');
+                                    // Volver a habilitar los botones
+                                    botones.forEach(boton => {
+                                        boton.style.opacity = '1';
+                                        boton.style.pointerEvents = 'auto';
+                                    });
                                 }
                             })
                             .catch((error) => {
-                                console.error('Error:', error);
-                                alert('Ocurrió un error al realizar la acción');
+                                console.error('Error en la petición:', error);
+                                alert(`Error al realizar la acción: ${error.message}`);
+                                // Volver a habilitar los botones
+                                botones.forEach(boton => {
+                                    boton.style.opacity = '1';
+                                    boton.style.pointerEvents = 'auto';
+                                });
                             });
+                        }
+                        </script>
+                        
+                        <script>
+                        // Función para manejar la fabricación de productos
+                        async function fabricarProducto(nombreProducto, elemento) {
+                            // Verificar si el producto es fabricable
+                            if (elemento.classList.contains('no-fabricable')) {
+                                return; // No hacer nada si no es fabricable
+                            }
+                            
+                            // Mostrar indicador de carga
+                            const originalTitle = elemento.title;
+                            elemento.title = 'Fabricando...';
+                            elemento.style.opacity = '0.7';
+                            
+                            try {
+                                // Hacer la petición al servidor
+                                const response = await fetch('/fabricar', {
+                                    method: 'POST',
+                                    headers: {
+                                        'Content-Type': 'application/json',
+                                    },
+                                    body: JSON.stringify({ producto: nombreProducto })
+                                });
+                                
+                                const data = await response.json();
+                                
+                                if (data.success) {
+                                    // Recargar la página para actualizar los recursos
+                                    location.reload();
+                                } else {
+                                    // Mostrar mensaje de error
+                                    mostrarMensaje('error', data.message);
+                                    // Restaurar el estado del botón
+                                    elemento.title = originalTitle;
+                                    elemento.style.opacity = '1';
+                                }
+                            } catch (error) {
+                                console.error('Error al fabricar producto:', error);
+                                mostrarMensaje('error', 'Error al conectar con el servidor');
+                                // Restaurar el estado del botón
+                                elemento.title = originalTitle;
+                                elemento.style.opacity = '1';
+                            }
+                        }
+                        
+                        // Función para mostrar mensajes al usuario
+                        function mostrarMensaje(tipo, mensaje) {
+                            // Aquí puedes implementar tu propio sistema de notificaciones
+                            // Por ahora, usamos alert para simplificar
+                            if (tipo === 'success') {
+                                alert('✓ ' + mensaje);
+                            } else {
+                                alert('✗ ' + mensaje);
+                            }
                         }
                         </script>
                     </div>
